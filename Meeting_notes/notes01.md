@@ -8,3 +8,9 @@
 5. Creating new directory from command line (makedir)
 6. Creating project board
 7. Adding ToDo to project board
+
+## To Do
+
+1. Begin list of potential rock songs (Everyone, by Friday)
+2. Investigate Mongolian rock as potential extension (Jack, by Friday)
+3. Project update (Crissy, by Friday)
