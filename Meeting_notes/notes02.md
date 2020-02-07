@@ -9,7 +9,9 @@
     
 ## Roles and Responsibilities:
 Jack: Schema
+
 Crissy: Geographic research
+
 Misha: Temporal research
 
 ## To do:
