@@ -1,504 +1,504 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-    <band> Абзац (Ленинград)</band>
-    <band> Август (Ленинград)</band>
-    <band> АВИА (Ленинград)</band>
-    <band> Автограф (Москва)</band>
+    <band loc="Leningrad">) Абзац (Ленинград)</band>
+    <band loc="Leningrad">) Август (Ленинград)</band>
+    <band loc="Leningrad">) АВИА (Ленинград)</band>
+    <band loc="Moscow">) Автограф (Москва)</band>
     <band> Автоматические удовлетворители</band>
-    <band> Агата Кристи (Свердловск)</band>
-    <band> Адо (Коломна, Моек обл.)</band>
-    <band> Академия (Киев)</band>
-    <band> Аквадак (Москва)</band>
-    <band> Аквариум (Ленинград)</band>
-    <band> Акцент (Москва)</band>
-    <band> Александр Невский (Москва)</band>
-    <band> Алиби (Дубна, Моск. обл.)</band>
-    <band> Алиса (Ленинград, Москва)</band>
-    <band> Альфа (Москва)</band>
-    <band> Альянс (Москва)</band>
-    <band> Амальгама (Красноярск)</band>
-    <band> Антис (Вильнюс)</band>
-    <band> Апельсин (Москва)</band>
-    <band> Апрель (Ленинград)</band>
-    <band> Апрельский марш (Свердловск)</band>
-    <band> Аракс (Москва)</band>
-    <band> Арбат (Москва)</band>
-    <band> Аргонавты (Ленинград)</band>
-    <band> Ария (Москва)</band>
-    <band> Арс (Ленинград)</band>
-    <band> Арсенал (Москва)</band>
-    <band> Архив (Рига)</band>
-    <band> Ассоциация (Свердловск)</band>
-    <band> Атака (Москва)</band>
-    <band> Атланты (Москва)</band>
-    <band> АТС (Москва)</band>
-    <band> Аттракцион (Москва)</band>
-    <band> Ау (Ленинград)</band>
-    <band> Аукцыон (Ленинград) .</band>
-    <band> Аура (Москва)</band>
-    <band> Аутодафе (Архангельск)</band>
+    <band loc="Sverdlovsk">) Агата Кристи (Свердловск)</band>
+    <band loc="Obl_Moscow"> Адо (Коломна, Мок обл.)</band>
+    <band loc="Kiev">) Академия (Киев)</band>
+    <band loc="Moscow">) Аквадак (Москва)</band>
+    <band loc="Leningrad">) Аквариум (Ленинград)</band>
+    <band loc="Moscow">) Акцент (Москва)</band>
+    <band loc="Moscow">) Александр Невский (Москва)</band>
+    <band loc="Obl_Moscow"> Алиби (Дубна, Моск. обл.)</band>
+    <band loc="Moscow">) Алиса (Ленинград, Москва)</band>
+    <band loc="Moscow">) Альфа (Москва)</band>
+    <band loc="Moscow">) Альянс (Москва)</band>
+    <band loc="Krasnoyarsk"> Амальгама (Красноярск)</band>
+    <band loc="Vilnius"> Антис (Вильнюс)</band>
+    <band loc="Moscow">) Апельсин (Москва)</band>
+    <band loc="Leningrad">) Апрель (Ленинград)</band>
+    <band loc="Sverdlovsk">) Апрельский марш (Свердловск)</band>
+    <band loc="Moscow">) Аракс (Москва)</band>
+    <band loc="Moscow">) Арбат (Москва)</band>
+    <band loc="Leningrad">) Аргонавты (Ленинград)</band>
+    <band loc="Moscow">) Ария (Москва)</band>
+    <band loc="Leningrad">) Арс (Ленинград)</band>
+    <band loc="Moscow">) Арсенал (Москва)</band>
+    <band loc="Odessa">) Архив (Рига)</band>
+    <band loc="Sverdlovsk">) Ассоциация (Свердловск)</band>
+    <band loc="Moscow">) Атака (Москва)</band>
+    <band loc="Moscow">) Атланты (Москва)</band>
+    <band loc="Moscow">) АТС (Москва)</band>
+    <band loc="Moscow">) Аттракцион (Москва)</band>
+    <band loc="Leningrad">) Ау (Ленинград)</band>
+    <band loc="Leningrad">) Аукцыон (Ленинград) .</band>
+    <band loc="Moscow">) Аура (Москва)</band>
+    <band loc="Arkhangelsk"> Аутодафе (Архангельск)</band>
     <band> Афалины</band>
-    <band> Аэробус (Москва)</band>
-    <band> Аэропорт (Москва)</band>
-    <band> Балерина (Ленинград)</band>
-    <band> Барокко (Ленинград)</band>
-    <band> Бастион (Одесса)</band>
-    <band> Беглец (Ленинград)</band>
-    <band> Бесполезные советы (Ленинград)</band>
-    <band> БимБом (Москва)</band>
-    <band> Био (Ленинград)</band>
-    <band> Биоконструктор (Москва)</band>
-    <band> Большой Железный Колокол (Ленинград)</band>
-    <band> Бомж (Новосибирск)</band>
-    <band> Браво (Москва)</band>
-    <band> Бразерс (Москва)</band>
-    <band> Бригада С (Москва)</band>
-    <band> Бригадиры (Москва)</band>
-    <band> Бригадный подряд (Ленинград)</band>
-    <band> Бриллианты от Неккермана (Ленинград)</band>
-    <band> Бумеранг (Свердловск)</band>
-    <band> Вабанкъ (Москва)</band>
-    <band> Вавилон (Киев)</band>
-    <band> Варан (Таллинн)</band>
-    <band> Вежливый отказ (Москва)</band>
-    <band> Вектор (Москва)</band>
-    <band> Веселые голоса (Ленинград)</band>
-    <band> Веселые картинки (Москва)</band>
-    <band> Веселые ребята (Москва)</band>
-    <band> Ветер (Москва)</band>
-    <band> Ветер перемен (Москва)</band>
-    <band> Визит (Москва)</band>
-    <band> Виктория (Москва)</band>
-    <band> Високосное лето (Москва)</band>
-    <band> Вист экспресс (Москва) = Восточный экспресс</band>
-    <band> Водопад имени Вахтанга Кикабидзе (Верхотурье, Свердловск,обл.)</band>
-    <band> Война с саламандрами (Барнаул)</band>
-    <band> Волжане (Саратов)</band>
-    <band> Волки (Москва)</band>
-    <band> Волосы (Томск)</band>
-    <band> Волшебник изумрудного города (Зеленоград, Москва)</band>
-    <band> Волшебные сумерки (Москва)</band>
-    <band> Вопли Водоплясова (Киев)</band>
-    <band> Воскресение (Ленинград)</band>
-    <band> Воскресение (Москва)</band>
-    <band> Воскресенье на красном холме (Красноярск)</band>
+    <band loc="Moscow">) Аэробус (Москва)</band>
+    <band loc="Moscow">) Аэропорт (Москва)</band>
+    <band loc="Leningrad">) Балерина (Ленинград)</band>
+    <band loc="Leningrad">) Барокко (Ленинград)</band>
+    <band loc="Odessa">) Бастион (Одесса)</band>
+    <band loc="Leningrad">) Беглец (Ленинград)</band>
+    <band loc="Leningrad">) Бесполезные советы (Ленинград)</band>
+    <band loc="Moscow">) БимБом (Москва)</band>
+    <band loc="Leningrad">) Био (Ленинград)</band>
+    <band loc="Moscow">) Биоконструктор (Москва)</band>
+    <band loc="Leningrad">) Большой Железный Колокол (Ленинград)</band>
+    <band loc="Novosibirsk">) Бомж (Новосибирск)</band>
+    <band loc="Moscow">) Браво (Москва)</band>
+    <band loc="Moscow">) Бразерс (Москва)</band>
+    <band loc="Moscow">) Бригада С (Москва)</band>
+    <band loc="Moscow">) Бригадиры (Москва)</band>
+    <band loc="Leningrad">) Бригадный подряд (Ленинград)</band>
+    <band loc="Leningrad">) Бриллианты от Неккермана (Ленинград)</band>
+    <band loc="Sverdlovsk">) Бумеранг (Свердловск)</band>
+    <band loc="Moscow">) Вабанкъ (Москва)</band>
+    <band loc="Kiev">) Вавилон (Киев)</band>
+    <band loc="Tallinn">) Варан (Таллинн)</band>
+    <band loc="Moscow">) Вежливый отказ (Москва)</band>
+    <band loc="Moscow">) Вектор (Москва)</band>
+    <band loc="Leningrad">) Веселые голоса (Ленинград)</band>
+    <band loc="Moscow">) Веселые картинки (Москва)</band>
+    <band loc="Moscow">) Веселые ребята (Москва)</band>
+    <band loc="Moscow">) Ветер (Москва)</band>
+    <band loc="Moscow">) Ветер перемен (Москва)</band>
+    <band loc="Moscow">) Визит (Москва)</band>
+    <band loc="Moscow">) Виктория (Москва)</band>
+    <band loc="Moscow">) Високосное лето (Москва)</band>
+    <band loc="Moscow">) Вист экспресс (Москва) = Восточный экспресс</band>
+    <band loc="Sverdlovsk">) Водопад имени Вахтанга Кикабидзе (Верхотурье, Свердловск,обл.)</band>
+    <band loc="Barnaul"> Война с саламандрами (Барнаул)</band>
+    <band loc="Saratov"> Волжане (Саратов)</band>
+    <band loc="Moscow">) Волки (Москва)</band>
+    <band loc="Tomsk"> Волосы (Томск)</band>
+    <band loc="Moscow">) Волшебник изумрудного города (Зеленоград, Москва)</band>
+    <band loc="Moscow">) Волшебные сумерки (Москва)</band>
+    <band loc="Kiev">) Вопли Водоплясова (Киев)</band>
+    <band loc="Leningrad">) Воскресение (Ленинград)</band>
+    <band loc="Moscow">) Воскресение (Москва)</band>
+    <band loc="Krasnoyarsk">) Воскресенье на красном холме (Красноярск)</band>
     <band> Воскресная площадка №</band>
-    <band> Восточный Синдром (Магадан, Ленинград)</band>
-    <band> Восточный экспресс (Москва)</band>
-    <band> Вояж (Москва)</band>
-    <band> Временные неприятности (Красноярск)</band>
-    <band> Время любить (Ленинград)</band>
-    <band> Встреча на Эльбе (Москва)</band>
-    <band> Встречное движение (Свердловск)</band>
-    <band> Вторая половина (Курск)</band>
-    <band> Выход (Ленинград)</band>
-    <band> Галактика (Ленинград)</band>
-    <band> Галактика (Москва)</band>
-    <band> Гарин и гиперболоиды (Ленинград)</band>
+    <band loc="Leningrad">) Восточный Синдром (Магадан, Ленинград)</band>
+    <band loc="Moscow">) Восточный экспресс (Москва)</band>
+    <band loc="Moscow">) Вояж (Москва)</band>
+    <band loc="Krasnoyarsk">) Временные неприятности (Красноярск)</band>
+    <band loc="Leningrad">) Время любить (Ленинград)</band>
+    <band loc="Moscow">) Встреча на Эльбе (Москва)</band>
+    <band loc="Sverdlovsk">) Встречное движение (Свердловск)</band>
+    <band loc="Kursk"> Вторая половина (Курск)</band>
+    <band loc="Leningrad">) Выход (Ленинград)</band>
+    <band loc="Leningrad">) Галактика (Ленинград)</band>
+    <band loc="Moscow">) Галактика (Москва)</band>
+    <band loc="Leningrad">) Гарин и гиперболоиды (Ленинград)</band>
     <band> Гаудеамус (Николаев)</band>
-    <band> Гейн (Москва)</band>
-    <band> Гелла (Москва)</band>
+    <band loc="Moscow">) Гейн (Москва)</band>
+    <band loc="Moscow">) Гелла (Москва)</band>
     <band> Генезис</band>
     <band> Герда (Сыктывкар)</band>
-    <band> Гибель богов (Москва)</band>
-    <band> Глобус (Москва)</band>
-    <band> ГЛТ (Москва)</band>
-    <band> Голубые гитары (Москва)</band>
-    <band> Гольфстрим (Ленинград)</band>
-    <band> Город (Ленинград)</band>
-    <band> Город (Новосибирск)</band>
+    <band loc="Moscow">) Гибель богов (Москва)</band>
+    <band loc="Moscow">) Глобус (Москва)</band>
+    <band loc="Moscow">) ГЛТ (Москва)</band>
+    <band loc="Moscow">) Голубые гитары (Москва)</band>
+    <band loc="Leningrad">) Гольфстрим (Ленинград)</band>
+    <band loc="Leningrad">) Город (Ленинград)</band>
+    <band loc="Novosibirsk">) Город (Новосибирск)</band>
     <band> Гражданская оборона (Омск)</band>
-    <band> Группа Игоря Куприянова (Москва)</band>
-    <band> Группа Ованеса МеликПашаева (Москва)</band>
+    <band loc="Moscow">) Группа Игоря Куприянова (Москва)</band>
+    <band loc="Moscow">) Группа Ованеса МеликПашаева (Москва)</band>
     <band> Группа Олега Гусева</band>
-    <band> Группа продленного дня (Харьков)</band>
-    <band> Группа Стаса Намина (Москва)</band>
-    <band> Гулливер (Москва)</band>
-    <band> Гуннар Грапс (Таллинн) = Магнетик Бэнд</band>
-    <band> XX век (Киев)</band>
+    <band loc="Kharkov">) Группа продленного дня (Харьков)</band>
+    <band loc="Moscow">) Группа Стаса Намина (Москва)</band>
+    <band loc="Moscow">) Гулливер (Москва)</band>
+    <band loc="Tallinn">) Гуннар Грапс (Таллинн) = Магнетик Бэнд</band>
+    <band loc="Kiev">) XX век (Киев)</band>
     <band> Двадцать седьмой километр (Химки,Моск. обл.)</band>
-    <band> Две радуги (Ленинград)</band>
-    <band> ДДТ (Уфа, Ленинград)</band>
-    <band> Девяносто девять процентов (Москва)</band>
+    <band loc="Leningrad">) Две радуги (Ленинград)</band>
+    <band loc="Leningrad">) ДДТ (Уфа, Ленинград)</band>
+    <band loc="Moscow">) Девяносто девять процентов (Москва)</band>
     <band> Девять (Барнаул)</band>
-    <band> Дельтаоператор (Ленинград)</band>
-    <band> Демокритов колодец (Ленинград)</band>
-    <band> Депо (Москва)</band>
-    <band> Дети (Ленинград)</band>
-    <band> Детонатор (Москва)</band>
-    <band> Джазатака (Москва)</band>
-    <band> Джокер (Москва)</band>
-    <band> Джонатан Ливингстон (Ленинград)</band>
-    <band> Джунгли (Ленинград)</band>
+    <band loc="Leningrad">) Дельтаоператор (Ленинград)</band>
+    <band loc="Leningrad">) Демокритов колодец (Ленинград)</band>
+    <band loc="Moscow">) Депо (Москва)</band>
+    <band loc="Leningrad">) Дети (Ленинград)</band>
+    <band loc="Moscow">) Детонатор (Москва)</band>
+    <band loc="Moscow">) Джазатака (Москва)</band>
+    <band loc="Moscow">) Джокер (Москва)</band>
+    <band loc="Leningrad">) Джонатан Ливингстон (Ленинград)</band>
+    <band loc="Leningrad">) Джунгли (Ленинград)</band>
     <band> Диагноз</band>
-    <band> Диалог (Николаев, Москва)</band>
-    <band> Диапазон (Ленинград)</band>
-    <band> Дизайн (Ленинград)</band>
+    <band loc="Moscow">) Диалог (Николаев, Москва)</band>
+    <band loc="Leningrad">) Диапазон (Ленинград)</band>
+    <band loc="Leningrad">) Дизайн (Ленинград)</band>
     <band> Дикий мед (Донецк)</band>
-    <band> Дилижанс (Ленинград)</band>
-    <band> Динамик (Москва)</band>
-    <band> Диссонанс (Москва)</band>
-    <band> ДК (Москва)</band>
-    <band> Длинная дистанция (Ленинград)</band>
-    <band> Доктор Кинчев и Группа Стиль (Ленинград)</band>
-    <band> Доктор Фауст (Киев)</band>
-    <band> До Мажор (Москва)</band>
-    <band> Домашняя лаборатория (Ленинград)</band>
-    <band> ДПШ (Ленинград)</band>
-    <band> Дурное влияние (Ленинград)</band>
-    <band> Духи (Ленинград)</band>
-    <band> Дым (Москва)</band>
-    <band> Дубль (Москва)</band>
+    <band loc="Leningrad">) Дилижанс (Ленинград)</band>
+    <band loc="Moscow">) Динамик (Москва)</band>
+    <band loc="Moscow">) Диссонанс (Москва)</band>
+    <band loc="Moscow">) ДК (Москва)</band>
+    <band loc="Leningrad">) Длинная дистанция (Ленинград)</band>
+    <band loc="Leningrad">) Доктор Кинчев и Группа Стиль (Ленинград)</band>
+    <band loc="Kiev">) Доктор Фауст (Киев)</band>
+    <band loc="Moscow">) До Мажор (Москва)</band>
+    <band loc="Leningrad">) Домашняя лаборатория (Ленинград)</band>
+    <band loc="Leningrad">) ДПШ (Ленинград)</band>
+    <band loc="Leningrad">) Дурное влияние (Ленинград)</band>
+    <band loc="Leningrad">) Духи (Ленинград)</band>
+    <band loc="Moscow">) Дым (Москва)</band>
+    <band loc="Moscow">) Дубль (Москва)</band>
     <band> Дыхание времени (Череповец)</band>
     <band> Дядя Го (Барнаул)</band>
-    <band> Ева (Свердловск)</band>
-    <band> Елочный базар (Москва)</band>
-    <band> Жаворонки (Ленинград)</band>
+    <band loc="Sverdlovsk">) Ева (Свердловск)</band>
+    <band loc="Moscow">) Елочный базар (Москва)</band>
+    <band loc="Leningrad">) Жаворонки (Ленинград)</band>
     <band> Жарптица (Дубна Моск. обл.)</band>
-    <band> Женская болезнь (Москва)</band>
+    <band loc="Moscow">) Женская болезнь (Москва)</band>
     <band> Записки мертвого человека (Казань)</band>
-    <band> Зарок (Ленинград)</band>
-    <band> Затерянный мир (Киев)</band>
-    <band> Звуки Му (Москва)</band>
-    <band> Здоровье (Москва)</band>
-    <band> Здравствуй, песня (Москва)</band>
-    <band> Зебры (Москва)</band>
-    <band> Земляне (Ленинград)</band>
-    <band> Зеркало (Ленинград)</band>
-    <band> Зеркало мира (Москва)</band>
-    <band> Зигзаг (Москва)</band>
-    <band> Знаки препинания (Ленинград)</band>
-    <band> Зодчие (Москва)</band>
-    <band> Зона отдыха (Москва)</band>
-    <band> Зонтик (Москва)</band>
-    <band> Зоопарк (Ленинград)</band>
-    <band> Иванова ось (Киев)</band>
-    <band> Игры (Ленинград)</band>
-    <band> Идея (Ленинград)</band>
-    <band> Идея Фикс (Новосибирск)</band>
-    <band> Изолятор (Ленинград)</band>
-    <band> Икс (Красноярск)</band>
-    <band> Иллюзион (Одесса)</band>
+    <band loc="Leningrad">) Зарок (Ленинград)</band>
+    <band loc="Kiev">) Затерянный мир (Киев)</band>
+    <band loc="Moscow">) Звуки Му (Москва)</band>
+    <band loc="Moscow">) Здоровье (Москва)</band>
+    <band loc="Moscow">) Здравствуй, песня (Москва)</band>
+    <band loc="Moscow">) Зебры (Москва)</band>
+    <band loc="Leningrad">) Земляне (Ленинград)</band>
+    <band loc="Leningrad">) Зеркало (Ленинград)</band>
+    <band loc="Moscow">) Зеркало мира (Москва)</band>
+    <band loc="Moscow">) Зигзаг (Москва)</band>
+    <band loc="Leningrad">) Знаки препинания (Ленинград)</band>
+    <band loc="Moscow">) Зодчие (Москва)</band>
+    <band loc="Moscow">) Зона отдыха (Москва)</band>
+    <band loc="Moscow">) Зонтик (Москва)</band>
+    <band loc="Leningrad">) Зоопарк (Ленинград)</band>
+    <band loc="Kiev">) Иванова ось (Киев)</band>
+    <band loc="Leningrad">) Игры (Ленинград)</band>
+    <band loc="Leningrad">) Идея (Ленинград)</band>
+    <band loc="Novosibirsk">) Идея Фикс (Новосибирск)</band>
+    <band loc="Leningrad">) Изолятор (Ленинград)</band>
+    <band loc="Krasnoyarsk">) Икс (Красноярск)</band>
+    <band loc="Odessa">) Иллюзион (Одесса)</band>
     <band> Индекс (Липецк)</band>
     <band> Инструкция по выживанию (Тюмень)</band>
     <band> Интеграл (Саратов)</band>
     <band> Интервью (Симферополь)</band>
-    <band> Искусственные дети (Москва)</band>
-    <band> Кабинет (Свердловск)</band>
-    <band> Калинка (Ленинград)</band>
-    <band> Калинов мост (Новосибирск)</band>
-    <band> Камасутра (Красноярск)</band>
-    <band> Канал СИ (Ленинград)</band>
-    <band> Караван (Москва)</band>
-    <band> Кардинал (Москва)</band>
-    <band> Каре (Москва)</band>
-    <band> Карнавал (Москва)</band>
-    <band> Картбланш (Рига)</band>
+    <band loc="Moscow">) Искусственные дети (Москва)</band>
+    <band loc="Sverdlovsk">) Кабинет (Свердловск)</band>
+    <band loc="Leningrad">) Калинка (Ленинград)</band>
+    <band loc="Novosibirsk">) Калинов мост (Новосибирск)</band>
+    <band loc="Krasnoyarsk">) Камасутра (Красноярск)</band>
+    <band loc="Leningrad">) Канал СИ (Ленинград)</band>
+    <band loc="Moscow">) Караван (Москва)</band>
+    <band loc="Moscow">) Кардинал (Москва)</band>
+    <band loc="Moscow">) Каре (Москва)</band>
+    <band loc="Moscow">) Карнавал (Москва)</band>
+    <band loc="Odessa">) Картбланш (Рига)</band>
     <band> Каскад (Псков)</band>
     <band> Катедра (Вильнюс)</band>
-    <band> Кафар (Новосибирск)</band>
-    <band> Квадро (Москва)</band>
-    <band> Квартира № (Киев)</band>
-    <band> КГБ (Киев)</band>
-    <band> Кинематограф (Москва)</band>
-    <band> Кино (Ленинград)</band>
-    <band> Клуб кавалера Глюка (Ленинград)</band>
-    <band> Кобрин блюз бэнд (Таллинн)</band>
-    <band> Коктейль (Москва)</band>
-    <band> Коллежский асессор (Киев)</band>
-    <band> Комбо (Москва)</band>
-    <band> Консорт (Ленинград)</band>
-    <band> Конструкция (Томск)</band>
-    <band> Континент (Ленинград)</band>
-    <band> Королевская охота (Ленинград)</band>
-    <band> Корпус (Ленинград)</band>
-    <band> Коррозия металла (Москва)</band>
-    <band> Кофе (Ленинград)</band>
-    <band> Кочевники (Ленинград)</band>
-    <band> Кошкин дом (Одесса)</band>
-    <band> Красная пантера (Москва)</band>
-    <band> Красная площадь (Москва)</band>
-    <band> Красные маки (Тула)</band>
-    <band> Красный крест (Москва)</band>
-    <band> Кратер (Одесса)</band>
-    <band> Крематор (Ленинград)</band>
-    <band> Крематорий (Москва)</band>
-    <band> Кросс (Москва)</band>
-    <band> Круг (Москва)</band>
-    <band> Круиз (Москва)</band>
-    <band> КСК (Ленинград)</band>
-    <band> Кузнецкий мост (Москва)</band>
-    <band> Культурный бункер (Бердск)</band>
-    <band> Кунсткамера (Свердловск)</band>
-    <band> Кураж (Москва)</band>
-    <band> Лабиринт (Ленинград)</band>
-    <band> Лабиринт (Тбилиси) .</band>
-    <band> Лазарет (Москва)</band>
-    <band> Левый берег (Новосибирск)</band>
-    <band> Легион (Москва)</band>
-    <band> Лига блюза (Москва)</band>
-    <band> Лимонадный Джо (Москва)</band>
-    <band> Лицедей (Ленинград)</band>
-    <band> Лира (Москва)</band>
-    <band> Лица (Москва)</band>
-    <band> Ломбард (Новосибирск)</band>
-    <band> Лотос (Москва)</band>
-    <band> Лунный Пьеро (Москва)</band>
-    <band> Лучшие годы (Москва)</band>
-    <band> Любе (Люберцы, Моск. обл.)</band>
-    <band> Магистраль (Москва)</band>
-    <band> Магнетик Бэнд (Таллинн)</band>
-    <band> Магнит (Москва)</band>
-    <band> Мамонов и Алексей (Москва)</band>
-    <band> Мания (Москва)</band>
-    <band> Мануфактура (Ленинград)</band>
-    <band> Маньяки (Ленинград)</band>
-    <band> Маркиза (Москва)</band>
-    <band> Мартин (Москва)</band>
-    <band> Маршал (Москва)</band>
-    <band> Мастер (Москва)</band>
-    <band> Мафия (Москва)</band>
-    <band> Машина времени (Москва)</band>
-    <band> Мегаполис (Москва)</band>
-    <band> Металлаккорд (Москва)</band>
+    <band loc="Novosibirsk">) Кафар (Новосибирск)</band>
+    <band loc="Moscow">) Квадро (Москва)</band>
+    <band loc="Kiev">) Квартира № (Киев)</band>
+    <band loc="Kiev">) КГБ (Киев)</band>
+    <band loc="Moscow">) Кинематограф (Москва)</band>
+    <band loc="Leningrad">) Кино (Ленинград)</band>
+    <band loc="Leningrad">) Клуб кавалера Глюка (Ленинград)</band>
+    <band loc="Tallinn">) Кобрин блюз бэнд (Таллинн)</band>
+    <band loc="Moscow">) Коктейль (Москва)</band>
+    <band loc="Kiev">) Коллежский асессор (Киев)</band>
+    <band loc="Moscow">) Комбо (Москва)</band>
+    <band loc="Leningrad">) Консорт (Ленинград)</band>
+    <band loc="Tomsk"> Конструкция (Томск)</band>
+    <band loc="Leningrad">) Континент (Ленинград)</band>
+    <band loc="Leningrad">) Королевская охота (Ленинград)</band>
+    <band loc="Leningrad">) Корпус (Ленинград)</band>
+    <band loc="Moscow">) Коррозия металла (Москва)</band>
+    <band loc="Leningrad">) Кофе (Ленинград)</band>
+    <band loc="Leningrad">) Кочевники (Ленинград)</band>
+    <band loc="Odessa">) Кошкин дом (Одесса)</band>
+    <band loc="Moscow">) Красная пантера (Москва)</band>
+    <band loc="Moscow">) Красная площадь (Москва)</band>
+    <band loc="Tula"> Красные маки (Тула)</band>
+    <band loc="Moscow">) Красный крест (Москва)</band>
+    <band loc="Odessa">) Кратер (Одесса)</band>
+    <band loc="Leningrad">) Крематор (Ленинград)</band>
+    <band loc="Moscow">) Крематорий (Москва)</band>
+    <band loc="Moscow">) Кросс (Москва)</band>
+    <band loc="Moscow">) Круг (Москва)</band>
+    <band loc="Moscow">) Круиз (Москва)</band>
+    <band loc="Leningrad">) КСК (Ленинград)</band>
+    <band loc="Moscow">) Кузнецкий мост (Москва)</band>
+    <band loc="Berdsk"> Культурный бункер (Бердск)</band>
+    <band loc="Sverdlovsk">) Кунсткамера (Свердловск)</band>
+    <band loc="Moscow">) Кураж (Москва)</band>
+    <band loc="Leningrad">) Лабиринт (Ленинград)</band>
+    <band loc="Tbilisi"> Лабиринт (Тбилиси) .</band>
+    <band loc="Moscow">) Лазарет (Москва)</band>
+    <band loc="Novosibirsk">) Левый берег (Новосибирск)</band>
+    <band loc="Moscow">) Легион (Москва)</band>
+    <band loc="Moscow">) Лига блюза (Москва)</band>
+    <band loc="Moscow">) Лимонадный Джо (Москва)</band>
+    <band loc="Leningrad">) Лицедей (Ленинград)</band>
+    <band loc="Moscow">) Лира (Москва)</band>
+    <band loc="Moscow">) Лица (Москва)</band>
+    <band loc="Novosibirsk">) Ломбард (Новосибирск)</band>
+    <band loc="Moscow">) Лотос (Москва)</band>
+    <band loc="Moscow">) Лунный Пьеро (Москва)</band>
+    <band loc="Moscow">) Лучшие годы (Москва)</band>
+    <band loc="OblMoscow"> Любе (Люберцы, Моск. обл.)</band>
+    <band loc="Moscow">) Магистраль (Москва)</band>
+    <band loc="Tallinn">) Магнетик Бэнд (Таллинн)</band>
+    <band loc="Moscow">) Магнит (Москва)</band>
+    <band loc="Moscow">) Мамонов и Алексей (Москва)</band>
+    <band loc="Moscow">) Мания (Москва)</band>
+    <band loc="Leningrad">) Мануфактура (Ленинград)</band>
+    <band loc="Leningrad">) Маньяки (Ленинград)</band>
+    <band loc="Moscow">) Маркиза (Москва)</band>
+    <band loc="Moscow">) Мартин (Москва)</band>
+    <band loc="Moscow">) Маршал (Москва)</band>
+    <band loc="Moscow">) Мастер (Москва)</band>
+    <band loc="Moscow">) Мафия (Москва)</band>
+    <band loc="Moscow">) Машина времени (Москва)</band>
+    <band loc="Moscow">) Мегаполис (Москва)</band>
+    <band loc="Moscow">) Металлаккорд (Москва)</band>
     <band> Металлобол (Москв)</band>
-    <band> Металл Харон (Москва)</band>
-    <band> Механический балет (Ленинград)</band>
-    <band> Мечтатели (Ленинград)</band>
-    <band> Микронид (Таллинн)</band>
+    <band loc="Moscow">) Металл Харон (Москва)</band>
+    <band loc="Leningrad">) Механический балет (Ленинград)</band>
+    <band loc="Leningrad">) Мечтатели (Ленинград)</band>
+    <band loc="Tallinn">) Микронид (Таллинн)</band>
     <band> Миссия: Антициклон (Магадан)</band>
-    <band> Мистер Твистер (Москва)</band>
-    <band> Мистерия Буфф (Москва)</band>
-    <band> Мифы (Ленинград)</band>
-    <band> Младшие братья (Ленинград)</band>
-    <band> Млечный путь (Москва)</band>
-    <band> Модель (Ленинград)</band>
-    <band> Может быть (Москва)</band>
-    <band> Мозаика (Москва)</band>
-    <band> Молодость (Москва;</band>
-    <band> Молодые голоса (Москва)</band>
+    <band loc="Moscow">) Мистер Твистер (Москва)</band>
+    <band loc="Moscow">) Мистерия Буфф (Москва)</band>
+    <band loc="Leningrad">) Мифы (Ленинград)</band>
+    <band loc="Leningrad">) Младшие братья (Ленинград)</band>
+    <band loc="Moscow">) Млечный путь (Москва)</band>
+    <band loc="Leningrad">) Модель (Ленинград)</band>
+    <band loc="Moscow">) Может быть (Москва)</band>
+    <band loc="Moscow">) Мозаика (Москва)</band>
+    <band loc="Moscow">) Молодость (Москва;</band>
+    <band loc="Moscow">) Молодые голоса (Москва)</band>
     <band> Мономах (Симферополь)</band>
-    <band> МонтеКристо (Москва)</band>
-    <band> Монумент страха (Ленинград)</band>
-    <band> Морозовская стачка (Москва)</band>
-    <band> Москва (Москва)</band>
-    <band> МоторБлюз (Ленинград)</band>
-    <band> Мужской танец (Новосибирск)</band>
-    <band> Музыка (Москва)</band>
-    <band> Надежда (Москва)</band>
-    <band> Народное ополчение (Ленинград)</band>
-    <band> Настя (Свердловск)</band>
-    <band> Нате! (Ленинград)</band>
-    <band> Наутилус Помпилиус (Свердловск, Ленинград)</band>
-    <band> Наутилус (Москва)</band>
-    <band> Небесное электричество (Новосибирск)</band>
-    <band> Небо и Земля (Москва)</band>
-    <band> Невеста (Ленинград)</band>
-    <band> Не ждали (Таллинн)</band>
-    <band> Николай Коперник (Москва)</band>
-    <band> Новая коллекция (Москва)</band>
-    <band> Новый завет (Москва)</band>
-    <band> Нокаут (Ленинград)</band>
-    <band> Ноль (Ленинград) (Калининград) (Ленинград)</band>
-    <band> НордОст (Красноярск)</band>
-    <band> Ночной проспект (Москва)</band>
-    <band> НРГ = Новая Русская Группа (Москва)</band>
-    <band> Ну, погоди (Ленинград)</band>
-    <band> НЧ/ВЧ (Ленинград)</band>
-    <band> Нюанс (Москва)</band>
+    <band loc="Moscow">) МонтеКристо (Москва)</band>
+    <band loc="Leningrad">) Монумент страха (Ленинград)</band>
+    <band loc="Moscow">) Морозовская стачка (Москва)</band>
+    <band loc="Moscow">) Москва (Москва)</band>
+    <band loc="Leningrad">) МоторБлюз (Ленинград)</band>
+    <band loc="Novosibirsk">) Мужской танец (Новосибирск)</band>
+    <band loc="Moscow">) Музыка (Москва)</band>
+    <band loc="Moscow">) Надежда (Москва)</band>
+    <band loc="Leningrad">) Народное ополчение (Ленинград)</band>
+    <band loc="Sverdlovsk">) Настя (Свердловск)</band>
+    <band loc="Leningrad">) Нате! (Ленинград)</band>
+    <band loc="Leningrad">) Наутилус Помпилиус (Свердловск, Ленинград)</band>
+    <band loc="Moscow">) Наутилус (Москва)</band>
+    <band loc="Novosibirsk">) Небесное электричество (Новосибирск)</band>
+    <band loc="Moscow">) Небо и Земля (Москва)</band>
+    <band loc="Leningrad">) Невеста (Ленинград)</band>
+    <band loc="Tallinn">) Не ждали (Таллинн)</band>
+    <band loc="Moscow">) Николай Коперник (Москва)</band>
+    <band loc="Moscow">) Новая коллекция (Москва)</band>
+    <band loc="Moscow">) Новый завет (Москва)</band>
+    <band loc="Leningrad">) Нокаут (Ленинград)</band>
+    <band loc="Leningrad">) Ноль (Ленинград) (Калининград) (Ленинград)</band>
+    <band loc="Krasnoyarsk">) НордОст (Красноярск)</band>
+    <band loc="Moscow">) Ночной проспект (Москва)</band>
+    <band loc="Moscow">) НРГ = Новая Русская Группа (Москва)</band>
+    <band loc="Leningrad">) Ну, погоди (Ленинград)</band>
+    <band loc="Leningrad">) НЧ/ВЧ (Ленинград)</band>
+    <band loc="Moscow">) Нюанс (Москва)</band>
     <band> Облачный край (Архангельск)</band>
-    <band> Объект насмешек (Ленинград)</band>
-    <band> Озеро (Ленинград)</band>
-    <band> Окно (Москва)</band>
-    <band> Олимпия (Москва)</band>
+    <band loc="Leningrad">) Объект насмешек (Ленинград)</band>
+    <band loc="Leningrad">) Озеро (Ленинград)</band>
+    <band loc="Moscow">) Окно (Москва)</band>
+    <band loc="Moscow">) Олимпия (Москва)</band>
     <band> Опасная зона (Магадан)</band>
-    <band> Опасные соседи (Ленинград)</band>
-    <band> Оперативное вмешательство (Ленинград)</band>
-    <band> Опыты Александра Ляпина (Ленинград)</band>
-    <band> Оркестр А (Ленинград)</band>
-    <band> Орнамент (Таллинн)</band>
-    <band> Орнамент (Ленинград)</band>
-    <band> Ответный чай (Москва)</band>
-    <band> Отражение (Свердловск)</band>
-    <band> Офис (Ленинград)</band>
-    <band> Охота романтических Их (Ленинград)</band>
-    <band> ПАП = Проект Александра Пантыкина (Свердловск)</band>
-    <band> Палата № (Ленинград)</band>
-    <band> Парад (Москва)</band>
-    <band> Парк Горького (Москва)</band>
-    <band> Пассажиры (Ленинград)</band>
-    <band> Патриархальная выставка (Ленинград)</band>
-    <band> Петля Нестерова (Ленинград)</band>
-    <band> Пикник (Ленинград)</band>
-    <band> Пилигрим (Ленинград)</band>
+    <band loc="Leningrad">) Опасные соседи (Ленинград)</band>
+    <band loc="Leningrad">) Оперативное вмешательство (Ленинград)</band>
+    <band loc="Leningrad">) Опыты Александра Ляпина (Ленинград)</band>
+    <band loc="Leningrad">) Оркестр А (Ленинград)</band>
+    <band loc="Tallinn">) Орнамент (Таллинн)</band>
+    <band loc="Leningrad">) Орнамент (Ленинград)</band>
+    <band loc="Moscow">) Ответный чай (Москва)</band>
+    <band loc="Sverdlovsk">) Отражение (Свердловск)</band>
+    <band loc="Leningrad">) Офис (Ленинград)</band>
+    <band loc="Leningrad">) Охота романтических Их (Ленинград)</band>
+    <band loc="Sverdlovsk">) ПАП = Проект Александра Пантыкина (Свердловск)</band>
+    <band loc="Leningrad">) Палата № (Ленинград)</band>
+    <band loc="Moscow">) Парад (Москва)</band>
+    <band loc="Moscow">) Парк Горького (Москва)</band>
+    <band loc="Leningrad">) Пассажиры (Ленинград)</band>
+    <band loc="Leningrad">) Патриархальная выставка (Ленинград)</band>
+    <band loc="Leningrad">) Петля Нестерова (Ленинград)</band>
+    <band loc="Leningrad">) Пикник (Ленинград)</band>
+    <band loc="Leningrad">) Пилигрим (Ленинград)</band>
     <band> Пластполимер</band>
-    <band> Плюс (Ленинград)</band>
-    <band> Поезд ушел (Рига)</band>
-    <band> Поле чудес (Москва)</band>
+    <band loc="Leningrad">) Плюс (Ленинград)</band>
+    <band loc="Odessa">) Поезд ушел (Рига)</band>
+    <band loc="Moscow">) Поле чудес (Москва)</band>
     <band> Полковник (Нижний Новгород)</band>
-    <band> Полтергейст (Москва)</band>
-    <band> Понтий Пилат (Москва)</band>
-    <band> Популярная механика (Ленинград)</band>
+    <band loc="Moscow">) Полтергейст (Москва)</band>
+    <band loc="Moscow">) Понтий Пилат (Москва)</band>
+    <band loc="Leningrad">) Популярная механика (Ленинград)</band>
     <band> Поролон (Казань)</band>
     <band> Посев (Омск)</band>
-    <band> Последний шанс (Москва)</band>
-    <band> Постскриптум (Москва)</band>
-    <band> Почта (Ленинград)</band>
-    <band> Поющие сердца (Москва)</band>
+    <band loc="Moscow">) Последний шанс (Москва)</band>
+    <band loc="Moscow">) Постскриптум (Москва)</band>
+    <band loc="Leningrad">) Почта (Ленинград)</band>
+    <band loc="Moscow">) Поющие сердца (Москва)</band>
     <band> Праздник (Барнаул)</band>
-    <band> Преображение (Ленинград)</band>
-    <band> Примадонна (Москва)</band>
-    <band> Примус (Москва)</band>
-    <band> Присутствие (Ленинград)</band>
-    <band> Проба (Москва)</band>
-    <band> Продолжение следует (Ленинград)</band>
+    <band loc="Leningrad">) Преображение (Ленинград)</band>
+    <band loc="Moscow">) Примадонна (Москва)</band>
+    <band loc="Moscow">) Примус (Москва)</band>
+    <band loc="Leningrad">) Присутствие (Ленинград)</band>
+    <band loc="Moscow">) Проба (Москва)</band>
+    <band loc="Leningrad">) Продолжение следует (Ленинград)</band>
     <band> Прожект</band>
-    <band> Пролог (Свердловск)</band>
-    <band> Промышленная архитектура (Новосибирск)</band>
-    <band> Проспект (Москва)</band>
-    <band> Проходной двор (Новосибирск, Ленинград)</band>
-    <band> Прощай, молодость (Москва)</band>
-    <band> Путти (Новосибирск)</band>
-    <band> Ра (Москва)</band>
-    <band> Раббота Хо (Киев)</band>
-    <band> Радиорок (Ленинград)</band>
-    <band> Разные люди (Харьков)</band>
-    <band> Рандеву (Ленинград)</band>
-    <band> Papa Авис (Москва)</band>
-    <band> Рассвет (Ленинград)</band>
-    <band> Раунд (Москва)</band>
-    <band> Редкая птица (Москва)</band>
-    <band> Реклама (Москва)</band>
-    <band> Ремонт (Ленинград)</band>
-    <band> Рентгенкабинет (Красноярск)</band>
-    <band> Рецитал (Москва)</band>
-    <band> Рокателье (Москва)</band>
-    <band> Рокгвардия (Москва)</band>
-    <band> Рокер (Москва)</band>
-    <band> Рококо (Москва)</band>
-    <band> РокАппетит (Москва)</band>
+    <band loc="Sverdlovsk">) Пролог (Свердловск)</band>
+    <band loc="Novosibirsk">) Промышленная архитектура (Новосибирск)</band>
+    <band loc="Moscow">) Проспект (Москва)</band>
+    <band loc="Leningrad">) Проходной двор (Новосибирск, Ленинград)</band>
+    <band loc="Moscow">) Прощай, молодость (Москва)</band>
+    <band loc="Novosibirsk">) Путти (Новосибирск)</band>
+    <band loc="Moscow">) Ра (Москва)</band>
+    <band loc="Kiev">) Раббота Хо (Киев)</band>
+    <band loc="Leningrad">) Радиорок (Ленинград)</band>
+    <band loc="Kharkov">) Разные люди (Харьков)</band>
+    <band loc="Leningrad">) Рандеву (Ленинград)</band>
+    <band loc="Moscow">) Papa Авис (Москва)</band>
+    <band loc="Leningrad">) Рассвет (Ленинград)</band>
+    <band loc="Moscow">) Раунд (Москва)</band>
+    <band loc="Moscow">) Редкая птица (Москва)</band>
+    <band loc="Moscow">) Реклама (Москва)</band>
+    <band loc="Leningrad">) Ремонт (Ленинград)</band>
+    <band loc="Krasnoyarsk">) Рентгенкабинет (Красноярск)</band>
+    <band loc="Moscow">) Рецитал (Москва)</band>
+    <band loc="Moscow">) Рокателье (Москва)</band>
+    <band loc="Moscow">) Рокгвардия (Москва)</band>
+    <band loc="Moscow">) Рокер (Москва)</band>
+    <band loc="Moscow">) Рококо (Москва)</band>
+    <band loc="Moscow">) РокАппетит (Москва)</band>
     <band> Роксентябрь (Череповец)</band>
-    <band> Рокфронт (Харьков)</band>
-    <band> РокШтат (Ленинград)</band>
-    <band> Рондо (Москва)</band>
-    <band> Россияне (Ленинград)</band>
-    <band> Рубин (Москва)</band>
-    <band> Рубиновая атака Москва)</band>
-    <band> Русская кобра (Москва)</band>
-    <band> Руя (Таллинн)</band>
-    <band> Савояры (Ленинград)</band>
-    <band> Садко (Москва)</band>
-    <band> Салон (Ленинград)</band>
-    <band> Салют (Москва)</band>
-    <band> Сама по себе (Свердловск)</band>
-    <band> Самоцветы (Москва)</band>
-    <band> СанктПетербург (Ленинград)</band>
-    <band> Саша (Ленинград)</band>
-    <band> СВ = Снова Вместе (Москва)</band>
+    <band loc="Kharkov">) Рокфронт (Харьков)</band>
+    <band loc="Leningrad">) РокШтат (Ленинград)</band>
+    <band loc="Moscow">) Рондо (Москва)</band>
+    <band loc="Leningrad">) Россияне (Ленинград)</band>
+    <band loc="Moscow">) Рубин (Москва)</band>
+    <band loc="Moscow">) Рубиновая атака Москва)</band>
+    <band loc="Moscow">) Русская кобра (Москва)</band>
+    <band loc="Tallinn">) Руя (Таллинн)</band>
+    <band loc="Leningrad">) Савояры (Ленинград)</band>
+    <band loc="Moscow">) Садко (Москва)</band>
+    <band loc="Leningrad">) Салон (Ленинград)</band>
+    <band loc="Moscow">) Салют (Москва)</band>
+    <band loc="Sverdlovsk">) Сама по себе (Свердловск)</band>
+    <band loc="Moscow">) Самоцветы (Москва)</band>
+    <band loc="Leningrad">) СанктПетербург (Ленинград)</band>
+    <band loc="Leningrad">) Саша (Ленинград)</band>
+    <band loc="Moscow">) СВ = Снова Вместе (Москва)</band>
     <band> Св. Луиза (Архангельск)</band>
-    <band> Сверстники (Брест)</band>
-    <band> Седьмой океан (Москва)</band>
-    <band> Секрет (Ленинград)</band>
-    <band> Скоморохи (Москва)</band>
-    <band> Скорая помощь (Ленинград)</band>
-    <band> Скрипкарь и друзья (Свердловск)</band>
-    <band> Славяне (Москва)</band>
-    <band> Слайды (Тамбов)</band>
-    <band> Слепой музыкант (Свердловск)</band>
-    <band> Смещение (Москва)</band>
-    <band> Снегири (Свердловская обл.)</band>
-    <band> Собака Цеце (Ленинград)</band>
-    <band> Сокол (Москва)</band>
-    <band> Солнце (Ленинград)</band>
+    <band loc="Brest"> Сверстники (Брест)</band>
+    <band loc="Moscow">) Седьмой океан (Москва)</band>
+    <band loc="Leningrad">) Секрет (Ленинград)</band>
+    <band loc="Moscow">) Скоморохи (Москва)</band>
+    <band loc="Leningrad">) Скорая помощь (Ленинград)</band>
+    <band loc="Sverdlovsk">) Скрипкарь и друзья (Свердловск)</band>
+    <band loc="Moscow">) Славяне (Москва)</band>
+    <band loc="Tambov"> Слайды (Тамбов)</band>
+    <band loc="Sverdlovsk">) Слепой музыкант (Свердловск)</band>
+    <band loc="Moscow">) Смещение (Москва)</band>
+    <band loc="Sverdlovsk">) Снегири (Свердловская обл.)</band>
+    <band loc="Leningrad">) Собака Цеце (Ленинград)</band>
+    <band loc="Moscow">) Сокол (Москва)</band>
+    <band loc="Leningrad">) Солнце (Ленинград)</band>
     <band> Сонанс</band>
-    <band> Соседи (Ленинград)</band>
-    <band> Союз (Ленинград)</band>
-    <band> Союз любителей музыки рок (Ленинград)</band>
-    <band> Сплав (Москва)</band>
-    <band> СССР (Москва)</band>
-    <band> Стайер (Москва)</band>
+    <band loc="Leningrad">) Соседи (Ленинград)</band>
+    <band loc="Leningrad">) Союз (Ленинград)</band>
+    <band loc="Leningrad">) Союз любителей музыки рок (Ленинград)</band>
+    <band loc="Moscow">) Сплав (Москва)</band>
+    <band loc="Moscow">) СССР (Москва)</band>
+    <band loc="Moscow">) Стайер (Москва)</band>
     <band> Стая</band>
-    <band> Стандарт (Ленинград)</band>
-    <band> Старт (Ленинград)</band>
-    <band> Стационар (Москва)</band>
-    <band> Стелла (Москва)</band>
-    <band> Степ (Свердловск)</band>
-    <band> Странные игры (Ленинград)</band>
-    <band> СуперР. (Москва)</band>
-    <band> Сэргэ (Якутск)</band>
-    <band> СЭР = СССР (Москва)</band>
-    <band> ТаймАут (Владикавказ, Махачкала, Москва)</band>
-    <band> Тайфун (АлмаАта)</band>
-    <band> Такси (Ленинград)</band>
-    <band> Тамбурин (Ленинград)</band>
-    <band> Тараканы (Москва)</band>
-    <band> Телевизор (Ленинград)</band>
-    <band> Теле У (Ленинград)</band>
-    <band> Телефон (Москва)</band>
-    <band> Технология (Москва)</band>
-    <band> Тимур и его команда (Ленинград)</band>
-    <band> Титаник (Киев)</band>
-    <band> Товарищи (Ленинград)</band>
-    <band> Транс (Москва)</band>
-    <band> Трек (Свердловск)</band>
-    <band> Трикстер (Ленинград)</band>
-    <band> Трилистник (Ленинград)</band>
-    <band> ТриО (Москва)</band>
-    <band> Триумвират (АлмаАта)</band>
-    <band> Тройка, семерка, туз (Харьков)</band>
-    <band> Тройной прыжок (Таллинн)</band>
-    <band> Тролли (Москва)</band>
-    <band> Турнепс = Рондо (Москва)</band>
-    <band> Тяжелые бомбардировщики (Ленинград)</band>
-    <band> Тяжелый день (Москва)</band>
-    <band> Удачное приобретение (Москва)</band>
-    <band> Укрощение Марса (Москва)</band>
-    <band> Ултима Туле (Таллинн)</band>
-    <band> Урфин Джюс (Свердловск)</band>
-    <band> ФАТ = Фактор Абсолютной Терпимости (Москва)</band>
-    <band> Фауст (Москва)</band>
-    <band> Феникс (Москва)</band>
-    <band> Феномен (Москва)</band>
-    <band> Фестиваль (Ленинград)</band>
-    <band> Фойе (Вильнюс)</band>
-    <band> Фокус (Одесса)</band>
-    <band> Форвард (Ленинград)</band>
-    <band> Форт Росс (Москва)</band>
-    <band> Форум (Москва)</band>
-    <band> Фронт (Ленинград)</band>
-    <band> Футбол (Москва)</band>
-    <band> Холи (Казань)</band>
-    <band> Хроноп (Горький)</band>
-    <band> Хронос (Харьков)</band>
-    <band> Хрустальный шар (Ленинград)</band>
-    <band> Хэллрейзер (Москва)</band>
-    <band> Цветные сны (Ленинград)</band>
-    <band> Цветы (Москва)</band>
-    <band> Цемент (Рига)</band>
-    <band> Центр (Москва)</band>
-    <band> Цивилизация (Ленинград)</band>
-    <band> Цитадель (Москва)</band>
-    <band> Чайф (Свердловск)</band>
-    <band> Час Пик (Москва)</band>
-    <band> Черный кофе (Москва)</band>
-    <band> Черный обелиск (Москва)</band>
-    <band> Четыре танкиста и собака (Новосибирск)</band>
-    <band> Чистая случайность (Москва)</band>
-    <band> Чолбон (Якутская обл.)</band>
-    <band> Что делать (Ленинград)</band>
-    <band> Шанхай (Москва)</band>
-    <band> Шах (Москва)</band>
-    <band> Шерл (Горький)</band>
-    <band> Шестеро молодых (Ленинград)</band>
-    <band> Шок (Харьков)</band>
-    <band> Штормовое предупреждение (Ленинград)</band>
-    <band> Эверест (Ленинград)</band>
-    <band> ЭВМ (Москва)</band>
-    <band> Эдем (Киев)</band>
-    <band> Экскурсия (Красноярск)</band>
-    <band> Электродвижущая сила (Ленинград)</band>
-    <band> Электроклуб (Москва)</band>
-    <band> ЭСТ (Москва;</band>
-    <band> Янка Яна Дягилева (Новосибирск)</band>
-    <band> Яблоко (Ленинград)</band>
+    <band loc="Leningrad">) Стандарт (Ленинград)</band>
+    <band loc="Leningrad">) Старт (Ленинград)</band>
+    <band loc="Moscow">) Стационар (Москва)</band>
+    <band loc="Moscow">) Стелла (Москва)</band>
+    <band loc="Sverdlovsk">) Степ (Свердловск)</band>
+    <band loc="Leningrad">) Странные игры (Ленинград)</band>
+    <band loc="Moscow">) СуперР. (Москва)</band>
+    <band loc="Yakutsk"> Сэргэ (Якутск)</band>
+    <band loc="Moscow">) СЭР = СССР (Москва)</band>
+    <band loc="Moscow">) ТаймАут (Владикавказ, Махачкала, Москва)</band>
+    <band loc="AlmaAta"> Тайфун (АлмаАта)</band>
+    <band loc="Leningrad">) Такси (Ленинград)</band>
+    <band loc="Leningrad">) Тамбурин (Ленинград)</band>
+    <band loc="Moscow">) Тараканы (Москва)</band>
+    <band loc="Leningrad">) Телевизор (Ленинград)</band>
+    <band loc="Leningrad">) Теле У (Ленинград)</band>
+    <band loc="Moscow">) Телефон (Москва)</band>
+    <band loc="Moscow">) Технология (Москва)</band>
+    <band loc="Leningrad">) Тимур и его команда (Ленинград)</band>
+    <band loc="Kiev">) Титаник (Киев)</band>
+    <band loc="Leningrad">) Товарищи (Ленинград)</band>
+    <band loc="Moscow">) Транс (Москва)</band>
+    <band loc="Sverdlovsk">) Трек (Свердловск)</band>
+    <band loc="Leningrad">) Трикстер (Ленинград)</band>
+    <band loc="Leningrad">) Трилистник (Ленинград)</band>
+    <band loc="Moscow">) ТриО (Москва)</band>
+    <band loc="AlmaAta"> Триумвират (АлмаАта)</band>
+    <band loc="Kharkov">) Тройка, семерка, туз (Харьков)</band>
+    <band loc="Tallinn">) Тройной прыжок (Таллинн)</band>
+    <band loc="Moscow">) Тролли (Москва)</band>
+    <band loc="Moscow">) Турнепс = Рондо (Москва)</band>
+    <band loc="Leningrad">) Тяжелые бомбардировщики (Ленинград)</band>
+    <band loc="Moscow">) Тяжелый день (Москва)</band>
+    <band loc="Moscow">) Удачное приобретение (Москва)</band>
+    <band loc="Moscow">) Укрощение Марса (Москва)</band>
+    <band loc="Tallinn">) Ултима Туле (Таллинн)</band>
+    <band loc="Sverdlovsk">) Урфин Джюс (Свердловск)</band>
+    <band loc="Moscow">) ФАТ = Фактор Абсолютной Терпимости (Москва)</band>
+    <band loc="Moscow">) Фауст (Москва)</band>
+    <band loc="Moscow">) Феникс (Москва)</band>
+    <band loc="Moscow">) Феномен (Москва)</band>
+    <band loc="Leningrad">) Фестиваль (Ленинград)</band>
+    <band loc="Vilnius"> Фойе (Вильнюс)</band>
+    <band loc="Odessa">) Фокус (Одесса)</band>
+    <band loc="Leningrad">) Форвард (Ленинград)</band>
+    <band loc="Moscow">) Форт Росс (Москва)</band>
+    <band loc="Moscow">) Форум (Москва)</band>
+    <band loc="Leningrad">) Фронт (Ленинград)</band>
+    <band loc="Moscow">) Футбол (Москва)</band>
+    <band loc="Kazan"> Холи (Казань)</band>
+    <band loc="Gor'kiy">) Хроноп (Горький)</band>
+    <band loc="Kharkov">) Хронос (Харьков)</band>
+    <band loc="Leningrad">) Хрустальный шар (Ленинград)</band>
+    <band loc="Moscow">) Хэллрейзер (Москва)</band>
+    <band loc="Leningrad">) Цветные сны (Ленинград)</band>
+    <band loc="Moscow">) Цветы (Москва)</band>
+    <band loc="Odessa">) Цемент (Рига)</band>
+    <band loc="Moscow">) Центр (Москва)</band>
+    <band loc="Leningrad">) Цивилизация (Ленинград)</band>
+    <band loc="Moscow">) Цитадель (Москва)</band>
+    <band loc="Sverdlovsk">) Чайф (Свердловск)</band>
+    <band loc="Moscow">) Час Пик (Москва)</band>
+    <band loc="Moscow">) Черный кофе (Москва)</band>
+    <band loc="Moscow">) Черный обелиск (Москва)</band>
+    <band loc="Novosibirsk">) Четыре танкиста и собака (Новосибирск)</band>
+    <band loc="Moscow">) Чистая случайность (Москва)</band>
+    <band loc="Yakutsk">) Чолбон (Якутская обл.)</band>
+    <band loc="Leningrad">) Что делать (Ленинград)</band>
+    <band loc="Moscow">) Шанхай (Москва)</band>
+    <band loc="Moscow">) Шах (Москва)</band>
+    <band loc="Gor'kiy">) Шерл (Горький)</band>
+    <band loc="Leningrad">) Шестеро молодых (Ленинград)</band>
+    <band loc="Kharkov">) Шок (Харьков)</band>
+    <band loc="Leningrad">) Штормовое предупреждение (Ленинград)</band>
+    <band loc="Leningrad">) Эверест (Ленинград)</band>
+    <band loc="Moscow">) ЭВМ (Москва)</band>
+    <band loc="Kiev">) Эдем (Киев)</band>
+    <band loc="Krasnoyarsk">) Экскурсия (Красноярск)</band>
+    <band loc="Leningrad">) Электродвижущая сила (Ленинград)</band>
+    <band loc="Moscow">) Электроклуб (Москва)</band>
+    <band loc="Moscow">) ЭСТ (Москва;</band>
+    <band loc="Novosibirsk">) Янка Яна Дягилева (Новосибирск)</band>
+    <band loc="Leningrad">) Яблоко (Ленинград)</band>
 </list>
