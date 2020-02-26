@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song>
+    <details>
+        <title>Камчатка</title>
+        <artist>Виктор Цой</artist>
+    </details>
+    <lyrics>
+        <outlook>neutral</outlook>
+        <verse>
+            <line>О-o, это <absurdism level="low">странное место</absurdism> Камчатка</line>
+            <line>О-o, это <aesopian type= "sarcasm, cultural reference">сладкое слово</aesopian> "Камчатка"</line>
+            <line>Но на этой <nature>земле</nature> я не вижу тебя</line>
+            <line>Я не вижу твоих <industry>кораблей</industry></line>
+            <line>Я не вижу <nature>реки</nature>, я не вижу <industry>моста</industry></line>
+            <line><apathy-DI>Ну и пусть...</apathy-DI></line>
+        </verse>
+        <verse>
+            <line>О-o, это <absurdism level="low">странное место</absurdism> Камчатка</line>
+            <line>О-o, это <aesopian type = "sarcasm, cultural reference">сладкое слово</aesopian> "Камчатка"</line>
+            <line>Я нашел здесь руду, я нашел здесь любовь</line>
+            <line>Я <self ref="memory">пытаюсь забыть</self>, забываю и вновь</line>
+            <line><self ref="memory">Вспоминаю</self> <nature>собаку</nature>, она, как <soviet-symbol>звезда</soviet-symbol></line>
+            <line><apathy-DI>Ну и пусть...</apathy-DI></line>
+        </verse>
+        <verse>
+            <line>О-o, это <absurdism level="low">странное место</absurdism> Камчатка</line>
+            <line>О-o, это <aesopian type = "sarcasm, cultural reference">сладкое слово</aesopian> "Камчатка"</line>
+            <line><apathy-DI>Я не вижу здесь их, я не вижу здесь нас</apathy-DI></line>
+            <line>Я искал здесь <alcohol>вино</alcohol>, а нашел <eastern>третий глаз</eastern></line>
+            <line><industry ref="labor">Мои руки из дуба, голова из свинца</industry></line>
+            <line><apathy-DI>Ну и пусть...</apathy-DI></line>
+        </verse>
+    </lyrics>
+</song>
