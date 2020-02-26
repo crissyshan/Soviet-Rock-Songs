@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song>
+    <details>
+        <title>Не стреляй!</title>
+        <artist>ДДТ</artist>
+    </details>
+
+    <lyrics>
+        <outlook>negative</outlook>
+        
+        <verse>
+            <l><protest type = "explicit" confidence = "high">Не <militarism>стреляй</militarism> в <militarism ref="war">воробьев</militarism>,</protest></l>
+            <l><protest type = "explicit" confidence = "high">не <militarism>стреляй</militarism> в голубей, </protest></l>
+            <l><protest type = "explicit" confidence = "high">не <militarism>стреляй</militarism> просто так из <militarism>рогатки</militarism> своей</protest></l>
+            <l><protest type = "explicit" confidence = "high">Эй, малыш, не <militarism>стреляй</militarism> и не <self ref="pride">хвастай</self> другим, </protest></l>
+            <l>что без промаха бьешь по <militarism>мишеням</militarism> живым.</l>
+        </verse>
+
+        <verse>
+            <l>Ты все <militarism>тиры</militarism> излазил, </l>
+            <l><community>народ</community> удивлял, </l>
+            <l>как отличный <militarism>стрелок</militarism> <self ref="pride">призы</self> получал</l>
+            <l>Бил с улыбкой, не целясь, </l>
+            <l>навскидку и влет, </l>
+            <l>а кругом говорили: "Вот парню <self ref="luck">везет</self>!"</l>
+        </verse>
+
+        <refrain>
+            <l><protest type = "explicit" confidence = "high">Не <militarism>стреляй</militarism>! </protest></l>
+            <l><protest type = "explicit" confidence = "high">Не <militarism>стреляй</militarism>! </protest></l>
+            <l><protest type = "explicit" confidence = "high">Не <militarism>стреляй</militarism>!</protest></l>
+            <l><protest type = "explicit" confidence = "high">Не <militarism>стреляй</militarism>!</protest></l>
+        </refrain>
+
+        <verse>
+            <l>И случилось однажды, </l>
+            <l>о чем так <self ref="dream">мечтал</self> - </l>
+            <l>он в <militarism>горящую точку</militarism> планеты попал,</l>
+            <l>А когда наконец-то вернулся <community ref="home">домой</community></l>
+            <l><protest type = "symbolism" confidence = "high"><apathy-DI>он свой старенький <militarism>тир</militarism> обходил стороной</apathy-DI></protest></l>
+        </verse>
+
+        <verse>
+            <l>И когда кто-нибудь <self ref="memory">вспоминал</self> о <militarism>войне</militarism>,</l>
+            <l><apathy-DI>он топил свою <self ref="conscience">совесть</self> в тяжелом <subst ref="alcohol">вине</subst>.</apathy-DI></l>
+            <l>Перед ним, как <self ref="life">живой</self>, </l>
+            <l>тот парнишка стоял, тот, </l>
+            <l>который его об одном умолял:</l>
+        </verse>
+
+        <refrain>
+            <l><protest type = "explicit" confidence = "high">Не <militarism>стреляй</militarism>! </protest></l>
+            <l><protest type = "explicit" confidence = "high">Не <militarism>стреляй</militarism>! </protest></l>
+            <l><protest type = "explicit" confidence = "high">Не <militarism>стреляй</militarism>!</protest></l>
+            <l><protest type = "explicit" confidence = "high">Не <militarism>стреляй</militarism>!</protest></l>
+        </refrain>
+    </lyrics>
+</song>
