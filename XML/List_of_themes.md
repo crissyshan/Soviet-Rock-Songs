@@ -25,13 +25,13 @@ Crissy:
 5. 
 
 Misha:
-1. Satire through Aesopian language:
+1. Satire through Aesopian language or explicit reference:
    1. Symbolism
    2. metaphor 
    3. cultural reference 
    4. analogy
    5. explicit reference
-2. Protest through Aesopian language:
+2. Protest through Aesopian language or explicit reference:
    1. Symbolism
    2. metaphor 
    3. cultural reference 
