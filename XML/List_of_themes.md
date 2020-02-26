@@ -39,7 +39,7 @@ Crissy:
     1. Conscience/consciousness
     1. Life (could include references to living or dying)
     1. Sadness
-3. Absurdism (any lyrics that don't tell a simple story -- @level?)
+3. Absurdism (any lyrics that don't tell a simple story -- `@level`?)
 4. Aesopian language & satire
 5. Apathy/disillusionment (some kind of `<apathy-DI>` tag )
 
