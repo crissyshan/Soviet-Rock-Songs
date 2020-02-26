@@ -31,7 +31,12 @@ Misha:
    3. cultural reference 
    4. analogy
    5. explicit reference
-2. 
+2. Protest through Aesopian language:
+   1. Symbolism
+   2. metaphor 
+   3. cultural reference 
+   4. analogy
+   5. explicit reference
 3. 
 4. 
 5. 
