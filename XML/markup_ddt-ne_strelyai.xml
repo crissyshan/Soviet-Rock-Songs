@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-Не <militarism ref="weapons">стреляй</militarism> в <militarism ref="war">воробьев</militarism>,
-не <militarism ref="weapons">стреляй</militarism> в голубей, 
-не <militarism ref="weapons">стреляй</militarism> просто так из <militarism ref="weapons">рогатки</militarism> своей
-Эй, малыш, не <militarism ref="weapons">стреляй</militarism> и не <benefit_reward ref="pride">хвастай</benefit_reward> другим, 
-что без промаха бьешь по <militarism ref="weapons">мишеням</militarism> живым.
-Ты все <militarism ref="weapons">тиры</militarism> излазил, 
-<community ref="narod">народ</community> удивлял, 
-как отличный <militarism ref="soldier">стрелок</militarism> <benefit_reward ref="prize">призы</benefit_reward> получал
-Бил с <happiness ref="smile">улыбкой</happiness>, не целясь, 
+<song>
+<details><title>Не стреляй!</title>
+<artist>ДДТ</artist></details>
+<lyrics>
+Не <militarism>стреляй</militarism> в <militarism ref="war">воробьев</militarism>,
+не <militarism>стреляй</militarism> в голубей, 
+не <militarism>стреляй</militarism> просто так из <militarism>рогатки</militarism> своей
+Эй, малыш, не <militarism>стреляй</militarism> и не <self ref="pride">хвастай</self> другим, 
+что без промаха бьешь по <militarism>мишеням</militarism> живым.
+Ты все <militarism>тиры</militarism> излазил, 
+<community>народ</community> удивлял, 
+как отличный <militarism ref="soldier">стрелок</militarism> <self ref="pride">призы получал
+Бил с <outlook type="positive" ref="smile">улыбкой</outlook>, не целясь, 
 навскидку и влет, 
-а кругом говорили: "Вот парню <happiness ref="luck">везет</happiness>!"
+а кругом говорили: "Вот парню <self ref="luck">везет</self>!"
 
-Не <militarism ref="weapons">стреляй</militarism>! 
-Не <militarism ref="weapons">стреляй</militarism>! 
-Не <militarism ref="weapons">стреляй</militarism>! 
-Не <militarism ref="weapons">стреляй</militarism>!
+Не <militarism >стреляй</militarism>! 
+Не <militarism >стреляй</militarism>! 
+Не <militarism >стреляй</militarism>! 
+Не <militarism >стреляй</militarism>!
 
 И случилось однажды, 
 о чем так <self ref="dream">мечтал</self> - 
-он в <militarism ref="war">горящую точку</militarism> планеты попал,
+он в <militarism>горящую точку</militarism> планеты попал,
 А когда наконец-то вернулся <community ref="home">домой</community> 
-он свой старенький <militarism ref="weapons">тир</militarism> обходил стороной
-И когда кто-нибудь <self ref="memory">вспоминал</self> о <militarism ref="war">войне</militarism>,
+он свой старенький <militarism>тир</militarism> обходил стороной
+И когда кто-нибудь <self ref="memory">вспоминал</self> о <militarism>войне</militarism>,
 он топил свою <self ref="conscience">совесть</self> в тяжелом <subst ref="alcohol">вине</subst>.
-Перед ним, как живой, 
+Перед ним, как <self ref="life">живой</self>, 
 тот парнишка стоял, тот, 
 который его об одном умолял:
 
-Не <militarism ref="weapons">стреляй</militarism>! 
-Не <militarism ref="weapons">стреляй</militarism>! 
-Не <militarism ref="weapons">стреляй</militarism>! 
-Не <militarism ref="weapons">стреляй</militarism>!
+Не <militarism>стреляй</militarism>! 
+Не <militarism>стреляй</militarism>! 
+Не <militarism>стреляй</militarism>! 
+Не <militarism>стреляй</militarism>!</lyrics></song>
