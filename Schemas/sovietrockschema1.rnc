@@ -1,0 +1,65 @@
+start = song
+song = element song { details, lyrics }
+details = element details { title, artist }
+title = element title { text }
+artist = element artist { text }
+lyrics =
+    element lyrics {
+        mixed { (outlook | verse | refrain)* }
+    }
+outlook = element outlook { text }
+verse = element verse { l+ }
+l =
+    element l {
+        mixed {
+            (militarism
+             | self
+             | community
+             | community
+             | apathy-DI
+             | absurdism
+             | satire
+             | soviet-symbol
+             | subst
+             | nature
+             | industry
+             | passion
+             | eastern
+             | protest)*
+        }
+    }
+militarism = element militarism { men, text }
+men = attribute men { text }
+self = element self { com, text }
+com = attribute com { text }
+community = element community { text }
+apathy-DI =
+    element apathy-DI {
+        mixed { (militarism | self | subst)* }
+    }
+absurdism = element absurdism { level, text }
+level = attribute level { text }
+satire =
+    element satire {
+        mixed { (type | confidence)* }
+    }
+type = attribute type { text }
+confidence = attribute confidence { text }
+subst = element subst { rem, text }
+rem = attribute rem { text }
+nature = attribute nature { text }
+industry =
+    element industry {
+        mixed { ref? }
+    }
+ref = attribute ref { text }
+passion = element passion { text }
+eastern = element eastern { text }
+soviet-symbol = element soviet-symbol { text }
+protest =
+    element protest {
+        mixed { (sort | conviction | militarism | self | apathy-DI)* }
+    }
+sort = attribute sort { text }
+conviction = attribute conviction { text }
+refrain = element refrain { l+ }
