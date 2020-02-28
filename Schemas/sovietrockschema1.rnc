@@ -47,7 +47,7 @@ type = attribute type { text }
 confidence = attribute confidence { text }
 subst = element subst { rem, text }
 rem = attribute rem { text }
-nature = attribute nature { text }
+nature = elemt nature { text }
 industry =
     element industry {
         mixed { ref? }
