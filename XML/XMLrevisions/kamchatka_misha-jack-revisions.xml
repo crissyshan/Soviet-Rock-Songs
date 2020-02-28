@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../../../../../Downloads/test2.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <details>
+        <title>Камчатка</title>
+        <artist>Виктор Цой</artist>
+    </details>
+    
+    <lyrics>
+        <outlook>neutral</outlook>
+        
+        <verse>
+            <l>О-o, это <absurdism level="low">странное место</absurdism> Камчатка</l>
+            <l>О-o, это <satire type= "cultural reference" confidence = "low">сладкое слово</satire> "Камчатка"</l>
+            <l>Но на этой <nature>земле</nature> я не вижу тебя</l>
+            <l>Я не вижу твоих <industry>кораблей</industry></l>
+            <l>Я не вижу <nature>реки</nature>, я не вижу <industry>моста</industry></l>
+            <l><apathy-DI>Ну и пусть...</apathy-DI></l>
+        </verse>
+        
+        <verse>
+            <l>О-o, это <absurdism level="low">странное место</absurdism> Камчатка</l>
+            <l>О-o, это <satire type = "cultural reference" confidence = "low">сладкое слово</satire> "Камчатка"</l>
+            <l><passion>Я нашел здесь руду, я нашел здесь любовь</passion></l>
+            <l>Я <self com="memory">пытаюсь забыть</self>, забываю и вновь</l>
+            <l><self com="memory">Вспоминаю</self> <nature>собаку</nature>, она, как <soviet-symbol>звезда</soviet-symbol></l>
+            <l><apathy-DI>Ну и пусть...</apathy-DI></l>
+        </verse>
+        
+        <verse>
+            <l>О-o, это <absurdism level="low">странное место</absurdism> Камчатка</l>
+            <l>О-o, это <satire type = "cultural reference" confidence = "low">сладкое слово</satire> "Камчатка"</l>
+            <l><apathy-DI>Я не вижу здесь их, я не вижу здесь нас</apathy-DI></l>
+            <l>Я искал здесь <subst rem="alcohol">вино</subst>, а нашел <eastern>третий глаз</eastern></l>
+            <l><industry ref="labor">Мои руки из дуба, голова из свинца</industry></l>
+            <l><apathy-DI>Ну и пусть...</apathy-DI></l>
+        </verse>
+    </lyrics>
+</song>
