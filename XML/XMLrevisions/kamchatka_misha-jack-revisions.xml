@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../../../../../Downloads/test2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../Schemas/sovietrockschema1.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <details>
         <title>Камчатка</title>
