@@ -28,11 +28,11 @@ l =
              | protest)*
         }
     }
-militarism = element militarism { men, text }
+militarism = element militarism { men?, text }
 men = attribute men { text }
 self = element self { com, text }
 com = attribute com { text }
-community = element community { text }
+community = element community { ref?, text }
 apathy-DI =
     element apathy-DI {
         mixed { (militarism | self | subst)* }
