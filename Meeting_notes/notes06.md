@@ -14,6 +14,7 @@
    -Auto tagging needs to be reduced to something more simple
 
 -To do:
+
    -Misha: Buy book, create corpus from book
    
    -Crissy and Misha: Finish close reading over spring break
