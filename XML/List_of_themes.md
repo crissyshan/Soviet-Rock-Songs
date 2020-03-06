@@ -23,8 +23,6 @@ Misha:
 1. Alcohol
 2. Drugs
 3. Tobacco
-4. Fenya/blatnoy language
-5. Vulgar words
 
 ## Close reading
 
