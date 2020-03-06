@@ -2,7 +2,7 @@
 
 ## Updates:
 - Misha found a book with every chart of hits from the Soviet Union
-   - Two charts matter: Komsomolskaya Pravda and Song of the Year
+   - Two charts matter: Komsomolskaya Pravda (reader choice) and Song of the Year (party choice)
 
 ## Practical considerations:
 
