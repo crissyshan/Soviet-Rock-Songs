@@ -3,5 +3,5 @@
 ## To do:
 - Misha: Create splash page
 - Crissy: XSLT
-   - Instead of displaying all the lyrics, just provide the analytics for each song
+   - Possibly: Instead of displaying all the lyrics, just provide the analytics for each song
 - Misha and Crissy: Mark up
