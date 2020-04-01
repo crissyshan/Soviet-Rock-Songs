@@ -11,10 +11,11 @@
             </head>
             <body>
                 <h1><xsl:apply-templates select="//title"/></h1>
-                <h1><xsl:apply-templates select="//artist"/></h1>
-                <h2>Year Published: <xsl:apply-templates select="//year"/></h2>
-                <h2>Location of Band: <xsl:apply-templates select="//location"/></h2>
-                <h2>Video</h2>
+                <h2>Song Details</h2>
+                <ul>
+                    <xsl:apply-templates select="//details"/>
+                </ul>
+               <h2>Video</h2>
                 <!-- embed video link -->
                 <table>
                     <tr>
@@ -29,5 +30,10 @@
                 <h2>Song Data</h2>
             </body>
         </html>
+    </xsl:template>
+    <xsl:template match="details">
+        <li>Artist:<xsl:apply-templates select="artist"/></li>
+        <li>Year: <xsl:apply-templates select="year"/></li>
+        <li>Location of Band: <xsl:apply-templates select="location"/></li>
     </xsl:template>
 </xsl:stylesheet>
