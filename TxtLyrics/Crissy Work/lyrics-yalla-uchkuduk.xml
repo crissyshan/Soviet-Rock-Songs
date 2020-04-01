@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/sovietrockschema1.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <details>
+        <title>Учкудук</title>
+        <artist>Ялла</artist>
+        <year>1981</year>
+        <location>Tashkent, Uzbekistan</location>
+    </details>
+    <lyrics>
+        <verse>
+            <l>Горячее <nature>солнце</nature>. Горячий <nature>песок</nature></l>
+            <l>Горячие <self>губы</self> - <nature>воды</nature> бы глоток</l>
+            <l>В горячей <nature>пустыне</nature> не видно <self>следа</self></l>
+            <l>Скажи, <community>караванщик</community>: "Когда же <nature>вода</nature>?"</l>
+        </verse>
+
+        <verse>
+            <l><community>Учкудук</community> три <industry>колодца</industry></l>
+            <l><defense>Защити</defense>, <defense>защити</defense> нас от <nature>солнца</nature></l>
+            <l>Ты в <nature>пустыне</nature> - <defense>спасательный круг</defense></l>
+            <l>Учкудук</l>
+        </verse>
+
+        <verse>
+            <l>Вдруг <nature>дерево</nature> <self ref='life'>жизни</self> - таинственный <defense>страж</defense></l>
+            <l>А может быть, это лишь только <nature>мираж</nature></l>
+            <l>А может быть, это <self>усталости</self> <self>бред</self></l>
+            <l>И нет <community>Учкудука</community>, <defense>спасения</defense> нет</l>
+        </verse>
+
+        <verse>
+            <l>Учкудук три колодца</l>
+            <l><defense>Защити</defense>, <defense>защити</defense> нас от <nature>солнца</nature></l>
+            <l>Ты в <nature>пустыне</nature> - <defense>спасательный круг</defense></l>
+            <l><community>Учкудук</community></l>
+        </verse>
+
+        <verse>
+            <l>Любой в Учкудуке расскажет старик</l>
+            <l>Как город-красавец в пустыне возник</l>
+            <l>Как в синее небо взметнулись дома</l>
+            <l>И как удивилась природа сама</l>
+        </verse>
+
+        <verse>
+            <l>Учкудук три колодца</l>
+            <l>Защити, защити нас от солнца</l>
+            <l>Ты в пустыне - спасательный круг</l>
+            <l>Учкудук</l>
+        </verse>
+    </lyrics>
+</song>

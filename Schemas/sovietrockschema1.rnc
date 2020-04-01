@@ -14,9 +14,9 @@ verse = element verse { l+ }
 l =
     element l {
         mixed {
-            (militarism
+            (defense
              | self
-             | community
+             | emotion
              | community
              | apathy-DI
              | absurdism
@@ -30,10 +30,10 @@ l =
              | protest)*
         }
     }
-militarism = element militarism { men?, text }
-men = attribute men { text }
-self = element self { com, text }
-com = attribute com { text }
+defense = element defense { text }
+self = element self { ref?, text }
+emotion=element emotion {value, text}
+value=attribute value {text}
 community = element community { ref?, text }
 apathy-DI =
     element apathy-DI {
@@ -47,14 +47,13 @@ satire =
     }
 type = attribute type { text }
 confidence = attribute confidence { text }
-subst = element subst { rem, text }
-rem = attribute rem { text }
+subst = element subst { ref, text }
+ref = attribute ref { text }
 nature = element nature { text }
 industry =
     element industry {
         mixed { ref? }
     }
-ref = attribute ref { text }
 passion = element passion { text }
 eastern = element eastern { text }
 soviet-symbol = element soviet-symbol { text }
@@ -62,6 +61,7 @@ protest =
     element protest {
         mixed { (sort | conviction | militarism | self | apathy-DI)* }
     }
+militarism = attribute militarism {text}
 sort = attribute sort { text }
 conviction = attribute conviction { text }
 refrain = element refrain { l+ }

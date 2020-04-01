@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/sovietrockschema1.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <details>
+        <title>Комарово</title>
+        <artist>Игорь Скляр</artist>
+        <year>1985</year>
+        <location>Leningrad, RSFSR</location>
+    </details>
+<lyrics>
+    <verse>
+<l>На недельку, до второго</l>
+<l>Я уеду в <community>Комарово</community></l>
+<l>Поглядеть <self>отвыкшим глазом</self></l>
+<l>На <nature>балтийскую волну</nature></l>
+<l>И на <nature>море</nature> буду разом</l>
+<l><industry>Кораблем</industry> и водолазом</l>
+<l><self ref='conscious'>Сам себя найду в пучине</self></l>
+<l>Если часом <self ref='life'>затону</self></l></verse>
+
+<verse><l>На недельку, до второго</l>
+<l>Я уеду в <community>Комарово</community></l>
+<l><self ref='conscious'>Сам себя найду в пучине</self></l>
+<l>Если часом <self ref='life'>затону</self></l></verse>
+
+<verse><l>На недельку, до второго</l>
+<l>Я уеду в <community>Комарово</community></l>
+<l>Где качается на <nature>дюнах</nature></l>
+<l><industry>Шереметьевский баркас</industry></l>
+<l>И у вас в <nature>карельских скалах</nature></l>
+<l>На <self>общественных</self> началах</l>
+<l>Если только захотите</l>
+<l>Будет личный водолаз</l></verse>
+
+<verse><l>На недельку, до второго</l>
+<l>Я уеду в <community>Комарово</community></l>
+<l>И у вас в <nature>карельских скалах</nature></l>
+<l>Будет личный водолаз</l></verse>
+
+<verse><l>На недельку, до второго</l>
+<l>Я уеду в <community>Комарово</community></l>
+<l>На воскресной <industry>электричке</industry></l>
+<l>К вам на <nature>краешек земли</nature></l>
+<l>Водолазы ищут клады</l>
+<l>Только кладов мне не надо</l>
+<l>Я за то, чтоб в <nature>синем море</nature></l>
+<l>Не тонули <industry>корабли</industry></l></verse>
+
+<verse><l>На недельку, до второго</l>
+<l>Я уеду в <community>Комарово</community></l>
+<l>Я за то, чтоб в <nature>синем море</nature></l>
+<l>Не тонули <industry>корабли</industry>...</l>
+</verse>
+</lyrics>
+</song>
