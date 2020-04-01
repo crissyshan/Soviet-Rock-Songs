@@ -1,0 +1,88 @@
+body {
+  background-color: gray;
+  background-image: url("tsoi-wall.jpeg");
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+#headerimg{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+img{
+    width: 80%;
+    height: auto;
+}
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color:  black;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.2);
+    margin: 0% 10% 1% 10%;
+}
+#tab1, #tab2, #tab3, #tab4, #tab5, #tab6, #tab7, #tab8, #tab9, #tab10{
+    padding: 2%;
+    color: white;
+    font-size: 16px;
+    font-size: 2.5vmin; /* Scales font width with element size! */
+}
+
+#tab1:hover, #tab2:hover, #tab3:hover, #tab4:hover, #tab5:hover, #tab6:hover, #tab7:hover, #tab8:hover, #tab9:hover, #tab10:hover{
+    background-color: #343434;
+}
+
+#section1 {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#section1 > div {
+    padding: 2%;
+}
+
+#Welcome {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    width: 60%;
+    height: 12%;
+    margin: 1%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#Welcome > h1 {
+    font-weight: bold;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 30px;
+    font-size: 5vmin;
+    color: black
+}
+#Welcome > p {
+    font-weight: normal;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    font-size: 2.5vmin;
+    color: black
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:left;
+    align-items:flex-end;
+    background-color: #343434;
+    margin: 2% 0% 0% 0%;
+}
+
