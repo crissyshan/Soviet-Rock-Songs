@@ -7,6 +7,7 @@
     <xsl:template match="/">
         <html>
             <head>
+                <link rel="stylesheet" href="soviet-rock.css"/>
                 <title>Lyrics: <xsl:apply-templates select="//title"/></title>
             </head>
             <body>
@@ -16,8 +17,7 @@
                     <xsl:apply-templates select="//details"/>
                 </ul>
                <h2>Video</h2>
-                <!-- embed video link -->
-                <table>
+               <table>
                     <tr>
                         <th><h3>What's this song about?</h3></th>
                         <th><h3>Why was it selected?</h3></th>
@@ -27,6 +27,9 @@
                         <th><p>Insert explanation of why song was selected.</p></th>
                     </tr>
                 </table>
+                <div class="popup" onclick="myFunction()">Click for Song Lyrics.
+                    <span class="popuptext" id="myPopup"><xsl:apply-templates select="//lyrics"/></span>
+                </div>
                 <h2>Song Data</h2>
             </body>
         </html>

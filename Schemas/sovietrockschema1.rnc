@@ -1,10 +1,11 @@
 start = song
 song = element song { details, lyrics }
-details = element details { title, artist, year, location }
+details = element details { title, artist, year, location, video }
 title = element title { text }
 artist = element artist { text }
 year = element year { text }
 location = element location { text }
+video = element video {text}
 lyrics =
     element lyrics {
         mixed { (outlook | verse | refrain)* }
