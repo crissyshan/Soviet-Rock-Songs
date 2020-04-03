@@ -5,9 +5,8 @@
     version="3.0">
     <xsl:output method="xml" indent="yes" doctype-system="about:legacy-compat"/>
     <xsl:template match="/">
-        <html>
+        <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
             <head>
-                <link rel="stylesheet" href="soviet-rock.css"/>
                 <title>Lyrics: <xsl:apply-templates select="//title"/></title>
             </head>
             <body>
@@ -17,6 +16,8 @@
                     <xsl:apply-templates select="//details"/>
                 </ul>
                <h2>Video</h2>
+                <xsl:apply-templates select="//video"/>
+                
                <table>
                     <tr>
                         <th><h3>What's this song about?</h3></th>
@@ -38,5 +39,10 @@
         <li>Artist:<xsl:apply-templates select="artist"/></li>
         <li>Year: <xsl:apply-templates select="year"/></li>
         <li>Location of Band: <xsl:apply-templates select="location"/></li>
+    </xsl:template>
+    <xsl:template match="video">
+        <iframe width="420" height="315"
+            src="{.}">
+        </iframe>
     </xsl:template>
 </xsl:stylesheet>
