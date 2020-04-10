@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/sovietrockschema1.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <details>
+        <title>Шар цвета хаки</title>
+        <artist>Наутилус помпилиус</artist>
+        <year>1987</year>
+        <location>Sverdlovsk(Yekaterinburg), Russia</location>
+        <video>https://www.youtube.com/watch?v=Qd1Sq-1Yr4k</video>
+    </details>
+    <lyrics>
+    <outlook>negative</outlook>
+<verse><l><absurdism level = "high">Был бесцветным был безупречно чистым</absurdism></l>
+<l><absurdism level="high">Был прозрачным стал абсолютно белым</absurdism></l>
+<l>Видно кто-то решил что зима и</l>
+<l><absurdism level="high">Покрыл меня мелом</absurdism></l></verse>
+
+<verse><l>Был бы белым но все же был бы чистым</l>
+<l>Пусть холодным но все же с ясным взором</l>
+<l><protest type="political reference" confidence = "high">Но кто-то решил что война и</protest></l>
+<l><absurdism level = "high">Покрыл меня черным</absurdism></l></verse>
+
+<verse><l>Я вижу цвет но я здесь не был</l>
+<l>Я слышу цвет,  я чувствую цвет,</l>
+<l><protest type="explicit" confidence = "high">Я знать не хочу всех тех кто уже</protest></l>
+<l>Красит небо</l></verse>
+
+<verse><l><absurdism level = "medium">Я вижу песню вдали но я слышу лишь</absurdism></l>
+<l><satire type="political reference" confidence="high">Марш марш левой</satire></l>
+<l><satire type="political reference" confidence="high">Марш марш правой</satire></l>
+<l>Я не видел толпы страшней</l>
+<l><protest type = "political reference" confidence = "high">Чем толпа цвета хаки</protest></l></verse>
+
+<verse><l><absurdism level = "high">Был бы черным да пусть хоть самим чертом</absurdism></l>
+<l><protest type="political reference" confidence="high">Но кто-то главный кто вечно рвет в атаку</protest></l>
+<l><protest type="symbolism" confidence="high">Приказал наступать на лето и</protest></l>
+<l><protest type="political reference" confidence="high">Втоптал меня в хаки</protest></l></verse>
+
+<verse><l>Я вижу дым но я здесь не был</l>
+<l>Я слышу гарь, я чувствую гарь</l>
+<l><protest type="explicit" confidence = "high">Я знать не хочу ту тварь</protest></l>
+<l>Кто спалит это небо</l>
+<l>Я вижу песню вдали но я слышу лишь</l>
+    <l><satire type="political reference" confidence="high">Марш марш левой</satire></l>
+    <l><satire type="political reference" confidence="high">Марш марш правой</satire></l>
+<l>Я не видел картины дурней</l>
+<l><protest type = "political reference" confidence = "high">Чем шар цвета хаки</protest></l></verse>
+
+<verse><l><satire type="political reference" confidence="high">Марш марш левой</satire></l>
+<l><satire type="political reference" confidence="high">Марш марш правой</satire></l>
+<l><satire type="political reference" confidence="high">Марш марш левой</satire></l>
+<l><satire type="political reference" confidence="high">Марш марш правой</satire></l></verse>
+</lyrics></song>
