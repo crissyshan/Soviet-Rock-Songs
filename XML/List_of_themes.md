@@ -62,3 +62,4 @@ Misha:
    4. analogy
    5. explicit reference
 3. Outlook (`positive`, `negative`, `neutral`)
+4. Freedom
