@@ -6,3 +6,4 @@
 1. Continue with markup
 2. Misha: SVG for individual songs
 3. Crissy: SVG for collections (from 2 pm session)
+4. Ask Dr. Birnbaum about SVG namespaces in XSLT
