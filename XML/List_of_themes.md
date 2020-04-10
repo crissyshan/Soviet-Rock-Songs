@@ -52,14 +52,14 @@ Misha:
 1. Satire through Aesopian language or explicit reference:
    1. Symbolism
    2. metaphor 
-   3. cultural reference 
+   3. cultural or political reference 
    4. analogy
    5. explicit reference
    6. Pun
 2. Protest through Aesopian language or explicit reference:
    1. Symbolism
    2. metaphor 
-   3. cultural reference 
+   3. cultural or political reference 
    4. analogy
    5. explicit reference
 3. Outlook (`positive`, `negative`, `neutral`)
