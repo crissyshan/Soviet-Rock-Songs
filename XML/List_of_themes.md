@@ -32,7 +32,7 @@ Misha:
 ## Close reading
 
 Crissy:
-1. Outlook (`type="positive"` or `type="negative"`)
+1. Outlook (`"positive"` or `"negative"`)
 2. Self (references to the internal, emotions, etc.)
     1. Love
     2. Pride
@@ -40,6 +40,7 @@ Crissy:
     4. Conscience/consciousness
     5. Life (could include references to living or dying)
     6. Sadness/Joy
+    7. Freedom
 3. Growth/change
 4. Time (future, waiting, past, etc.)
 5. Absurdism (any lyrics that don't tell a simple story -- `@level`?)
@@ -51,12 +52,14 @@ Misha:
 1. Satire through Aesopian language or explicit reference:
    1. Symbolism
    2. metaphor 
-   3. cultural reference 
+   3. cultural or political reference 
    4. analogy
    5. explicit reference
+   6. Pun
 2. Protest through Aesopian language or explicit reference:
    1. Symbolism
    2. metaphor 
-   3. cultural reference 
+   3. cultural or political reference 
    4. analogy
    5. explicit reference
+3. Outlook (`positive`, `negative`, `neutral`)
