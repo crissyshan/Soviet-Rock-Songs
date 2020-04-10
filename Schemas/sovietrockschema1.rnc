@@ -34,10 +34,10 @@ l =
         }
     }
 defense = element defense { text }
-self = element self { ref?, text }
+self = element self { mixed {(time?|ref?)*} }
 emotion=element emotion {value, text}
 value=attribute value {text}
-community = element community { ref?, text }
+community = element community { mixed {(ref | self | nature)*}}
 apathy-DI =
     element apathy-DI {
         mixed { (militarism | self | subst)* }
@@ -53,7 +53,7 @@ type = attribute type { text }
 confidence = attribute confidence { text }
 subst = element subst { ref, text }
 ref = attribute ref { text }
-nature = element nature { text }
+nature = element nature { ref?, text }
 industry =
     element industry {
         mixed { ref? }

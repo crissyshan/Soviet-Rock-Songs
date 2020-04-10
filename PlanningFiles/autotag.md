@@ -30,3 +30,4 @@ By no means complete, but these are some extremely common ones that it is easy t
 в добрый час--<hope>\0</hope>
 не зря--<hope>\0</hope>
 дорог(а|и|ах|е)--<industry>\0</industry> OR <change>\0</change>
+народ(н)?(ы|а)?(я|е|й)?--<community ref="folk">\0</community>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/sovietrockschema1.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <details>
+        <title>Владимирская русь</title>
+        <artist>Чёрный кофе</artist>
+        <year>1986</year>
+        <location>Moscow, Russia</location>
+        <video>https://www.youtube.com/embed/UYIHHzvZHxY</video>
+    </details>
+    <lyrics>
+<verse><l><nature ref="resource">Деревянные</nature> <community ref="religion nation">церкви</community> Руси</l>
+<l>Перекошены <time>древние</time> стены</l>
+<l>Подойди и о многом спроси</l>
+<l>В этих срубах есть <community>сердце и вены</community></l></verse>
+
+<verse><l>Заколочено накрест окно</l>
+<l>Молчаливо убого убранство</l>
+<l>Но зато <time>старым</time> стенам дано</l>
+<l>Мерить <self>душу</self> с простым <time>постоянство</time></l></verse>
+
+<verse><l>Левитан оставался один</l>
+<l>Если кисть замирала с тоской</l>
+<l>И тогда среди многих картин</l>
+<l>Вдруг рождалось "над вечным покоем"</l></verse>
+
+<verse><l>На холсте небольшая деталь</l>
+<l><community ref="religion">Церковь</community> <time>старая</time> на <nature>косогоре</nature></l>
+<l>И видна <nature>необъятная даль</nature></l>
+<l>На <nature>былинно-бескрайнем просторе</nature></l></verse>
+
+<verse><l><community ref="nation folk">Старорусский народный обряд</community></l>
+<l><community ref="humanity">Неподкупная <self ref="pride">гордость</self> людская</community></l>
+<l><nature ref="resource">Деревянные</nature> <community ref="religion">церкви</community> стоят</l>
+<l>Это <self ref="life">жизнь <time>без конца</time> и без края</self></l></verse>
+
+<verse><l><nature ref="resource">Деревянные</nature> <community ref="religion">церкви</community> Руси</l>
+<l>Перекошены <time>древние</time> стены</l>
+<l>Подойди и о многом спроси</l>
+<l>В этих срубах есть <community>сердце и вены</community></l></verse>
+
+<verse><l><community ref="religion nation"><nature ref="resource">Деревянные</nature> церкви Руси</community></l>
+<l>Перекошены <time>древние</time> стены</l>
+<l>Подойди и о многом спроси</l>
+<l>В этих срубах есть <community>сердце и вены</community></l></verse>
+
+<verse><l>Есть <self>сердце</self>, <community>сердце и вены</community>.</l></verse>
+</lyrics></song>
