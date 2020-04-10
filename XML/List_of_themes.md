@@ -5,7 +5,7 @@ Crissy:
 1. Defense <defense>
 2. Nature <nature>
     1. natural features (rivers, mountains, etc.)
-    2. natural resources
+    2. resource
     3. weather
     4. cosmos
     5. animals, etc.

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song>
+    <details>
+        <title>Листья</title>
+        <artist>Чёрный кофе</artist>
+        <year>1987</year>
+        <location>Moscow, Russia</location>
+        <video>https://www.youtube.com/embed/uoPSjgm1Jv0</video>
+    </details>
+    <lyrics>
+        <verse><l>С <nature>ветки</nature> падающий <nature>лист</nature></l>
+<l>В <time>день</time> <nature>осенний золотист</nature></l>
+<l>Он по <nature>воздуху</nature> кружится</l>
+<l>И танцует как артист</l>
+<l>С <nature>ветки</nature> падающий <nature>лист</nature></l></verse>
+
+<verse><l><self ref="loneliness">Нет ни братьев ни сестер</self></l>
+<l><self ref="loneliness">Он один</self> на весь <nature>простор</nature></l>
+<l>Он <subst ref="alcohol">пьянеет</subst> от <self>свободы</self></l>
+<l>И пылает как костер</l>
+<l><self ref="loneliness">Он один</self> на весь <nature>простор</nature></l></verse>
+
+<verse>
+<l>Если б <nature>листья</nature> знать могли</l>
+<l><time>Сколько лету</time> до <nature>земли</nature></l>
+<l><apathy-DI>А потом лежать валяться</apathy-DI></l>
+<l><apathy-DI>Под ногами и в пыли</apathy-DI></l>
+<l>Если б <nature>листья</nature> знать могли</l>
+<l>Если б <nature>листья</nature> знать могли</l></verse>
+
+<verse><l>Но для каждого из нас</l>
+<l><self>Сердцу мил свободы час</self></l>
+<l>И <hope>порой не жалко жизни</hope></l>
+<l>Чтоб хлебнуть ее <time>хоть раз</time></l>
+<l>Так для каждого из нас</l>
+<l>Так для каждого из нас</l></verse>
+
+<verse><l>Если б <nature>листья</nature> знать могли</l>
+<l>Если б <nature>листья</nature> знать могли</l></verse>
+</lyrics></song>
