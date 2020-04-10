@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/sovietrockschema1.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <details>
+        <title>Сторож Сергеев</title>
+        <artist>Аквариум</artist>
+        <year>1984</year>
+        <location>Leningrad, Russia</location>
+        <video>https://www.youtube.com/embed/nCBNdnHBPmM</video>
+    </details>
+    <lyrics>
+        <outlook>negative</outlook>
+        <verse>
+        <l>Зеленая лампа и грязный стол,</l>
+        <l>И правила над столом.</l>
+        <l><satire type="cultural reference" confidence="high">Сторож Сергеев глядит в стакан</satire></l>
+        <l>И думает о былом;</l>
+        <l>Но вот приходят к нему друзья,</l>
+        <l>Прервав его мыслей ход.</l>
+        <l>И быстро вливают портвейна литр</l>
+        <l>Сторожу прямо в рот.</l>
+    </verse>
+
+    <verse>
+        <l>Друзья пришли к нему неспроста,</l>
+        <l>Пройдя не одну версту.</l>
+        <l>Они желают видеть его</l>
+        <l>На боевом посту.</l>
+        <l><satire type="explicit" confidence = "high">И сторож Сергеев, презрев свой долг,</satire></l>
+        <l>Ловит беседы нить;</l>
+        <l>И ставит стулья друзьям своим,</l>
+        <l>Поскольку им негде пить.</l>
+    </verse>
+
+    <verse>
+        <l>И он говорит с ними до утра,</l>
+        <l>Забыв обойти свой двор.</l>
+        <l><satire type="cultural reference" confidence="high">Он пьет, не глядя совсем на дверь,</satire></l>
+        <l>Куда мог забраться вор;</l>
+        <l>Но ночь проходит, приходит день,</l>
+        <l>Как в мире заведено,</l>
+        <l><satire type="cultural reference" confidence="high">И сторож Сергеев упал под стол,</satire></l>
+        <l>Допив до конца вино.</l>
+    </verse>
+
+    <verse>
+        <l>Зеленая лампа горит чуть-чуть,</l>
+        <l>И сменщик уж час как здесь.</l>
+        <l><satire type="cultural reference" confidence="high">А сторож Сергеев едва встает,</satire></l>
+        <l>Синий с похмелья весь.</l>
+        <l>И он, трясясь, выходит за дверь,</l>
+        <l>Не зная еще куда;</l>
+        <l>Желает пива и лечь поспать</l>
+        <l><satire type="cultural reference" confidence="high">Скромный герой труда.</satire></l>
+    </verse></lyrics>
+</song>
