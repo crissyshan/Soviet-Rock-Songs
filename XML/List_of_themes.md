@@ -40,6 +40,7 @@ Crissy:
     4. Conscience/consciousness
     5. Life (could include references to living or dying)
     6. Sadness/Joy
+    7. Freedom
 3. Growth/change
 4. Time (future, waiting, past, etc.)
 5. Absurdism (any lyrics that don't tell a simple story -- `@level`?)
@@ -62,4 +63,3 @@ Misha:
    4. analogy
    5. explicit reference
 3. Outlook (`positive`, `negative`, `neutral`)
-4. Freedom
