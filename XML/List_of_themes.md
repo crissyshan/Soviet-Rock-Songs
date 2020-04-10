@@ -32,7 +32,7 @@ Misha:
 ## Close reading
 
 Crissy:
-1. Outlook (`type="positive"` or `type="negative"`)
+1. Outlook (`"positive"` or `"negative"`)
 2. Self (references to the internal, emotions, etc.)
     1. Love
     2. Pride
@@ -61,3 +61,4 @@ Misha:
    3. cultural reference 
    4. analogy
    5. explicit reference
+3. Outlook (`positive`, `negative`, `neutral`)
