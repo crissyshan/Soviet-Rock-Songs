@@ -8,6 +8,7 @@
         <video>https://www.youtube.com/embed/uoPSjgm1Jv0</video>
     </details>
     <lyrics>
+        <outlook>negative</outlook>
         <verse><l>С <nature>ветки</nature> падающий <nature>лист</nature></l>
 <l>В <time>день</time> <nature>осенний золотист</nature></l>
 <l>Он по <nature>воздуху</nature> кружится</l>
@@ -29,8 +30,8 @@
 <l>Если б <nature>листья</nature> знать могли</l></verse>
 
 <verse><l>Но для каждого из нас</l>
-<l><self>Сердцу мил свободы час</self></l>
-<l>И <hope>порой не жалко жизни</hope></l>
+<l><self ref="freedom">Сердцу мил свободы час</self></l>
+<l><protest type="explicit">И <hope>порой не жалко жизни</hope></protest></l>
 <l>Чтоб хлебнуть ее <time>хоть раз</time></l>
 <l>Так для каждого из нас</l>
 <l>Так для каждого из нас</l></verse>

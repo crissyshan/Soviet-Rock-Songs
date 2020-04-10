@@ -4,53 +4,68 @@
         <title>Прости Земля!</title>
         <artist>Земляне</artist>
         <location>Leningrad, Russia</location>
-        <year></year>
+        <year/>
         <video>https://www.youtube.com/embed/dhf1MULtgsI</video>
     </details>
-<lyrics>
-<verse>Смотри, вот <time>опять</time> в <nature>небесах</nature>
-Плывет <industry>черный дым</industry> над <nature>тайгой</nature>
-<time>День</time> и <time>ночь</time> под <industry>рев машин</industry>
-<nature>Землю</nature> так свою крушим,
-Словно мы на <nature>планете</nature> чужой.
-<nature>Скалу</nature> поднял взрыв на дыбы.
-Ушла вдруг <nature>вода</nature> из <nature>ручья</nature>.
-<nature>Мать-Земля</nature>, <time>за часом час</time>,
-На руках качая нас,
-Разве знать ты могла, где беда твоя</verse>
+    <lyrics>
+        <outlook>negative</outlook>
+        <verse>
+            <l>Смотри, вот <time>опять</time> в <nature>небесах</nature></l>
+            <l><protest type="explicit reference">Плывет <industry>черный дым</industry> над<nature>тайгой</nature></protest>
+            </l>
+            <l><protest type="explicit reference"><time>День</time> и <time>ночь</time> под<industry>рев машин</industry></protest>
+            </l>
+            <l><protest type="explicit reference"><nature>Землю</nature> так свою крушим,</protest>
+            </l>
+            <l>Словно мы на <nature>планете</nature> чужой.</l>
+            <l><nature>Скалу</nature> поднял взрыв на дыбы.</l>
+            <l>Ушла вдруг <nature>вода</nature> из <nature>ручья</nature>.</l>
+            <l><nature>Мать-Земля</nature>, <time>за часом час</time>,</l>
+            <l>На руках качая нас,</l>
+            <l>Разве знать ты могла, где беда твоя</l>
+        </verse>
 
-<verse>Прости, <nature>Земля</nature>!
-Мы ведь еще <change>растем</change>.
-Своих <community>детей</community> прости за все, за все.
-Поверь, <nature>Земля</nature>, <community>люди</community> найдут <change>пути</change>
-<defense>Спасти</defense> тебя, себя <defense>спасти</defense>.</verse>
+        <verse>
+            <l>Прости, <nature>Земля</nature>!</l>
+            <l>Мы ведь еще <change>растем</change>.</l>
+            <l>Своих <community>детей</community> прости за все, за все.</l>
+            <l>Поверь, <nature>Земля</nature>, <community>люди</community> найдут<change>пути</change></l>
+            <l><defense>Спасти</defense> тебя, себя <defense>спасти</defense>.</l>
+        </verse>
 
-<verse>Ищи хоть две тысячи лет,
-Лети к самой дальней <nature>звезде</nature>,
-И в немыслимой дали
-Мы другой такой <nature>Земли</nature>
-Не найдем никогда и нигде.
-<nature>Земля</nature> то в <nature>траве</nature>, то в <nature>снегу</nature>.
-<nature>Земля</nature>, где в пол-<nature>неба</nature> <nature>заря</nature>,
-<time>Каждый день</time> и <time>час любой</time>
-Мы в долгу перед тобой,
-Неразумных <community>детей</community> ты прости, <nature>Земля</nature></verse>
+        <verse>
+            <l>Ищи хоть две тысячи лет,</l>
+            <l>Лети к самой дальней <nature>звезде</nature>,</l>
+            <l>И в немыслимой дали</l>
+            <l>Мы другой такой <nature>Земли</nature></l>
+            <l>Не найдем никогда и нигде.</l>
+            <l><nature>Земля</nature> то в <nature>траве</nature>, то в <nature>снегу</nature>.</l>
+            <l><nature>Земля</nature>, где в пол-<nature>неба</nature><nature>заря</nature>,</l>
+            <l><time>Каждый день</time> и <time>час любой</time></l>
+            <l>Мы в долгу перед тобой,</l>
+            <l>Неразумных <community>детей</community> ты прости, <nature>Земля</nature></l>
+        </verse>
 
-<verse>Прости, <nature>Земля</nature>!
-Мы ведь еще <change>растем</change>.
-Своих <community>детей</community> прости за все, за все.
-Поверь, <nature>Земля</nature>, <community>люди</community> найдут <change>пути</change>
-<defense>Спасти</defense> тебя, себя <defense>спасти</defense>.</verse>
+        <verse>
+            <l>Прости, <nature>Земля</nature>!</l>
+            <l>Мы ведь еще <change>растем</change>.</l>
+            <l>Своих <community>детей</community> прости за все, за все.</l>
+            <l>Поверь, <nature>Земля</nature>, <community>люди</community> найдут
+                    <change>пути</change></l>
+            <l><defense>Спасти</defense> тебя, себя <defense>спасти</defense>.</l>
+        </verse>
 
-<verse>Прости, <nature>Земля</nature>!
-Мы ведь еще <change>растем</change>.
-Своих <community>детей</community> прости за все, за все.
-Поверь, <nature>Земля</nature>, <community>люди</community> найдут <change>пути</change>
-<defense>Спасти</defense> тебя, себя <defense>спасти</defense>
-Прости, <nature>Земля</nature>!
-Мы ведь еще <change>растем</change>.
-Своих <community>детей</community> прости за все, за все.
-Поверь, <nature>Земля</nature>, <community>люди</community> найдут <change>пути</change>
-<defense>Спасти</defense> тебя, себя <defense>спасти</defense>.</verse>
-</lyrics>
+        <verse>
+            <l>Прости, <nature>Земля</nature>!</l>
+            <l>Мы ведь еще <change>растем</change>.</l>
+            <l>Своих <community>детей</community> прости за все, за все.</l>
+            <l>Поверь, <nature>Земля</nature>, <community>люди</community> найдут<change>пути</change></l>
+            <l><defense>Спасти</defense> тебя, себя <defense>спасти</defense></l>
+            <l>Прости, <nature>Земля</nature>!</l>
+            <l>Мы ведь еще <change>растем</change>.</l>
+            <l>Своих <community>детей</community> прости за все, за все.</l>
+            <l>Поверь, <nature>Земля</nature>, <community>люди</community> найдут<change>пути</change></l>
+            <l><defense>Спасти</defense> тебя, себя <defense>спасти</defense>.</l>
+        </verse>
+    </lyrics>
 </song>

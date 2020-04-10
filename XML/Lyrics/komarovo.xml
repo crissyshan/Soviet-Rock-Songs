@@ -9,13 +9,14 @@
         <video>https://www.youtube.com/embed/mZ4_lXYL3k4</video>
     </details>
 <lyrics>
+    <outlook>positive</outlook>
     <verse>
 <l>На недельку, до второго</l>
 <l>Я уеду в <community>Комарово</community></l>
 <l>Поглядеть <self>отвыкшим глазом</self></l>
 <l>На <nature>балтийскую волну</nature></l>
 <l>И на <nature>море</nature> буду разом</l>
-<l><industry>Кораблем</industry> и водолазом</l>
+<l><absurdism level="low"><industry>Кораблем</industry> и водолазом</absurdism></l>
 <l><self ref='conscious'>Сам себя найду в пучине</self></l>
 <l>Если часом <self ref='life'>затону</self></l></verse>
 

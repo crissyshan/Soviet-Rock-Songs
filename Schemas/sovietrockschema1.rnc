@@ -43,11 +43,39 @@ apathy-DI =
         mixed { (militarism | self | subst)* }
     }
 hope=element hope {text}
-absurdism = element absurdism { level, text }
+absurdism = element absurdism { mixed { (level | defense
+             | self
+             | emotion
+             | community
+             | apathy-DI
+             | hope
+             | absurdism
+             | soviet-symbol
+             | subst
+             | nature
+             | industry
+             | change
+             | time
+             | eastern
+             | protest)* } }
 level = attribute level { text }
 satire =
     element satire {
-        mixed { (type | confidence)* }
+        mixed { (type | confidence| defense
+             | self
+             | emotion
+             | community
+             | apathy-DI
+             | hope
+             | absurdism
+             | soviet-symbol
+             | subst
+             | nature
+             | industry
+             | change
+             | time
+             | eastern
+             | protest)* }
     }
 type = attribute type { text }
 confidence = attribute confidence { text }
@@ -64,9 +92,21 @@ eastern = element eastern { text }
 soviet-symbol = element soviet-symbol { text }
 protest =
     element protest {
-        mixed { (sort | conviction | militarism | self | apathy-DI)* }
+        mixed { (type | confidence | defense
+             | self
+             | emotion
+             | community
+             | apathy-DI
+             | hope
+             | absurdism
+             | satire
+             | soviet-symbol
+             | subst
+             | nature
+             | industry
+             | change
+             | time
+             | eastern)* }
     }
 militarism = attribute militarism {text}
-sort = attribute sort { text }
-conviction = attribute conviction { text }
 refrain = element refrain { l+ }

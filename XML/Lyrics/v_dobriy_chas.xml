@@ -8,20 +8,21 @@
         <video>https://www.youtube.com/embed/OPQKqdYCeNw</video>
     </details>
     <lyrics>
+        <outlook>positive</outlook>
 <verse><l><change>Меняется</change> все в наш <change>век перемен</change></l>
 <l><change>Меняется звук</change>, <change>меняется слог</change> и спето про все</l>
 <l>Но <change>выйди за дверь</change></l>
-<l><hope>как много вокруг забытых дорог</hope></l></verse>
+<l><satire type = "political reference" confidence = "medium"><hope>как много вокруг забытых дорог</hope></satire></l></verse>
 
 <verse><l><hope>В добрый час</hope> <community>друзья</community> в добрый час</l>
 <l><hope>Наши дни не зря эти дни</hope></l>
     <l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
 <l>Знаю я что <hope>мы не одни</hope></l></verse>
 
-<verse><l><change>Пусть как никогда натянута нит</change>ь</l>
+<verse><l><protest type="metaphor" confidence = "low"><change>Пусть как никогда натянута нить</change></protest></l>
 <l>не стоит бежать, не стоит робеть</l>
 <l>Так было всегда легко говорить</l>
-<l>Труднее сыграть особенно спеть</l></verse>
+<l><satire type="political reference" confidence = "low">Труднее сыграть особенно спеть</satire></l></verse>
 
 <verse><l><hope>В добрый час</hope> <community>друзья</community> в добрый час</l>
 <l><hope>Наши дни не зря эти дни</hope></l>
