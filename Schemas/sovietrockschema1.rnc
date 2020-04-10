@@ -20,13 +20,15 @@ l =
              | emotion
              | community
              | apathy-DI
+             | hope
              | absurdism
              | satire
              | soviet-symbol
              | subst
              | nature
              | industry
-             | passion
+             | change
+             | time
              | eastern
              | protest)*
         }
@@ -40,6 +42,7 @@ apathy-DI =
     element apathy-DI {
         mixed { (militarism | self | subst)* }
     }
+hope=element hope {text}
 absurdism = element absurdism { level, text }
 level = attribute level { text }
 satire =
@@ -55,7 +58,8 @@ industry =
     element industry {
         mixed { ref? }
     }
-passion = element passion { text }
+change = element change { text }
+time = element time { text }
 eastern = element eastern { text }
 soviet-symbol = element soviet-symbol { text }
 protest =

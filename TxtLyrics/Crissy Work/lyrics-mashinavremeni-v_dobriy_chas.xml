@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song>
+    <details>
+        <title>В добрый час</title>
+        <artist>Машина времени</artist>
+        <year>1986</year>
+        <location>Moscow, Russia</location>
+        <video>https://www.youtube.com/embed/OPQKqdYCeNw</video>
+    </details>
+    <lyrics>
+<verse><l><change>Меняется</change> все в наш <change>век перемен</change></l>
+<l><change>Меняется звук</change>, <change>меняется слог</change> и спето про все</l>
+<l>Но <change>выйди за дверь</change></l>
+<l><hope>как много вокруг забытых дорог</hope></l></verse>
+
+<verse><l><hope>В добрый час</hope> <community>друзья</community> в добрый час</l>
+<l><hope>Наши дни не зря эти дни</hope></l>
+    <l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
+<l>Знаю я что <hope>мы не одни</hope></l></verse>
+
+<verse><l><change>Пусть как никогда натянута нит</change>ь</l>
+<l>не стоит бежать, не стоит робеть</l>
+<l>Так было всегда легко говорить</l>
+<l>Труднее сыграть особенно спеть</l></verse>
+
+<verse><l><hope>В добрый час</hope> <community>друзья</community> в добрый час</l>
+<l><hope>Наши дни не зря эти дни</hope></l>
+    <l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
+<l>Знаю я что <hope>мы не одни</hope></l></verse>
+
+<verse><l><time>Лет десять прошло и десять пройдет</time></l>
+<l><hope>пусть сбудется все</hope> <apathy-DI>хотя бы на треть</apathy-DI></l>
+<l><self>Нам в жизни везло</self> <hope>пусть вам повезет</hope></l>
+<l>А значит <hope>не зря мы начали петь</hope></l></verse>
+        
+<verse><l><hope>В добрый час</hope> <community>друзья</community> в добрый час</l>
+<l><hope>Наши дни не зря эти дни</hope></l>
+<l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
+<l>Знаю я что <hope>мы не одни</hope></l>
+    <l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
+<l>Знаю я что <hope>мы не одни</hope></l>
+    <l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
+<l>Знаю я что <hope>мы не одни</hope></l></verse></lyrics>
+</song>
