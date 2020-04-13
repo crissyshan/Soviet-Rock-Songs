@@ -17,7 +17,6 @@ l =
         mixed {
             (defense
              | self
-             | emotion
              | community
              | apathy-DI
              | hope
@@ -35,17 +34,15 @@ l =
     }
 defense = element defense { text }
 self = element self { mixed {(time?|ref?)*} }
-emotion=element emotion {value, text}
 value=attribute value {text}
 community = element community { mixed {(ref | self | nature)*}}
 apathy-DI =
     element apathy-DI {
         mixed { (militarism | self | subst)* }
     }
-hope=element hope {text}
+hope=element hope { mixed {(self?|change?)*} }
 absurdism = element absurdism { mixed { (level | defense
              | self
-             | emotion
              | community
              | apathy-DI
              | hope
@@ -63,7 +60,6 @@ satire =
     element satire {
         mixed { (type | confidence| defense
              | self
-             | emotion
              | community
              | apathy-DI
              | hope
@@ -94,7 +90,6 @@ protest =
     element protest {
         mixed { (type | confidence | defense
              | self
-             | emotion
              | community
              | apathy-DI
              | hope

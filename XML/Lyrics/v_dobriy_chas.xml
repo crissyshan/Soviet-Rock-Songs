@@ -12,19 +12,19 @@
 <verse><l><change>Меняется</change> все в наш <change>век перемен</change></l>
 <l><change>Меняется звук</change>, <change>меняется слог</change> и спето про все</l>
 <l>Но <change>выйди за дверь</change></l>
-<l><satire type = "political reference" confidence = "medium"><hope>как много вокруг забытых дорог</hope></satire></l></verse>
+<l><satire type = "political reference" confidence = "medium">как много вокруг забытых дорог</satire></l></verse>
 
-<verse><l><hope>В добрый час</hope> <community>друзья</community> в добрый час</l>
+<verse><l><hope>В добрый час</hope> <community>друзья</community> <hope>в добрый час</hope></l>
 <l><hope>Наши дни не зря эти дни</hope></l>
-    <l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
+<l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
 <l>Знаю я что <hope>мы не одни</hope></l></verse>
 
-<verse><l><protest type="metaphor" confidence = "low"><change>Пусть как никогда натянута нить</change></protest></l>
-<l>не стоит бежать, не стоит робеть</l>
-<l>Так было всегда легко говорить</l>
+<verse><l><protest type="metaphor" confidence = "low">Пусть как никогда натянута нить</protest></l>
+<l><self ref="fear">не стоит бежать, не стоит робеть</self></l>
+<l><time>Так было всегда</time> <self ref="honesty">легко говорить</self></l>
 <l><satire type="political reference" confidence = "low">Труднее сыграть особенно спеть</satire></l></verse>
 
-<verse><l><hope>В добрый час</hope> <community>друзья</community> в добрый час</l>
+<verse><l><hope>В добрый час</hope> <community>друзья</community> <hope>в добрый час</hope></l>
 <l><hope>Наши дни не зря эти дни</hope></l>
     <l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
 <l>Знаю я что <hope>мы не одни</hope></l></verse>
@@ -34,7 +34,7 @@
 <l><self>Нам в жизни везло</self> <hope>пусть вам повезет</hope></l>
 <l>А значит <hope>не зря мы начали петь</hope></l></verse>
         
-<verse><l><hope>В добрый час</hope> <community>друзья</community> в добрый час</l>
+<verse><l><hope>В добрый час</hope> <community>друзья</community> <hope>в добрый час</hope></l>
 <l><hope>Наши дни не зря эти дни</hope></l>
 <l>Я вас <time>жду</time> <self ref="memory">я помню о вас</self></l>
 <l>Знаю я что <hope>мы не одни</hope></l>

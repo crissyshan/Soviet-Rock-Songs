@@ -11,47 +11,47 @@
 <lyrics>
     <outlook>positive</outlook>
     <verse>
-<l>На недельку, до второго</l>
+<l><time>На недельку, до второго</time></l>
 <l>Я уеду в <community>Комарово</community></l>
 <l>Поглядеть <self>отвыкшим глазом</self></l>
 <l>На <nature>балтийскую волну</nature></l>
 <l>И на <nature>море</nature> буду разом</l>
 <l><absurdism level="low"><industry>Кораблем</industry> и водолазом</absurdism></l>
 <l><self ref='conscious'>Сам себя найду в пучине</self></l>
-<l>Если часом <self ref='life'>затону</self></l></verse>
+<l>Если <time>часом</time> <self ref='life'>затону</self></l></verse>
 
-<verse><l>На недельку, до второго</l>
+<verse><l><time>На недельку, до второго</time></l>
 <l>Я уеду в <community>Комарово</community></l>
 <l><self ref='conscious'>Сам себя найду в пучине</self></l>
-<l>Если часом <self ref='life'>затону</self></l></verse>
+<l>Если <time>часом</time> <self ref='life'>затону</self></l></verse>
 
-<verse><l>На недельку, до второго</l>
+<verse><l><time>На недельку, до второго</time></l>
 <l>Я уеду в <community>Комарово</community></l>
 <l>Где качается на <nature>дюнах</nature></l>
 <l><industry>Шереметьевский баркас</industry></l>
 <l>И у вас в <nature>карельских скалах</nature></l>
 <l>На <self>общественных</self> началах</l>
 <l>Если только захотите</l>
-<l>Будет личный водолаз</l></verse>
+<l><absurdism level="low">Будет личный водолаз</absurdism></l></verse>
 
-<verse><l>На недельку, до второго</l>
+    <verse><l><time>На недельку, до второго</time></l>
 <l>Я уеду в <community>Комарово</community></l>
 <l>И у вас в <nature>карельских скалах</nature></l>
-<l>Будет личный водолаз</l></verse>
+<l><absurdism level="low">Будет личный водолаз</absurdism></l></verse>
 
-<verse><l>На недельку, до второго</l>
+<verse><l><time>На недельку, до второго</time></l>
 <l>Я уеду в <community>Комарово</community></l>
-<l>На воскресной <industry>электричке</industry></l>
+<l>На <time>воскресной</time> <industry>электричке</industry></l>
 <l>К вам на <nature>краешек земли</nature></l>
 <l>Водолазы ищут клады</l>
 <l>Только кладов мне не надо</l>
 <l>Я за то, чтоб в <nature>синем море</nature></l>
-<l>Не тонули <industry>корабли</industry></l></verse>
+<l><hope>Не тонули </hope><industry>корабли</industry></l></verse>
 
-<verse><l>На недельку, до второго</l>
+<verse><l><time>На недельку, до второго</time></l>
 <l>Я уеду в <community>Комарово</community></l>
 <l>Я за то, чтоб в <nature>синем море</nature></l>
-<l>Не тонули <industry>корабли</industry>...</l>
+<l><hope>Не тонули</hope> <industry>корабли</industry>...</l>
 </verse>
 </lyrics>
 </song>
