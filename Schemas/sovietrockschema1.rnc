@@ -38,7 +38,7 @@ value=attribute value {text}
 community = element community { mixed {(ref | self | nature)*}}
 apathy-DI =
     element apathy-DI {
-        mixed { (militarism | self | subst)* }
+        mixed { ( self | subst)* }
     }
 hope=element hope { mixed {(self?|change?)*} }
 absurdism = element absurdism { mixed { (level | defense
@@ -80,7 +80,7 @@ ref = attribute ref { text }
 nature = element nature { ref?, text }
 industry =
     element industry {
-        mixed { ref? }
+        mixed { (ref? | nature?)*}
     }
 change = element change { text }
 time = element time { text }

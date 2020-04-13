@@ -11,11 +11,11 @@
         <outlook>negative</outlook>
         <verse>
             <l>Смотри, вот <time>опять</time> в <nature>небесах</nature></l>
-            <l><protest type="explicit reference">Плывет <industry>черный дым</industry> над<nature>тайгой</nature></protest>
+            <l><protest type="explicit">Плывет <industry>черный дым</industry> над<nature>тайгой</nature></protest>
             </l>
-            <l><protest type="explicit reference"><time>День</time> и <time>ночь</time> под<industry>рев машин</industry></protest>
+            <l><protest type="explicit"><time>День</time> и <time>ночь</time> под<industry>рев машин</industry></protest>
             </l>
-            <l><protest type="explicit reference"><nature>Землю</nature> так свою крушим,</protest>
+            <l><protest type="explicit"><nature>Землю</nature> так свою крушим,</protest>
             </l>
             <l>Словно мы на <nature>планете</nature> чужой.</l>
             <l><nature>Скалу</nature> поднял взрыв на дыбы.</l>
@@ -29,16 +29,16 @@
             <l>Прости, <nature>Земля</nature>!</l>
             <l>Мы ведь еще <change>растем</change>.</l>
             <l>Своих <community>детей</community> прости за все, за все.</l>
-            <l>Поверь, <nature>Земля</nature>, <community>люди</community> найдут<change>пути</change></l>
+            <l>Поверь, <nature>Земля</nature>, <community>люди</community> <hope>найдут пути</hope></l>
             <l><defense>Спасти</defense> тебя, себя <defense>спасти</defense>.</l>
         </verse>
 
         <verse>
             <l>Ищи хоть две тысячи лет,</l>
-            <l>Лети к самой дальней <nature>звезде</nature>,</l>
+            <l>Лети к самой дальней <soviet-symbol>звезде</soviet-symbol>,</l>
             <l>И в немыслимой дали</l>
             <l>Мы другой такой <nature>Земли</nature></l>
-            <l>Не найдем никогда и нигде.</l>
+            <l><self ref="love">Не найдем никогда и нигде.</self></l>
             <l><nature>Земля</nature> то в <nature>траве</nature>, то в <nature>снегу</nature>.</l>
             <l><nature>Земля</nature>, где в пол-<nature>неба</nature><nature>заря</nature>,</l>
             <l><time>Каждый день</time> и <time>час любой</time></l>
@@ -50,8 +50,7 @@
             <l>Прости, <nature>Земля</nature>!</l>
             <l>Мы ведь еще <change>растем</change>.</l>
             <l>Своих <community>детей</community> прости за все, за все.</l>
-            <l>Поверь, <nature>Земля</nature>, <community>люди</community> найдут
-                    <change>пути</change></l>
+            <l>Поверь, <nature>Земля</nature>, <community>люди</community> <hope>найдут пути</hope></l>
             <l><defense>Спасти</defense> тебя, себя <defense>спасти</defense>.</l>
         </verse>
 
@@ -59,12 +58,12 @@
             <l>Прости, <nature>Земля</nature>!</l>
             <l>Мы ведь еще <change>растем</change>.</l>
             <l>Своих <community>детей</community> прости за все, за все.</l>
-            <l>Поверь, <nature>Земля</nature>, <community>люди</community> найдут<change>пути</change></l>
+            <l>Поверь, <nature>Земля</nature>, <community>люди</community> <hope>найдут пути</hope></l>
             <l><defense>Спасти</defense> тебя, себя <defense>спасти</defense></l>
             <l>Прости, <nature>Земля</nature>!</l>
             <l>Мы ведь еще <change>растем</change>.</l>
             <l>Своих <community>детей</community> прости за все, за все.</l>
-            <l>Поверь, <nature>Земля</nature>, <community>люди</community> найдут<change>пути</change></l>
+            <l>Поверь, <nature>Земля</nature>, <community>люди</community> <hope>найдут пути</hope></l>
             <l><defense>Спасти</defense> тебя, себя <defense>спасти</defense>.</l>
         </verse>
     </lyrics>
