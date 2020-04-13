@@ -5,10 +5,14 @@
     exclude-result-prefixes="xs"
     version="3.0">
     <xsl:output method="xml" indent="yes" doctype-system="about:legacy-compat"/>
+    <xsl:variable name="apathy" select="count(//apathy-DI)"/>
+    <xsl:variable name="dummy">2</xsl:variable>
+    <xsl:variable name="ratio_apathy" select= "$apathy div $dummy"/>
     <xsl:template match="/">
         <html>
             <head>
                 <title>Lyrics: <xsl:apply-templates select="//title"/></title>
+                <!--<link href="soviet-rock.css" rel="stylesheet" type="text/css" />-->
             </head>
             <body>
                 <h1><xsl:apply-templates select="//title"/></h1>
@@ -33,6 +37,12 @@
                     <span class="popuptext" id="myPopup"><xsl:apply-templates select="//lyrics"/></span>
                 </div>
                 <h2>Song Data</h2>
+                <ul>
+                    <li><xsl:value-of select="$ratio_apathy"></xsl:value-of></li>
+                </ul>
+                <div id = "svg1_wrapper"><svg xmlns="http://www.w3.org/2000/svg" height = "100%" width = "100%">
+                    <line x1="0" x2="100" y1="0" y2="100" stroke = "black" stroke-width="5"/>
+                </svg></div>
             </body>
         </html>
     </xsl:template>

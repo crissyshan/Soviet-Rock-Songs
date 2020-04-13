@@ -17,7 +17,7 @@
 
 <verse><l>Был бы белым но все же был бы чистым</l>
 <l>Пусть холодным но все же с ясным взором</l>
-<l><protest type="political reference" confidence = "high">Но кто-то решил что война и</protest></l>
+<l><protest type="political_reference" confidence = "high">Но кто-то решил что война и</protest></l>
 <l><absurdism level = "high">Покрыл меня черным</absurdism></l></verse>
 
 <verse><l>Я вижу цвет но я здесь не был</l>
@@ -26,28 +26,28 @@
 <l>Красит небо</l></verse>
 
 <verse><l><absurdism level = "medium">Я вижу песню вдали но я слышу лишь</absurdism></l>
-<l><satire type="political reference" confidence="high">Марш марш левой</satire></l>
-<l><satire type="political reference" confidence="high">Марш марш правой</satire></l>
+<l><satire type="political_reference" confidence="high">Марш марш левой</satire></l>
+<l><satire type="political_reference" confidence="high">Марш марш правой</satire></l>
 <l>Я не видел толпы страшней</l>
-<l><protest type = "political reference" confidence = "high">Чем толпа цвета хаки</protest></l></verse>
+<l><protest type = "political_reference" confidence = "high">Чем толпа цвета хаки</protest></l></verse>
 
 <verse><l><absurdism level = "high">Был бы черным да пусть хоть самим чертом</absurdism></l>
-<l><protest type="political reference" confidence="high">Но кто-то главный кто вечно рвет в атаку</protest></l>
+<l><protest type="political_reference" confidence="high">Но кто-то главный кто вечно рвет в атаку</protest></l>
 <l><protest type="symbolism" confidence="high">Приказал наступать на лето и</protest></l>
-<l><protest type="political reference" confidence="high">Втоптал меня в хаки</protest></l></verse>
+<l><protest type="political_reference" confidence="high">Втоптал меня в хаки</protest></l></verse>
 
 <verse><l>Я вижу дым но я здесь не был</l>
 <l>Я слышу гарь, я чувствую гарь</l>
 <l><protest type="explicit" confidence = "high">Я знать не хочу ту тварь</protest></l>
 <l>Кто спалит это небо</l>
 <l>Я вижу песню вдали но я слышу лишь</l>
-    <l><satire type="political reference" confidence="high">Марш марш левой</satire></l>
-    <l><satire type="political reference" confidence="high">Марш марш правой</satire></l>
+    <l><satire type="political_reference" confidence="high">Марш марш левой</satire></l>
+    <l><satire type="political_reference" confidence="high">Марш марш правой</satire></l>
 <l>Я не видел картины дурней</l>
-<l><protest type = "political reference" confidence = "high">Чем шар цвета хаки</protest></l></verse>
+<l><protest type = "political_reference" confidence = "high">Чем шар цвета хаки</protest></l></verse>
 
-<verse><l><satire type="political reference" confidence="high">Марш марш левой</satire></l>
-<l><satire type="political reference" confidence="high">Марш марш правой</satire></l>
-<l><satire type="political reference" confidence="high">Марш марш левой</satire></l>
-<l><satire type="political reference" confidence="high">Марш марш правой</satire></l></verse>
+<verse><l><satire type="political_reference" confidence="high">Марш марш левой</satire></l>
+<l><satire type="political_reference" confidence="high">Марш марш правой</satire></l>
+<l><satire type="political_reference" confidence="high">Марш марш левой</satire></l>
+<l><satire type="political_reference" confidence="high">Марш марш правой</satire></l></verse>
 </lyrics></song>
