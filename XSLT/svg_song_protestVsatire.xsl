@@ -8,8 +8,8 @@
         doctype-system="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" media-type="image/svg"/>
     
     <!-- Counts of various types of satire -->
-    <xsl:variable name="satire_pol" select="count(//satire[@type='political_reference'])"/>
-    <xsl:variable name="satire_cult" select="count(//satire[@type='cultural_reference'])"/>
+    <xsl:variable name="satire_pol" select="count(//satire[@type='political reference'])"/>
+    <xsl:variable name="satire_cult" select="count(//satire[@type='cultural reference'])"/>
     <xsl:variable name="satire_sym" select="count(//satire[@type='symbolism'])"/>
     <xsl:variable name="satire_met" select="count(//satire[@type='metaphor'])"/>
     <xsl:variable name="satire_analogy" select="count(//satire[@type='analogy'])"/>
@@ -17,8 +17,8 @@
     <xsl:variable name="satire_pun" select="count(//satire[@type='pun'])"/>
     
     <!-- Counts of various types of protest -->
-    <xsl:variable name="protest_pol" select="count(//protest[@type='political_reference'])"/>
-    <xsl:variable name="protest_cult" select="count(//protest[@type='cultural_reference'])"/>
+    <xsl:variable name="protest_pol" select="count(//protest[@type='political reference'])"/>
+    <xsl:variable name="protest_cult" select="count(//protest[@type='cultural reference'])"/>
     <xsl:variable name="protest_sym" select="count(//protest[@type='symbolism'])"/>
     <xsl:variable name="protest_met" select="count(//protest[@type='metaphor'])"/>
     <xsl:variable name="protest_analogy" select="count(//protest[@type='analogy'])"/>
@@ -73,7 +73,7 @@
                 <rect width="100" height="{$protest_met div $max}" x="{$horizontal2}" y="{-$protest_met div $max - ($protest_pol div $max) - ($protest_cult div $max) - ($protest_sym div $max) - 50}" fill="black"/>
                 <rect width="100" height="{$protest_analogy div $max}" x="{$horizontal2}" y="{-$protest_analogy div $max - ($protest_pol div $max) - ($protest_cult div $max) - ($protest_sym div $max) - ($protest_met div $max) - 50}" fill="orange"/>
                 <rect width="100" height="{$protest_exp div $max}" x="{$horizontal2}" y="{-$protest_exp div $max - ($protest_pol div $max) - ($protest_cult div $max) - ($protest_sym div $max) - ($protest_met div $max) - ($protest_analogy div $max) - 50}" fill="purple"/>
-                <text x="250" y="25" text-anchor="middle" transform="rotate(-90)">Number of occurences</text>
+                <text x="250" y="15" text-anchor="middle" transform="rotate(-90)">Number of occurences</text>
             </g>
             <text x="500" y="20" fill = "black">Key:</text>
             <text x="500" y="40" fill = "blue">Political Reference</text>
