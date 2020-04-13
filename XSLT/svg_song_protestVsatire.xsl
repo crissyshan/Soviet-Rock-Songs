@@ -25,8 +25,8 @@
     <xsl:variable name="protest_exp" select="count(//protest[@type='explicit'])"/>
     
     
-    <xsl:variable name="maximum" select="max((count(//satire), count(//protest)))"/>       <!-- Sets maximum for vertical scale -->
-    <xsl:variable name="max" select="max((count(//satire), count(//protest))) div 400"/>   <!-- Used to scale heights in pixels -->
+    <xsl:variable name="maximum" select="max((count(//satire), count(//protest), 1))"/>       <!-- Sets maximum for vertical scale -->
+    <xsl:variable name="max" select="max((count(//satire), count(//protest), 1)) div 400"/>   <!-- Used to scale heights in pixels -->
     
     <xsl:variable name="horizontal">100</xsl:variable> <!-- Position of bar 1 -->
     <xsl:variable name="horizontal2">300</xsl:variable> <!-- Position of bar 2 -->
