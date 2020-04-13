@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/sovietrockschema1.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <details>
         <title>Листья</title>
@@ -9,7 +10,8 @@
     </details>
     <lyrics>
         <outlook>negative</outlook>
-        <verse><l>С <nature>ветки</nature> падающий <nature>лист</nature></l>
+        
+        <verse><l>С <nature>ветки</nature> <nature>падающий лист</nature></l>
 <l>В <time>день</time> <nature>осенний золотист</nature></l>
 <l>Он по <nature>воздуху</nature> кружится</l>
 <l>И танцует как артист</l>
@@ -17,8 +19,8 @@
 
 <verse><l><self ref="loneliness">Нет ни братьев ни сестер</self></l>
 <l><self ref="loneliness">Он один</self> на весь <nature>простор</nature></l>
-<l>Он <subst ref="alcohol">пьянеет</subst> от <self>свободы</self></l>
-<l>И пылает как костер</l>
+<l>Он <subst ref="alcohol">пьянеет</subst> от <self ref="freedom">свободы</self></l>
+<l>И пылает как <nature>костер</nature></l>
 <l><self ref="loneliness">Он один</self> на весь <nature>простор</nature></l></verse>
 
 <verse>
@@ -31,7 +33,7 @@
 
 <verse><l>Но для каждого из нас</l>
 <l><self ref="freedom">Сердцу мил свободы час</self></l>
-<l><protest type="explicit">И <hope>порой не жалко жизни</hope></protest></l>
+<l><protest type="explicit">И <hope>порой не жалко <self ref="life">жизни</self></hope></protest></l>
 <l>Чтоб хлебнуть ее <time>хоть раз</time></l>
 <l>Так для каждого из нас</l>
 <l>Так для каждого из нас</l></verse>

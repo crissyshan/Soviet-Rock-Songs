@@ -12,11 +12,11 @@
         <outlook>negative</outlook>
         <verse>
         <l>Зеленая лампа и грязный стол,</l>
-        <l>И правила над столом.</l>
+        <l>И <self ref="values">правила над столом.</self></l>
         <l><satire type="cultural reference" confidence="high">Сторож Сергеев глядит в стакан</satire></l>
         <l>И <self ref="memory">думает о былом</self>;</l>
         <l>Но вот приходят к нему <community>друзья</community>,</l>
-        <l><self>Прервав его мыслей ход.</self></l>
+        <l>Прервав его мыслей ход.</l>
         <l>И быстро вливают <subst ref="alcohol">портвейна литр</subst></l>
         <l>Сторожу прямо в рот.</l>
     </verse>
@@ -25,7 +25,7 @@
         <l><community>Друзья</community> пришли к нему <apathy-DI>неспроста</apathy-DI>,</l>
         <l>Пройдя не одну версту.</l>
         <l>Они желают видеть его</l>
-        <l>На боевом посту.</l>
+        <l><self ref="values">На боевом посту.</self></l>
         <l><satire type="explicit" confidence = "high">И сторож Сергеев, презрев свой долг,</satire></l>
         <l>Ловит беседы нить;</l>
         <l>И ставит стулья <community>друзьям</community> своим,</l>

@@ -14,17 +14,17 @@
         
         <verse>
             <l><protest sort = "explicit" conviction = "high">Не <defense>стреляй</defense> в <defense men="war">воробьев</defense>,</protest></l>
-            <l><protest sort = "explicit" conviction = "high">не <defense>стреляй</defense> в голубей, </protest></l>
+            <l><protest sort = "explicit" conviction = "high">не <defense>стреляй</defense> в <nature>голубей</nature>, </protest></l>
             <l><protest sort = "explicit" conviction = "high">не <defense>стреляй</defense> просто так из <defense>рогатки</defense> своей</protest></l>
             <l><protest sort = "explicit" conviction = "high">Эй, малыш, не <defense>стреляй</defense> и не <self ref="pride">хвастай</self> другим, </protest></l>
-            <l>что без промаха бьешь по <defense>мишеням</defense> живым.</l>
+            <l>что без промаха <defense>бьешь по мишеням</defense> живым.</l>
         </verse>
 
         <verse>
             <l>Ты все <defense>тиры</defense> излазил, </l>
-            <l><refmunity>народ</refmunity> удивлял, </l>
-            <l>как отличный <defense>стрелок</defense> <self ref="pride">призы</self> получал</l>
-            <l>Бил с улыбкой, не целясь, </l>
+            <l><community>народ</community> удивлял, </l>
+            <l>как отличный <defense>стрелок</defense> <self ref="pride">призы получал</self></l>
+            <l><self ref="pride">Бил с улыбкой, не целясь,</self> </l>
             <l>навскидку и влет, </l>
             <l>а кругом говорили: "Вот парню <self ref="luck">везет</self>!"</l>
         </verse>
@@ -37,16 +37,16 @@
         </refrain>
 
         <verse>
-            <l>И случилось однажды, </l>
+            <l>И случилось <time>однажды</time>, </l>
             <l>о чем так <self ref="dream">мечтал</self> - </l>
-            <l>он в <defense>горящую точку</defense> планеты попал,</l>
-            <l>А когда наконец-то вернулся <refmunity ref="home">домой</refmunity></l>
+            <l>он в <defense>горящую точку</defense> <nature>планеты</nature> попал,</l>
+            <l>А когда <time>наконец-то</time> вернулся <community>домой</community></l>
             <l><protest sort = "symbolism" conviction = "high"><apathy-DI>он свой старенький <defense>тир</defense> обходил стороной</apathy-DI></protest></l>
         </verse>
 
         <verse>
             <l>И когда кто-нибудь <self ref="memory">вспоминал</self> о <defense>войне</defense>,</l>
-            <l><apathy-DI>он топил свою <self ref="conscience">совесть</self> в тяжелом <subst rem="alcohol">вине</subst>.</apathy-DI></l>
+            <l><apathy-DI>он топил свою <self ref="conscious">совесть</self> в тяжелом <subst rem="alcohol">вине</subst>.</apathy-DI></l>
             <l>Перед ним, как <self ref="life">живой</self>, </l>
             <l>тот парнишка стоял, тот, </l>
             <l>который его об одном умолял:</l>

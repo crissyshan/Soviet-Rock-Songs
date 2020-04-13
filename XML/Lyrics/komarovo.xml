@@ -30,7 +30,7 @@
 <l>Где качается на <nature>дюнах</nature></l>
 <l><industry>Шереметьевский баркас</industry></l>
 <l>И у вас в <nature>карельских скалах</nature></l>
-<l>На <self>общественных</self> началах</l>
+<l>На <self ref="values">общественных началах</self></l>
 <l>Если только захотите</l>
 <l><absurdism level="low">Будет личный водолаз</absurdism></l></verse>
 
@@ -44,7 +44,7 @@
 <l>На <time>воскресной</time> <industry>электричке</industry></l>
 <l>К вам на <nature>краешек земли</nature></l>
 <l>Водолазы ищут клады</l>
-<l>Только кладов мне не надо</l>
+<l>Только <self ref="values">кладов мне не надо</self></l>
 <l>Я за то, чтоб в <nature>синем море</nature></l>
 <l><hope>Не тонули </hope><industry>корабли</industry></l></verse>
 

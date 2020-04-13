@@ -11,10 +11,10 @@
     <lyrics>
         <outlook>positive</outlook>
         <verse>
-            <l>Мы себе <self>давали слово</self></l>
-            <l><self>Не сходить с пути прямого,</self></l>
+            <l>Мы <self ref="conscious">себе давали слово</self></l>
+            <l><self ref="values">Не сходить с пути прямого,</self></l>
             <l>Но, так уж <self ref="fate">суждено</self></l>
-            <l>И уж если <change>откровенно</change></l>
+            <l>И уж если <self ref="honesty">откровенно</self></l>
             <l>Всех <self ref="fear">пугают</self>
                 <change>перемены</change>,</l>
             <l>Но, тут уж <apathy-DI>все равно</apathy-DI>!</l>
@@ -24,16 +24,16 @@
             <l>Вот, <change>новый поворот</change>,</l>
             <l>И <industry ref="tech">мотор</industry> ревет,</l>
             <l>Что он нам несет?</l>
-            <l><nature>Пропасть</nature> и <change>взлет</change>?</l>
+            <l><nature>Пропасть</nature> и <hope>взлет</hope>?</l>
             <l><nature>Омут</nature> или <nature>брод</nature>?</l>
             <l>Ты не разберешь</l>
             <l><change>Пока не повернешь.</change></l>
         </verse>
         <verse>
             <l>И <hope><self ref="fear">пугаться</self> нет причины</hope>,</l>
-            <l>Если вы еще <community>мужчины</community>,</l>
-            <l>Вы. Кое в чем <self>сильны</self>!</l>
-            <l>Выезжайте за <industry>ворота</industry>,</l>
+            <l>Если вы еще мужчины,</l>
+            <l>Вы. <hope>Кое в чем <self>сильны</self>!</hope></l>
+            <l><change>Выезжайте за ворота,</change></l>
             <l>И <hope><self ref="fear">не бойтесь</self>
                 <change>поворота</change></hope>,</l>
             <l>Пусть. <hope>Добрым будет путь!</hope></l>
@@ -42,7 +42,7 @@
             <l>Вот, <change>новый поворот</change>,</l>
             <l>И <industry ref="tech">мотор</industry> ревет,</l>
             <l>Что он нам несет?</l>
-            <l><nature>Пропасть</nature> и <change>взлет</change>?</l>
+            <l><nature>Пропасть</nature> и <hope>взлет</hope>?</l>
             <l><nature>Омут</nature> или <nature>брод</nature>?</l>
             <l>Ты не разберешь</l>
             <l><change>Пока не повернешь.</change></l>
@@ -51,11 +51,11 @@
             <l>Вот, <change>новый поворот</change>,</l>
             <l>И <industry ref="tech">мотор</industry> ревет,</l>
             <l>Что он нам несет?</l>
-            <l><nature>Пропасть</nature> и <self ref="change">взлет</self>?</l>
+            <l><nature>Пропасть</nature> и <hope>взлет</hope>?</l>
             <l><nature>Омут</nature> или <nature>брод</nature>?</l>
             <l>Ты не разберешь</l>
-            <l>Пока не <change>повернешь</change>.</l>
-            <l>Пока не <change>повернешь</change>.</l>
+            <l><change>Пока не повернешь</change>.</l>
+            <l><change>Пока не повернешь</change>.</l>
         </verse>
     </lyrics>
 </song>
