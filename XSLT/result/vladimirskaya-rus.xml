@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<out>
+<out xmlns="http://www.w3.org/1999/xhtml">
    <p>Result document</p>
 </out>
-<svg height="500" width="800">
+<svg xmlns="http://www.w3.org/1999/xhtml" height="500" width="800">
    <g transform="translate(0,500)">
       <line x1="50"
             y1="-50"

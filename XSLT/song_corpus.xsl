@@ -13,6 +13,8 @@
         <out>
             <p>Consolidated result</p>
             <xsl:for-each select="collection('../XML/lyrics')">
+                
+            </xsl:for-each>
                 <!-- Counts of various types of satire -->
                 <xsl:variable name="satire_pol" select="count(//satire[@type='political reference'])"/>
                 <xsl:variable name="satire_cult" select="count(//satire[@type='cultural reference'])"/>
@@ -91,7 +93,7 @@
                     <text x="500" y="140" fill = "purple">Explicit</text>
                     <text x="500" y="160" fill = "pink">Pun</text>
                 </svg>
-            </xsl:for-each>
+            
         </out>
     </xsl:template>
     
