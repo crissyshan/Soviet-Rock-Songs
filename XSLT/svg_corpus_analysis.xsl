@@ -160,8 +160,8 @@
                         </div>
                         <div class="Graph">
                             <h1>Frequency of Tagged Elements</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="610" width="500">
-                                <g transform="translate(200, 15)">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="610" width="1000">
+                                <g transform="translate(800, 15)">
                                     <line x1="0" x2="-400" y1="10" y2="10" stroke="black"
                                         stroke-width="1"/>
                                     <line x1="0" x2="0" y1="10" y2="{$y2_position}" stroke="black"
@@ -667,6 +667,10 @@
                                     <text x="500" y="160" fill="pink">Pun</text>
                                 </svg>
                             </div>
+                        <div id="Video">
+                            <h1>Video</h1>
+                            <xsl:apply-templates select="//video"/>
+                        </div>
                         </section>
                         </body></html>
             </xsl:result-document>
@@ -681,7 +685,11 @@
     <xsl:template match="l">
         <xsl:apply-templates></xsl:apply-templates><br></br>
     </xsl:template>
-
+    <xsl:template match="video">
+        <iframe width="420" height="315"
+            src="{.}">
+        </iframe>
+    </xsl:template>
     <!-- <xsl:result-document href="../Website/analysis_test.xhtml">
                    
             
