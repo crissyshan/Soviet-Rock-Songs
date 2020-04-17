@@ -158,7 +158,7 @@
                         <div id="Welcome">
                             <h1>Analysis of Data</h1>
                         </div>
-                        <div id="Graph">
+                        <div class="Graph">
                             <h1>Frequency of Tagged Elements</h1>
                             <svg xmlns="http://www.w3.org/2000/svg" height="610" width="500">
                                 <g transform="translate(200, 15)">
@@ -338,7 +338,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <div id="Graph">
+                        <div class="Graph">
                             <h1>Frequency of Protest References Over Time</h1>
                             <svg xmlns="http://www.w3.org/2000/svg" height="500" width="600">
                                 <!-- Line Graph for Protest -->
@@ -404,7 +404,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <div id="Graph">
+                        <div class="Graph">
                             <h1>Frequency of Satirical References Over Time</h1>
                             <svg xmlns="http://www.w3.org/2000/svg" height="500" width="600">
                                 <!-- Line Graph for Satire -->
@@ -588,7 +588,7 @@
                                 <h2><xsl:value-of select="//artist"/>, <xsl:value-of select="//year"/></h2>
                                 <p><xsl:apply-templates select="//lyrics"/></p>
                             </div>
-                            <div id="Graph">
+                            <div class="Graph">
                                 <h1>~Figurative Language Content~</h1>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="500" width="800">
                                     <g transform="translate(0,500)">

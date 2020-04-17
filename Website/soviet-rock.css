@@ -122,7 +122,7 @@ header{
     color: black
 }
 
-#Graph {
+.Graph {
     background-color: #eaeaea;
     display: flex;
     justify-content: center;
@@ -135,7 +135,7 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#Graph > h1 {
+.Graph > h1 {
     font-weight: bold;
     font-family: arial, helvetica, sans-serif;
     font-size: 20px;
