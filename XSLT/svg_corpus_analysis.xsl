@@ -587,6 +587,10 @@
                                 <h1>~<xsl:value-of select="//title"/>~</h1>
                                 <h2><xsl:value-of select="//artist"/>, <xsl:value-of select="//year"/></h2>
                                 <p><xsl:apply-templates select="//lyrics"/></p>
+                                <div id="Video">
+                                    <h1>Video</h1>
+                                    <xsl:apply-templates select="//video"/>
+                                </div>
                             </div>
                             <div class="Graph">
                                 <h1>~Figurative Language Content~</h1>
@@ -667,10 +671,6 @@
                                     <text x="500" y="160" fill="pink">Pun</text>
                                 </svg>
                             </div>
-                        <div id="Video">
-                            <h1>Video</h1>
-                            <xsl:apply-templates select="//video"/>
-                        </div>
                         </section>
                         </body></html>
             </xsl:result-document>
