@@ -159,18 +159,17 @@
                             <h1>Analysis of Data</h1>
                         </div>
                         <div id="Graph">
-                            <h1>Frequency of Tagged Elements</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="610" width="500">
-                                <g transform="translate(200, 15)">
-                                    <line x1="0" x2="-400" y1="10" y2="10" stroke="black"
+                            <h1>Frequency of References</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="400" width="1000">
+                                <g transform="translate(800, 15)">
+                                    <line x1="0" x2="-800" y1="10" y2="10" stroke="black"
                                         stroke-width="1"/>
                                     <line x1="0" x2="0" y1="10" y2="{$y2_position}" stroke="black"
                                         stroke-width="1"/>
                                     <rect x="88" y="98" stroke="black" fill="white"
                                         stroke-width="0.5" width="15" height="100"/>
                                     <text x="-{$y2_position div 2}" y="100" text-anchor="middle"
-                                        transform="rotate(-90)" font-size="14" fill="black">Elements
-                                        Tagged</text>
+                                        transform="rotate(-90)" font-size="14" fill="black">Reference Name</text>
                                     <rect x="-150" y="-10" stroke="black" fill="white"
                                         stroke-width="0.5" width="100" height="15"/>
                                     <text x="-100" y="0" text-anchor="middle" font-size="14"
