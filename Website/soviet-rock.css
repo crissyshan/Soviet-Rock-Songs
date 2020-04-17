@@ -164,6 +164,14 @@ header{
     color: black
 }
 
+#Lyrics > h2 {
+    font-weight: bold;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 15px;
+    font-size: 2.5vmin;
+    color: black
+}
+
 #section0 {
     display:flex;
     flex-direction:row;

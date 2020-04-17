@@ -585,6 +585,7 @@
                         <section id="section0">
                             <div id="Lyrics">
                                 <h1>~<xsl:value-of select="//title"/>~</h1>
+                                <h2><xsl:value-of select="//artist"/>, <xsl:value-of select="//year"/></h2>
                                 <p><xsl:apply-templates select="//lyrics"/></p>
                             </div>
                             <div id="Graph">
