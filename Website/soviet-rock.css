@@ -171,6 +171,20 @@ header{
     font-size: 2.5vmin;
     color: black
 }
+#Video {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+
+#Video > h1 {
+    font-weight: bold;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 20px;
+    font-size: 3vmin;
+    color: black
+}
 
 #section0 {
     display:flex;
