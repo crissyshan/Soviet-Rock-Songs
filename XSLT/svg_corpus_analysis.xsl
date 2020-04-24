@@ -524,50 +524,52 @@
                             <div class="dropdown">
                                 <button id="tab11">1980</button>
                                 <div class="dropdown-content">
-                                    <a href="ne-strelyai.xhtml">Ne Strelyai</a>
-                                    <a href="povorot.xhtml">Povorot</a>
+                                    <a href="ne-strelyai.xhtml">Не стреляй!</a>
+                                    <a href="povorot.xhtml">Поворот</a>
                                 </div>
                             </div>
                             <div class="dropdown">
                                 <button id="tab12">1981</button>
-                                <div class="dropdown-content"> </div>
+                                <div class="dropdown-content"> 
+                                    <a href="skachki.xhtml">Скачки</a>
+                                </div>
                             </div>
                             <div class="dropdown">
                                 <button id="tab13">1982</button>
                                 <div class="dropdown-content">
-                                    <a href="prosti-zemlya.xhtml">Prosti Zemlya</a>
+                                    <a href="prosti-zemlya.xhtml">Прости Земля!</a>
                                 </div>
                             </div>
                             <div class="dropdown">
                                 <button id="tab14">1983</button>
                                 <div class="dropdown-content">
-                                    <a href="kamchatka.xhtml">Kamchatka</a>
+                                    <a href="kamchatka.xhtml">Камчатка</a>
                                 </div>
                             </div>
                             <div class="dropdown">
                                 <button id="tab15">1984</button>
                                 <div class="dropdown-content">
-                                    <a href="storozh_sergeev.xhtml">Storozh Sergeev</a>
+                                    <a href="storozh_sergeev.xhtml">Сторож Сергеев</a>
                                 </div>
                             </div>
                             <div class="dropdown">
                                 <button id="tab16">1985</button>
                                 <div class="dropdown-content">
-                                    <a href="komarovo.xhtml">Komarovo</a>
+                                    <a href="komarovo.xhtml">Комарово</a>
                                 </div>
                             </div>
                             <div class="dropdown">
                                 <button id="tab17">1986</button>
                                 <div class="dropdown-content">
-                                    <a href="v_dobriy_chas.xhtml">V Dobriy Chas</a>
-                                    <a href="vladimirskaya-rus.xhtml">Vladimirskaya Rus</a>
+                                    <a href="v_dobriy_chas.xhtml">В добрый час</a>
+                                    <a href="vladimirskaya-rus.xhtml">Владимирская русь</a>
                                 </div>
                             </div>
                             <div class="dropdown">
                                 <button id="tab18">1987</button>
                                 <div class="dropdown-content">
-                                    <a href="listya.xhtml">Listya</a>
-                                    <a href="shar_tsveta.xhtml">Shar Tsveta Khaki</a>
+                                    <a href="listya.xhtml">Листья</a>
+                                    <a href="shar_tsveta.xhtml">Шар цвета хаки</a>
                                 </div>
                             </div>
                             <div class="dropdown">
