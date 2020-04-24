@@ -593,7 +593,7 @@
                             </div>
                             <div class="Graph">
                                 <h1>~Figurative Language Content~</h1>
-                                <svg xmlns="http://www.w3.org/2000/svg" height="500" width="800">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="500" width="675">
                                     <g transform="translate(0,500)">
                                         <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
                                             stroke-width="3"/>
@@ -673,7 +673,7 @@
                             <xsl:variable name="max_graph2" select="max((count(//apathy-DI), count(//hope), 1)) div 400"/>
                             <xsl:variable name="apathy-DI_graph2" select="count(//apathy-DI)"/>
                                 <xsl:variable name="hope_graph2" select="count(//hope)"/>
-                                <svg xmlns="http://www.w3.org/2000/svg" height="500" width="800">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="500" width="675">
                                 <g transform="translate(0,500)">
                                     <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
                                         stroke-width="3"/>
