@@ -761,7 +761,7 @@
                                             x="{$horizontal2}"
                                             y="{-$protest_exp div $max - ($protest_pol div $max) - ($protest_cult div $max) - ($protest_sym div $max) - ($protest_met div $max) - ($protest_analogy div $max) - 50}"
                                             fill="purple"/>
-                                        <text x="250" y="15" text-anchor="middle" transform="rotate(-90)"
+                                        <text x="250" y="20" text-anchor="middle" transform="rotate(-90)"
                                             >Number of occurences</text>
                                     </g>
                                     <text x="450" y="20" fill="black">Key:</text>
@@ -812,7 +812,7 @@
                                         y="{-$apathy-DI_graph2 div $max_graph2 - 50}" fill="red"><title>Apathy/Disillusionment</title></rect>
                                     <rect width="100" height="{$hope_graph2 div $max_graph2}"
                                         x="{$horizontal2}" y="{-$hope_graph2 div $max_graph2 - 50}" fill="blue"><title>Hope</title></rect>
-                                    <text x="250" y="15" text-anchor="middle" transform="rotate(-90)"
+                                    <text x="250" y="20" text-anchor="middle" transform="rotate(-90)"
                                         >Number of occurences</text>
                                 </g>
                                 <text x="450" y="20" fill="black">Key:</text>
@@ -858,7 +858,7 @@
                                             y="{-$change_graph3 div $max_graph3 - 50}" fill="red"><title>Change</title></rect>
                                         <rect width="100" height="{$time_graph3 div $max_graph3}"
                                             x="{$horizontal2}" y="{-$time_graph3 div $max_graph3 - 50}" fill="blue"><title>Time</title></rect>
-                                        <text x="250" y="15" text-anchor="middle" transform="rotate(-90)"
+                                        <text x="250" y="20" text-anchor="middle" transform="rotate(-90)"
                                             >Number of occurences</text>
                                     </g>
                                     <text x="450" y="20" fill="black">Key:</text>
