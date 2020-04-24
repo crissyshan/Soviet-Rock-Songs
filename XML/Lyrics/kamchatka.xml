@@ -13,7 +13,7 @@
         <outlook>neutral</outlook>
         
         <verse>
-            <l>О-o, это <absurdism level="low">странное место</absurdism> Камчатка</l>
+            <l>О-o, это странное место Камчатка</l>
             <l>О-o, это <satire type= "cultural reference" confidence = "low">сладкое слово</satire> "Камчатка"</l>
             <l>Но на этой <nature>земле</nature> <apathy-DI>я не вижу тебя</apathy-DI></l>
             <l><apathy-DI>Я не вижу</apathy-DI> твоих <industry>кораблей</industry></l>
@@ -22,19 +22,19 @@
         </verse>
         
         <verse>
-            <l>О-o, это <absurdism level="low">странное место</absurdism> Камчатка</l>
+            <l>О-o, это странное место Камчатка</l>
             <l>О-o, это <satire type = "cultural reference" confidence = "low">сладкое слово</satire> "Камчатка"</l>
             <l>Я нашел здесь <nature ref="resource">руду</nature>, я нашел здесь <self ref="love">любовь</self></l>
             <l>Я <self ref="memory">пытаюсь забыть</self>, <self ref="memory">забываю</self> и <time>вновь</time></l>
-            <l><self ref="memory">Вспоминаю</self> <nature>собаку</nature>, она, как <soviet-symbol>звезда</soviet-symbol></l>
+            <l><self ref="memory">Вспоминаю</self> <absurdism level="medium"><nature>собаку</nature></absurdism>, она, как <soviet-symbol><nature ref="cosmos">звезда</nature></soviet-symbol></l>
             <l><apathy-DI>Ну и пусть...</apathy-DI></l>
         </verse>
         
         <verse>
-            <l>О-o, это <absurdism level="low">странное место</absurdism> Камчатка</l>
+            <l>О-o, это странное место Камчатка</l>
             <l>О-o, это <satire type = "cultural reference" confidence = "low">сладкое слово</satire> "Камчатка"</l>
             <l><apathy-DI>Я не вижу здесь их,</apathy-DI> <self ref="loneliness">я не вижу здесь нас</self></l>
-            <l>Я искал здесь <subst ref="alcohol">вино</subst>, а нашел <eastern>третий глаз</eastern></l>
+            <l>Я искал здесь <subst ref="alcohol">вино</subst>, а нашел <absurdism level="low"><eastern>третий глаз</eastern></absurdism></l>
             <l><industry ref="labor">Мои руки из <nature ref="resource">дуба</nature>, голова из <nature ref="resource">свинца</nature></industry></l>
             <l><apathy-DI>Ну и пусть...</apathy-DI></l>
         </verse>

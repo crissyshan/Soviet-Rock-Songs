@@ -85,7 +85,7 @@ industry =
 change = element change { text }
 time = element time { text }
 eastern = element eastern { text }
-soviet-symbol = element soviet-symbol { text }
+soviet-symbol = element soviet-symbol { nature?, text }
 protest =
     element protest {
         mixed { (type | confidence | defense

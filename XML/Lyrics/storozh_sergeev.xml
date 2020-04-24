@@ -25,7 +25,7 @@
         <l><community>Друзья</community> пришли к нему <apathy-DI>неспроста</apathy-DI>,</l>
         <l>Пройдя не одну версту.</l>
         <l>Они желают видеть его</l>
-        <l><self ref="values">На боевом посту.</self></l>
+        <l>На <defense>боевом посту</defense>.</l>
         <l><satire type="explicit" confidence = "high">И сторож Сергеев, презрев свой долг,</satire></l>
         <l>Ловит беседы нить;</l>
         <l>И ставит стулья <community>друзьям</community> своим,</l>
@@ -51,6 +51,6 @@
         <l>И он, трясясь, <change>выходит за дверь</change>,</l>
         <l><apathy-DI>Не зная еще куда</apathy-DI>;</l>
         <l>Желает <subst ref="alcohol">пива</subst> и лечь поспать</l>
-        <l><satire type="cultural reference" confidence="high">Скромный герой труда.</satire></l>
+        <l><satire type="cultural reference" confidence="high">Скромный <soviet-symbol>герой труда</soviet-symbol>.</satire></l>
     </verse></lyrics>
 </song>

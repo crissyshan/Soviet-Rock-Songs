@@ -9,11 +9,11 @@
         <video>https://www.youtube.com/embed/UYIHHzvZHxY</video>
     </details>
     <lyrics>
-        <outlook>neutral</outlook>
+        <outlook>negative</outlook>
 <verse><l><nature ref="resource">Деревянные</nature> <community ref="religion">церкви</community> <community ref="nation">Руси</community></l>
 <l>Перекошены <time>древние</time> стены</l>
 <l>Подойди и о многом спроси</l>
-<l>В этих срубах есть <community>сердце и вены</community></l></verse>
+    <l>В этих срубах есть <self ref="soul">сердце</self> и вены</l></verse>
 
 <verse><l><protest type="political reference" confidence = "low">Заколочено накрест окно</protest></l>
 <l>Молчаливо убого убранство</l>
@@ -21,7 +21,7 @@
 <l>Мерить <self ref="soul">душу</self> с простым <time>постоянством</time></l></verse>
 
 <verse><l>Левитан оставался один</l>
-<l><protest type="political reference" confidence = "low">Если кисть замирала в застое</protest></l>
+<l>Если кисть замирала в застое</l>
 <l>И тогда среди многих картин</l>
 <l>Вдруг рождалось "над вечным покоем"</l></verse>
 
@@ -31,19 +31,19 @@
 <l>На <nature>былинно-бескрайнем просторе</nature></l></verse>
 
 <verse><l><community ref="nation">Старорусский</community> <community ref="folk">народный обряд</community></l>
-<l><community ref="humanity">Неподкупная <self ref="pride">гордость</self> людская</community></l>
+<l>Неподкупная <self ref="pride">гордость</self> людская</l>
 <l><nature ref="resource">Деревянные</nature> <community ref="religion">церкви</community> стоят</l>
 <l>Это <self ref="life">жизнь <time>без конца</time> и без края</self></l></verse>
 
 <verse><l><nature ref="resource">Деревянные</nature> <community ref="religion">церкви</community> <community ref="nation">Руси</community></l>
 <l>Перекошены <time>древние</time> стены</l>
 <l>Подойди и о многом спроси</l>
-<l>В этих срубах есть <community>сердце и вены</community></l></verse>
+<l>В этих срубах есть <self ref="soul">сердце</self> и вены</l></verse>
 
         <verse><l><nature ref="resource">Деревянные</nature> <community ref="religion">церкви</community> <community ref="nation">Руси</community></l>
 <l>Перекошены <time>древние</time> стены</l>
 <l>Подойди и о многом спроси</l>
-<l>В этих срубах есть <community>сердце и вены</community></l></verse>
+<l>В этих срубах есть <self ref="soul">сердце</self> и вены</l></verse>
 
-<verse><l>Есть <self ref="soul">сердце</self>, <community>сердце и вены</community>.</l></verse>
+        <verse><l>Есть <self ref="soul">сердце</self>, <self ref="soul">сердце</self> и вены.</l></verse>
 </lyrics></song>

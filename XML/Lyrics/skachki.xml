@@ -8,30 +8,72 @@
         <video>https://www.youtube.com/embed/xBsl8_JqFt8</video>
     </details>
     <lyrics>
-<verse>
-<l><time>Снова старт</time>, он взят и <change>нет пути назад</change>, </l>
-<l>И по кругу <nature>кони</nature> мчат, почти летят. </l>
-<l><time>Вот опять</time> я опоздал на <change>поворот</change>: </l>
-<l><self ref="uncertainty">Подо мною <nature>конь</nature> чужой и <nature>конь</nature> не тот.</self></l></verse>
+        <verse>
+            <l><time>Снова старт</time>, он взят и <change>нет пути назад</change>, </l>
+            <l>И по кругу <nature>кони</nature> мчат, почти летят. </l>
+            <l><time>Вот опять</time> я опоздал на <change>поворот</change>: </l>
+            <l>
+                <self ref="uncertainty">Подо мною <nature>конь</nature> чужой и
+                        <nature>конь</nature> не тот.</self>
+            </l>
+        </verse>
+
+        <verse>
+            <l>Оттого-то в скачках наших буйных дней </l>
+            <l>Ставят все не на <community>людей</community> а на <nature>коней</nature>.</l>
+            <l>Отчего же в этот <time>час</time>, тяжелый <time>час</time>, </l>
+            <l>
+                <self ref="uncertainty">Наши кони <time>не всегда</time> находят нас?</self>
+            </l>
+        </verse>
+
+        <verse>
+            <l>
+                <hope>А все могло бы быть совсем не так,</hope>
+            </l>
+            <l>Если <self ref="conscious">только сам себе не враг,</self>
+            </l>
+            <l>И не <apathy-DI>нужно никому</apathy-DI> <satire type="cultural reference">чужих саней.</satire> </l>
+            <l>Это был бы <self ref="dream">сон</self>, <self ref="dream">волшебный сон</self>, </l>
+            <l>Каждый был бы <self ref="pride">просто <soviet-symbol>чемпион</soviet-symbol></self>, </l>
+            <l>Если мог бы выбирать себе коней.</l>
+        </verse>
+
+        <verse>
+            <l>Мне <time>всегда</time>
+                <time>во все года</time> с <nature>конем</nature>
+                <self ref="luck">везло</self>, </l>
+            <l>Но везенье непростое ремесло. </l>
+            <l>И <time>когда пройдет <self ref="luck">удача</self> стороной</time> – </l>
+            <l>На моем <nature>коне</nature> окажется другой.</l>
+        </verse>
+
+        <verse>
+            <l>
+                <hope>А все могло бы быть совсем не так,</hope>
+            </l>
+            <l>Если <self ref="conscious">только сам себе не враг,</self>
+            </l>
+            <l>И не <apathy-DI>нужно никому</apathy-DI> <satire type="cultural reference">чужих саней.</satire> </l>
+            <l>Это был бы <self ref="dream">сон</self>, <self ref="dream">волшебный сон</self>, </l>
+            <l>Каждый был бы <self ref="pride">просто <soviet-symbol>чемпион</soviet-symbol></self>, </l>
+            <l>Если мог бы выбирать себе коней.</l>
+        </verse>
+
+        <verse>
+            <l>
+                <hope>А все могло бы быть совсем не так,</hope>
+            </l>
+            <l>Если <self ref="conscious">только сам себе не враг,</self>
+            </l>
+            <l>И не <apathy-DI>нужно никому</apathy-DI> <satire type="cultural reference">чужих саней.</satire> </l>
+            <l>Это был бы <self ref="dream">сон</self>, <self ref="dream">волшебный сон</self>, </l>
+            <l>Каждый был бы <self ref="pride">просто <soviet-symbol>чемпион</soviet-symbol></self>, </l>
+            <l>Если мог бы выбирать себе коней.</l>
+            <l>Если мог бы выбирать себе коней.</l>
+            <l>Если мог бы выбирать себе коней.</l>
+        </verse>
         
-<verse>
-<l>Оттого-то в скачках наших буйных дней </l>
-<l>Ставят все не на <community>людей</community> а на <nature>коней</nature>.</l>
-<l>Отчего же в этот <time>час</time>, тяжелый <time>час</time>, </l>
-<l><self ref="uncertainty">Наши кони <time>не всегда</time> находят нас?</self></l></verse>
-        
-<verse>
-<l><hope>А все могло бы быть совсем не так,</hope> </l>
-<l>Если <self ref="conscious">только сам себе не враг,</self> </l>
-<l>И не нужно никому чужих саней. </l>
-<l>Это был бы <self ref="dream">сон</self>, <self ref="dream">волшебный сон</self>, </l>
-<l>Каждый был бы <self ref="pride">просто чемпион</self>, </l>
-<l>Если мог бы выбирать себе коней.</l></verse>
-        
-<verse>
-<l>Мне <time>всегда</time> <time>во все года</time> с <nature>конем</nature> <self ref="luck">везло</self>, </l>
-<l>Но везенье непростое ремесло. </l>
-<l>И <time>когда пройдет <self ref="luck">удача</self> стороной</time> – </l>
-<l>На моем <nature>коне</nature> окажется другой.</l></verse>
+
     </lyrics>
 </song>

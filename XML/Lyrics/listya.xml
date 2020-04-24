@@ -11,7 +11,7 @@
     <lyrics>
         <outlook>negative</outlook>
         
-        <verse><l>С <nature>ветки</nature> <nature>падающий лист</nature></l>
+<verse><l>С <nature>ветки</nature> <nature>падающий лист</nature></l>
 <l>В <time>день</time> <nature>осенний золотист</nature></l>
 <l>Он по <nature>воздуху</nature> кружится</l>
 <l>И танцует как артист</l>
@@ -21,7 +21,7 @@
 <l><self ref="loneliness">Он один</self> на весь <nature>простор</nature></l>
 <l>Он <subst ref="alcohol">пьянеет</subst> от <self ref="freedom">свободы</self></l>
 <l>И пылает как <nature>костер</nature></l>
-<l><self ref="loneliness">Он один</self> на весь <nature>простор</nature></l></verse>
+<l><self ref="loneliness">Он один</self> на весь простор</l></verse>
 
 <verse>
 <l>Если б <nature>листья</nature> знать могли</l>
@@ -35,8 +35,8 @@
 <l><self ref="freedom">Сердцу мил свободы час</self></l>
 <l><protest type="explicit">И <hope>порой не жалко <self ref="life">жизни</self></hope></protest></l>
 <l>Чтоб хлебнуть ее <time>хоть раз</time></l>
-<l>Так для каждого из нас</l>
-<l>Так для каждого из нас</l></verse>
+<l><protest type="explicit">Так для каждого из нас</protest></l>
+<l><protest type="explicit">Так для каждого из нас</protest></l></verse>
 
 <verse><l>Если б <nature>листья</nature> знать могли</l>
 <l>Если б <nature>листья</nature> знать могли</l></verse>

@@ -12,7 +12,7 @@
 <verse><l><change>Меняется</change> все в наш <change>век перемен</change></l>
 <l><change>Меняется звук</change>, <change>меняется слог</change> и спето про все</l>
 <l>Но <change>выйди за дверь</change></l>
-<l><satire type = "political reference" confidence = "medium">как много вокруг забытых дорог</satire></l></verse>
+<l>как много вокруг забытых дорог</l></verse>
 
 <verse><l><hope>В добрый час</hope> <community>друзья</community> <hope>в добрый час</hope></l>
 <l><hope>Наши дни не зря эти дни</hope></l>
@@ -20,9 +20,9 @@
 <l>Знаю я что <hope>мы не одни</hope></l></verse>
 
 <verse><l><protest type="metaphor" confidence = "low">Пусть как никогда натянута нить</protest></l>
-<l><self ref="fear">не стоит бежать, не стоит робеть</self></l>
+<l><self ref="fear">не стоит бежать, не стоит <self ref="fear">робеть</self></self></l>
 <l><time>Так было всегда</time> <self ref="honesty">легко говорить</self></l>
-<l><satire type="political reference" confidence = "low">Труднее сыграть особенно спеть</satire></l></verse>
+<l>Труднее сыграть особенно спеть</l></verse>
 
 <verse><l><hope>В добрый час</hope> <community>друзья</community> <hope>в добрый час</hope></l>
 <l><hope>Наши дни не зря эти дни</hope></l>

@@ -24,15 +24,15 @@
             <l>Вот, <change>новый поворот</change>,</l>
             <l>И <industry ref="tech">мотор</industry> ревет,</l>
             <l>Что он нам несет?</l>
-            <l><nature>Пропасть</nature> и <hope>взлет</hope>?</l>
-            <l><nature>Омут</nature> или <nature>брод</nature>?</l>
+            <l><apathy-DI>Пропасть</apathy-DI> или <hope>взлет</hope>?</l>
+            <l><apathy-DI>Омут</apathy-DI> или <hope>брод</hope>?</l>
             <l>Ты не разберешь</l>
             <l><change>Пока не повернешь.</change></l>
         </verse>
         <verse>
             <l>И <hope><self ref="fear">пугаться</self> нет причины</hope>,</l>
-            <l>Если вы еще мужчины,</l>
-            <l>Вы. <hope>Кое в чем <self>сильны</self>!</hope></l>
+            <l><satire type="explicit">Если вы еще мужчины,</satire></l>
+            <l><satire type="explicit">Вы. <hope>Кое в чем <self>сильны</self>!</hope></satire></l>
             <l><change>Выезжайте за ворота,</change></l>
             <l>И <hope><self ref="fear">не бойтесь</self>
                 <change>поворота</change></hope>,</l>
@@ -42,8 +42,8 @@
             <l>Вот, <change>новый поворот</change>,</l>
             <l>И <industry ref="tech">мотор</industry> ревет,</l>
             <l>Что он нам несет?</l>
-            <l><nature>Пропасть</nature> и <hope>взлет</hope>?</l>
-            <l><nature>Омут</nature> или <nature>брод</nature>?</l>
+            <l><apathy-DI>Пропасть</apathy-DI> или <hope>взлет</hope>?</l>
+            <l><apathy-DI>Омут</apathy-DI> или <hope>брод</hope>?</l>
             <l>Ты не разберешь</l>
             <l><change>Пока не повернешь.</change></l>
         </verse>
@@ -51,8 +51,8 @@
             <l>Вот, <change>новый поворот</change>,</l>
             <l>И <industry ref="tech">мотор</industry> ревет,</l>
             <l>Что он нам несет?</l>
-            <l><nature>Пропасть</nature> и <hope>взлет</hope>?</l>
-            <l><nature>Омут</nature> или <nature>брод</nature>?</l>
+            <l><apathy-DI>Пропасть</apathy-DI> или <hope>взлет</hope>?</l>
+            <l><apathy-DI>Омут</apathy-DI> или <hope>брод</hope>?</l>
             <l>Ты не разберешь</l>
             <l><change>Пока не повернешь</change>.</l>
             <l><change>Пока не повернешь</change>.</l>

@@ -28,9 +28,9 @@
 <verse><l><time>На недельку, до второго</time></l>
 <l>Я уеду в <community>Комарово</community></l>
 <l>Где качается на <nature>дюнах</nature></l>
-<l><industry>Шереметьевский баркас</industry></l>
+<l><industry ref="infrastructure">Шереметьевский баркас</industry></l>
 <l>И у вас в <nature>карельских скалах</nature></l>
-<l>На <self ref="values">общественных началах</self></l>
+<l>На <community ref="humanity">общественных началах</community></l>
 <l>Если только захотите</l>
 <l><absurdism level="low">Будет личный водолаз</absurdism></l></verse>
 
@@ -41,7 +41,7 @@
 
 <verse><l><time>На недельку, до второго</time></l>
 <l>Я уеду в <community>Комарово</community></l>
-<l>На <time>воскресной</time> <industry>электричке</industry></l>
+<l>На <time>воскресной</time> <industry ref="infrastructure">электричке</industry></l>
 <l>К вам на <nature>краешек земли</nature></l>
 <l>Водолазы ищут клады</l>
 <l>Только <self ref="values">кладов мне не надо</self></l>
