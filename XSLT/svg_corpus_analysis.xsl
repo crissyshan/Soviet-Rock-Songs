@@ -8,6 +8,7 @@
     <!-- ================================================================ -->
 
     <xsl:template name="xsl:initial-template">
+        <xsl:variable name="total-songs" select="count(collection('../XML/Lyrics'))"/>
         <xsl:variable name="apathy-DI" select="count(collection('../XML/Lyrics')//apathy-DI)"/>
         <xsl:variable name="change" select="count(collection('../XML/Lyrics')//change)"/>
         <xsl:variable name="hope" select="count(collection('../XML/Lyrics')//hope)"/>
@@ -134,6 +135,94 @@
             select="count(collection('../XML/Lyrics')[//year = 1989]//satire)"/>
         <xsl:variable name="maximums"
             select="max(($s1980, $s1981, $s1982, $s1983, $s1984, $s1985, $s1986, $s1987, $s1988, $s1989))"/>
+        <xsl:variable name="h1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//hope)"/>
+        <xsl:variable name="h1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//hope)"/>
+        <xsl:variable name="h1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//hope)"/>
+        <xsl:variable name="h1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//hope)"/>
+        <xsl:variable name="h1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//hope)"/>
+        <xsl:variable name="h1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//hope)"/>
+        <xsl:variable name="h1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//hope)"/>
+        <xsl:variable name="h1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//hope)"/>
+        <xsl:variable name="h1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//hope)"/>
+        <xsl:variable name="h1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//hope)"/>
+        <xsl:variable name="maximumh"
+            select="max(($h1980, $h1981, $h1982, $h1983, $h1984, $h1985, $h1986, $h1987, $h1988, $h1989))"/>
+        <xsl:variable name="a1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//apathy-DI)"/>
+        <xsl:variable name="a1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//apathy-DI)"/>
+        <xsl:variable name="a1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//apathy-DI)"/>
+        <xsl:variable name="a1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//apathy-DI)"/>
+        <xsl:variable name="a1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//apathy-DI)"/>
+        <xsl:variable name="a1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//apathy-DI)"/>
+        <xsl:variable name="a1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//apathy-DI)"/>
+        <xsl:variable name="a1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//apathy-DI)"/>
+        <xsl:variable name="a1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//apathy-DI)"/>
+        <xsl:variable name="a1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//apathy-DI)"/>
+        <xsl:variable name="maximuma"
+            select="max(($a1980, $a1981, $a1982, $a1983, $a1984, $a1985, $a1986, $a1987, $a1988, $a1989))"/>
+        <xsl:variable name="c1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//protest)"/>
+        <xsl:variable name="c1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//protest)"/>
+        <xsl:variable name="c1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//protest)"/>
+        <xsl:variable name="c1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//protest)"/>
+        <xsl:variable name="c1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//protest)"/>
+        <xsl:variable name="c1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//protest)"/>
+        <xsl:variable name="c1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//protest)"/>
+        <xsl:variable name="c1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//protest)"/>
+        <xsl:variable name="c1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//protest)"/>
+        <xsl:variable name="c1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//protest)"/>
+        <xsl:variable name="maximumc"
+            select="max(($c1980, $c1981, $c1982, $c1983, $c1984, $c1985, $c1986, $c1987, $c1988, $c1989))"/>
+        <xsl:variable name="t1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//satire)"/>
+        <xsl:variable name="t1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//satire)"/>
+        <xsl:variable name="t1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//satire)"/>
+        <xsl:variable name="t1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//satire)"/>
+        <xsl:variable name="t1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//satire)"/>
+        <xsl:variable name="t1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//satire)"/>
+        <xsl:variable name="t1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//protest)"/>
+        <xsl:variable name="t1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//satire)"/>
+        <xsl:variable name="t1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//satire)"/>
+        <xsl:variable name="t1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//satire)"/>
+        <xsl:variable name="maximumt"
+            select="max(($t1980, $t1981, $t1982, $t1983, $t1984, $t1985, $t1986, $t1987, $t1988, $t1989))"/>
         <xsl:result-document href="../Website/analysis.xhtml">
             <html>
                 <head>
@@ -158,21 +247,16 @@
                             <h1>Analysis of Data</h1>
                         </div>
                         <div class="Graph">
-                            <h1>Frequency of Tagged Elements</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="610" width="1000">
+                            <h1>Frequency of Tagged Elements (hover for details)</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="310" width="1000">
                                 <g transform="translate(800, 15)">
-                                    <line x1="0" x2="-400" y1="10" y2="10" stroke="black"
+                                    <line x1="0" x2="-900" y1="10" y2="10" stroke="black"
                                         stroke-width="1"/>
                                     <line x1="0" x2="0" y1="10" y2="{$y2_position}" stroke="black"
                                         stroke-width="1"/>
-                                    <rect x="88" y="98" stroke="black" fill="white"
-                                        stroke-width="0.5" width="15" height="100"/>
-                                    <text x="-{$y2_position div 2}" y="100" text-anchor="middle"
-                                        transform="rotate(-90)" font-size="14" fill="black">Elements
-                                        Tagged</text>
-                                    <rect x="-150" y="-10" stroke="black" fill="white"
-                                        stroke-width="0.5" width="100" height="15"/>
-                                    <text x="-100" y="0" text-anchor="middle" font-size="14"
+                                    <text x="-{$y2_position div 2}" y="120" text-anchor="middle"
+                                        transform="rotate(-90)" font-size="14" fill="black">Elements Tagged</text>
+                                    <text x="-400" y="0" text-anchor="middle" font-size="14"
                                         fill="black"># of Appearances</text>
                                     <rect x="-{$change * $multiplier}" y="12" stroke="black"
                                         fill="red" stroke-width="0.5"
@@ -188,8 +272,7 @@
                                     <rect x="-{$community * $multiplier}" y="52" stroke="black"
                                         fill="blue" stroke-width="0.5"
                                         width="{$community * $multiplier}" height="{$bar_width}"
-                                            ><title>Community (family, nation, religion, city,
-                                            friends, etc.)</title></rect>
+                                            ><title>Community (family, nation, religion, city, friends, etc.)</title></rect>
                                     <text x="5" y="60" text-anchor="start" font-size="10"
                                         fill="black">Community</text>
                                     <rect x="-{$protest * $multiplier}" y="72" stroke="black"
@@ -199,13 +282,11 @@
                                     <rect x="-{$protest_symbol_sum * $multiplier}" y="72"
                                         stroke="black" fill="orange" stroke-width="0.5"
                                         width="{$protest_symbol_sum * $multiplier}"
-                                        height="{$bar_width}"><title>protest type:
-                                        symbolism</title></rect>
+                                        height="{$bar_width}"><title>protest type: symbolism</title></rect>
                                     <rect x="-{$protest_metaphor * $multiplier}" y="72"
                                         stroke="black" fill="coral" stroke-width="0.5"
                                         width="{$protest_metaphor * $multiplier}"
-                                        height="{$bar_width}"><title>protest type:
-                                        metaphor</title></rect>
+                                        height="{$bar_width}"><title>protest type: metaphor</title></rect>
                                     <text x="5" y="80" text-anchor="start" font-size="10"
                                         fill="black">Protest</text>
                                     <rect x="-{$satire * $multiplier}" y="92" stroke="black"
@@ -220,8 +301,7 @@
                                     <rect x="-{$satire_political * $multiplier}" y="92"
                                         stroke="black" fill="tomato" stroke-width="0.5"
                                         width="{$satire_political * $multiplier}"
-                                        height="{$bar_width}"><title>satire type: political
-                                            reference</title></rect>
+                                        height="{$bar_width}"><title>satire type: political reference</title></rect>
                                     <text x="5" y="100" text-anchor="start" font-size="10"
                                         fill="black">Satire</text>
                                     <rect x="-{$apathy-DI * $multiplier}" y="112" stroke="black"
@@ -233,8 +313,7 @@
                                     <rect x="-{$nature * $multiplier}" y="132" stroke="black"
                                         fill="springgreen" stroke-width="0.5"
                                         width="{$nature * $multiplier}" height="{$bar_width}"
-                                            ><title>Nature (geography, environment, natural
-                                            resources, etc.) </title></rect>
+                                            ><title>Nature (geography, environment, natural resources, etc.) </title></rect>
                                     <text x="5" y="140" text-anchor="start" font-size="10"
                                         fill="black">Nature</text>
                                     <rect x="-{$self * $multiplier}" y="152" stroke="black"
@@ -252,8 +331,7 @@
                                     <rect x="-{$self_honesty_sum * $multiplier}" y="152"
                                         stroke="black" fill="lime" stroke-width="0.5"
                                         width="{$self_honesty_sum * $multiplier}"
-                                        height="{$bar_width}"><title>attribute:
-                                        honesty</title></rect>
+                                        height="{$bar_width}"><title>attribute: honesty</title></rect>
                                     <rect x="-{$self_life_sum * $multiplier}" y="152" stroke="black"
                                         fill="lightgreen" stroke-width="0.5"
                                         width="{$self_life_sum * $multiplier}" height="{$bar_width}"
@@ -269,8 +347,7 @@
                                     <rect x="-{$self_memory_sum * $multiplier}" y="152"
                                         stroke="black" fill="teal" stroke-width="0.5"
                                         width="{$self_memory_sum * $multiplier}"
-                                        height="{$bar_width}"><title>attribute:
-                                        memory</title></rect>
+                                        height="{$bar_width}"><title>attribute: memory</title></rect>
                                     <rect x="-{$self_pride_sum * $multiplier}" y="152"
                                         stroke="black" fill="aquamarine" stroke-width="0.5"
                                         width="{$self_pride_sum * $multiplier}"
@@ -296,15 +373,13 @@
                                     <rect x="-{$absurdism_high *$multiplier}" y="172" stroke="black"
                                         fill="lightcyan" stroke-width="0.5"
                                         width="{$absurdism_high * $multiplier}"
-                                        height="{$bar_width}"><title>absurdism level:
-                                        high</title></rect>
+                                        height="{$bar_width}"><title>absurdism level: high</title></rect>
                                     <text x="5" y="180" text-anchor="start" font-size="10"
                                         fill="black">Absurdism</text>
                                     <rect x="-{$industry * $multiplier}" y="192" stroke="black"
                                         fill="gray" stroke-width="0.5"
                                         width="{$industry * $multiplier}" height="{$bar_width}"
-                                            ><title>Indsutry (technology, labor, infrastructure,
-                                            innovation, etc.)</title></rect>
+                                            ><title>Indsutry (technology, labor, infrastructure, innovation, etc.)</title></rect>
                                     <text x="5" y="200" text-anchor="start" font-size="10"
                                         fill="black">Industry</text>
                                     <rect x="-{$soviet-symbol * $multiplier}" y="212" stroke="black"
@@ -316,22 +391,19 @@
                                     <rect x="-{$defense * $multiplier}" y="232" stroke="black"
                                         fill="orange" stroke-width="0.5"
                                         width="{$defense * $multiplier}" height="{$bar_width}"
-                                            ><title>Defense (violence, militarism, protection,
-                                            etc.)</title></rect>
+                                            ><title>Defense (violence, militarism, protection, etc.)</title></rect>
                                     <text x="5" y="240" text-anchor="start" font-size="10"
                                         fill="black">Defense</text>
                                     <rect x="-{$subst * $multiplier}" y="252" stroke="black"
                                         fill="navy" stroke-width="0.5"
                                         width="{$subst * $multiplier}" height="{$bar_width}"
-                                            ><title>Substances (drug and alcohol references,
-                                            etc.)</title></rect>
+                                            ><title>Substances (drug and alcohol references, etc.)</title></rect>
                                     <text x="5" y="260" text-anchor="start" font-size="10"
                                         fill="black">Substance</text>
                                     <rect x="-{$time * $multiplier}" y="272" stroke="black"
                                         fill="green" stroke-width="0.5"
                                         width="{$time * $multiplier}" height="{$bar_width}"
-                                            ><title>Time (future, passage of time, past, waiting,
-                                            etc.)</title></rect>
+                                            ><title>Time (future, passage of time, past, waiting, etc.)</title></rect>
                                     <text x="5" y="280" text-anchor="start" font-size="10"
                                         fill="black">Time</text>
                                 </g>
@@ -343,9 +415,9 @@
                                 <!-- Line Graph for Protest -->
                                 <g transform="translate(0, 500)">
                                     <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
-                                        stroke-width="3"/>
+                                        stroke-width="3" stroke-linecap="round"/>
                                     <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
-                                        stroke-width="3"/>
+                                        stroke-width="3" stroke-linecap="round"/>
                                     <text x="45" y="-50" text-anchor="end"> 0 </text>
                                     <text x="45" y="-250" text-anchor="end">
                                         <xsl:value-of select="$maximump div 2"/>
@@ -409,9 +481,9 @@
                                 <!-- Line Graph for Satire -->
                                 <g transform="translate(0, 500)">
                                     <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
-                                        stroke-width="3"/>
+                                        stroke-width="3" stroke-linecap="round"/>
                                     <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
-                                        stroke-width="3"/>
+                                        stroke-width="3" stroke-linecap="round"/>
                                     <text x="45" y="-50" text-anchor="end"> 0 </text>
                                     <text x="45" y="-250" text-anchor="end">
                                         <xsl:value-of select="$maximums div 2"/>
@@ -491,9 +563,9 @@
             <xsl:variable name="protest_met" select="count(//protest[@type = 'metaphor'])"/>
             <xsl:variable name="protest_analogy" select="count(//protest[@type = 'analogy'])"/>
             <xsl:variable name="protest_exp" select="count(//protest[@type = 'explicit'])"/>
-            <xsl:variable name="maximum" select="max((count(//satire), count(//protest), 1))"/>
+            <xsl:variable name="maximum" select="max(($maximums, $maximump, 1))"/>
             <!-- Sets maximum for vertical scale -->
-            <xsl:variable name="max" select="max((count(//satire), count(//protest), 1)) div 400"/>
+            <xsl:variable name="max" select="max(($maximums, $maximump, 1)) div 400"/>
             <!-- Used to scale heights in pixels -->
             <xsl:variable name="horizontal">100</xsl:variable>
             <!-- Position of bar 1 -->
@@ -597,17 +669,27 @@
                                 <h1>~Figurative Language Content~</h1>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="500" width="675">
                                     <g transform="translate(0,500)">
-                                        <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
-                                            stroke-width="3"/>
+                                        <line x1="50" y1="-50" x2="450" y2="-50" stroke="black"
+                                            stroke-width="3" stroke-linecap="round"/>
                                         <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
-                                            stroke-width="3"/>
-                                        <text x="45" y="-50" text-anchor="end"> 0 </text>
-                                        <text x="45" y="-250" text-anchor="end">
+                                            stroke-width="3" stroke-linecap="round"/>
+                                        <text font-size="12" x="45" y="-50" text-anchor="end"> 0 </text>
+                                        <text font-size="12" x="45" y="-150" text-anchor="end">
+                                            <xsl:value-of select="$maximum div 4"/>
+                                        </text>
+                                        <text font-size="12" x="45" y="-350" text-anchor="end">
+                                            <xsl:value-of select="$maximum * .75"/>
+                                        </text>
+                                        <text font-size="12" x="45" y="-250" text-anchor="end">
                                             <xsl:value-of select="$maximum div 2"/>
                                         </text>
-                                        <text x="45" y="-450" text-anchor="end">
+                                        <text font-size="12" x="45" y="-450" text-anchor="end">
                                             <xsl:value-of select="$maximum"/>
                                         </text>
+                                        <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-350" y2="-350" stroke="black"
+                                            stroke-width="3"/>
                                         <line x1="46" x2="53" y1="-250" y2="-250" stroke="black"
                                             stroke-width="3"/>
                                         <line x1="46" x2="53" y1="-450" y2="-450" stroke="black"
@@ -630,13 +712,13 @@
                                         <rect width="100" height="{$satire_analogy div $max}"
                                             x="{$horizontal}"
                                             y="{-$satire_analogy div $max  - ($satire_pol div $max) - ($satire_cult div $max) - ($satire_sym div $max) - ($satire_met div $max) - 50}"
-                                            fill="orange"/>
+                                            fill="brown"/>
                                         <rect width="100" height="{$satire_exp div $max}" x="{$horizontal}"
                                             y="{-$satire_exp div $max - ($satire_pol div $max) - ($satire_cult div $max) - ($satire_sym div $max) - ($satire_met div $max) - ($satire_analogy div $max) - 50}"
                                             fill="purple"/>
                                         <rect width="100" height="{$satire_pun div $max}" x="{$horizontal}"
                                             y="{-$satire_pun div $max - ($satire_pol div $max) - ($satire_cult div $max) - ($satire_sym div $max) - ($satire_met div $max) - ($satire_analogy div $max) - ($satire_pun div $max) - 50}"
-                                            fill="pink"/>
+                                            fill="magenta"/>
                                         <rect width="100" height="{$protest_pol div $max}"
                                             x="{$horizontal2}" y="{-$protest_pol div $max - 50}" fill="blue"/>
                                         <rect width="100" height="{$protest_cult div $max}"
@@ -662,32 +744,42 @@
                                         <text x="250" y="15" text-anchor="middle" transform="rotate(-90)"
                                             >Number of occurences</text>
                                     </g>
-                                    <text x="500" y="20" fill="black">Key:</text>
-                                    <text x="500" y="40" fill="blue">Political Reference</text>
-                                    <text x="500" y="60" fill="red">Cultural Reference</text>
-                                    <text x="500" y="80" fill="green">Symbolism</text>
-                                    <text x="500" y="100" fill="black">Metaphor</text>
-                                    <text x="500" y="120" fill="orange">Analogy</text>
-                                    <text x="500" y="140" fill="purple">Explicit</text>
-                                    <text x="500" y="160" fill="pink">Pun</text>
+                                    <text x="450" y="20" fill="black">Key:</text>
+                                    <text x="450" y="40" fill="blue">Political Reference</text>
+                                    <text x="450" y="60" fill="red">Cultural Reference</text>
+                                    <text x="450" y="80" fill="green">Symbolism</text>
+                                    <text x="450" y="100" fill="black">Metaphor</text>
+                                    <text x="450" y="120" fill="brown">Analogy</text>
+                                    <text x="450" y="140" fill="purple">Explicit</text>
+                                    <text x="450" y="160" fill="magenta">Pun</text>
                                 </svg>
-                            <xsl:variable name="maximum_graph2" select="max((count(//apathy-DI), count(//hope), 1))"/>
-                            <xsl:variable name="max_graph2" select="max((count(//apathy-DI), count(//hope), 1)) div 400"/>
+                            <xsl:variable name="maximum_graph2" select="max(($maximumh, $maximuma, 1))"/>
+                                <xsl:variable name="max_graph2" select="max(($maximumh, $maximuma, 1)) div 400"/>
                             <xsl:variable name="apathy-DI_graph2" select="count(//apathy-DI)"/>
-                                <xsl:variable name="hope_graph2" select="count(//hope)"/>
+                            <xsl:variable name="hope_graph2" select="count(//hope)"/>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="500" width="675">
                                 <g transform="translate(0,500)">
-                                    <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
-                                        stroke-width="3"/>
+                                    <line x1="50" y1="-50" x2="450" y2="-50" stroke="black"
+                                        stroke-width="3" stroke-linecap="round"/>
                                     <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
-                                        stroke-width="3"/>
-                                    <text x="45" y="-50" text-anchor="end"> 0 </text>
-                                    <text x="45" y="-250" text-anchor="end">
+                                        stroke-width="3" stroke-linecap="round"/>
+                                    <text font-size="12" x="45" y="-50" text-anchor="end"> 0 </text>
+                                    <text font-size="12" x="45" y="-150" text-anchor="end">
+                                        <xsl:value-of select="$maximum_graph2 div 4"/>
+                                    </text>
+                                    <text font-size="12" x="45" y="-350" text-anchor="end">
+                                        <xsl:value-of select="$maximum_graph2 * .75"/>
+                                    </text>
+                                    <text font-size="12" x="45" y="-250" text-anchor="end">
                                         <xsl:value-of select="$maximum_graph2 div 2"/>
                                     </text>
-                                    <text x="45" y="-450" text-anchor="end">
+                                    <text font-size="12" x="45" y="-450" text-anchor="end">
                                         <xsl:value-of select="$maximum_graph2"/>
                                     </text>
+                                    <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
+                                        stroke-width="3"/>
+                                    <line x1="46" x2="53" y1="-350" y2="-350" stroke="black"
+                                        stroke-width="3"/>
                                     <line x1="46" x2="53" y1="-250" y2="-250" stroke="black"
                                         stroke-width="3"/>
                                     <line x1="46" x2="53" y1="-450" y2="-450" stroke="black"
@@ -699,31 +791,41 @@
                                     <rect width="100" height="{$apathy-DI_graph2 div $max_graph2}" x="{$horizontal}"
                                         y="{-$apathy-DI_graph2 div $max_graph2 - 50}" fill="red"><title>Apathy/Disillusionment</title></rect>
                                     <rect width="100" height="{$hope_graph2 div $max_graph2}"
-                                        x="{$horizontal2}" y="{-$hope_graph2 div $max_graph2 - 50}" fill="yellow"><title>Hope</title></rect>
+                                        x="{$horizontal2}" y="{-$hope_graph2 div $max_graph2 - 50}" fill="blue"><title>Hope</title></rect>
                                     <text x="250" y="15" text-anchor="middle" transform="rotate(-90)"
                                         >Number of occurences</text>
                                 </g>
-                                <text x="500" y="20" fill="black">Key:</text>
-                                <text x="500" y="40" fill="red">Apathy/Disillusionment</text>
-                                <text x="500" y="60" fill="yellow">Hope</text>
+                                <text x="450" y="20" fill="black">Key:</text>
+                                <text x="450" y="40" fill="red">Apathy/Disillusionment</text>
+                                <text x="450" y="60" fill="blue">Hope</text>
                             </svg>
-                                <xsl:variable name="maximum_graph3" select="max((count(//change), count(//time), 1))"/>
-                                <xsl:variable name="max_graph3" select="max((count(//change), count(//time), 1)) div 400"/>
+                                <xsl:variable name="maximum_graph3" select="max(($maximumc, $maximumt, 1))"/>
+                                <xsl:variable name="max_graph3" select="max(($maximumc, $maximumt, 1)) div 400"/>
                                 <xsl:variable name="change_graph3" select="count(//change)"/>
                                 <xsl:variable name="time_graph3" select="count(//time)"/>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="500" width="675">
                                     <g transform="translate(0,500)">
-                                        <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
-                                            stroke-width="3"/>
+                                        <line x1="50" y1="-50" x2="450" y2="-50" stroke="black"
+                                            stroke-width="3" stroke-linecap="round"/>
                                         <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
-                                            stroke-width="3"/>
-                                        <text x="45" y="-50" text-anchor="end"> 0 </text>
-                                        <text x="45" y="-250" text-anchor="end">
+                                            stroke-width="3" stroke-linecap="round"/>
+                                        <text font-size="12" x="45" y="-50" text-anchor="end"> 0 </text>
+                                        <text font-size="12" x="45" y="-150" text-anchor="end">
+                                            <xsl:value-of select="$maximum_graph3 div 4"/>
+                                        </text>
+                                        <text font-size="12" x="45" y="-350" text-anchor="end">
+                                            <xsl:value-of select="$maximum_graph3 * .75"/>
+                                        </text>
+                                        <text font-size="12" x="45" y="-250" text-anchor="end">
                                             <xsl:value-of select="$maximum_graph3 div 2"/>
                                         </text>
-                                        <text x="45" y="-450" text-anchor="end">
+                                        <text font-size="12" x="45" y="-450" text-anchor="end">
                                             <xsl:value-of select="$maximum_graph3"/>
                                         </text>
+                                        <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-350" y2="-350" stroke="black"
+                                            stroke-width="3"/>
                                         <line x1="46" x2="53" y1="-250" y2="-250" stroke="black"
                                             stroke-width="3"/>
                                         <line x1="46" x2="53" y1="-450" y2="-450" stroke="black"
@@ -735,13 +837,13 @@
                                         <rect width="100" height="{$change_graph3 div $max_graph3}" x="{$horizontal}"
                                             y="{-$change_graph3 div $max_graph3 - 50}" fill="red"><title>Change</title></rect>
                                         <rect width="100" height="{$time_graph3 div $max_graph3}"
-                                            x="{$horizontal2}" y="{-$time_graph3 div $max_graph3 - 50}" fill="yellow"><title>Time</title></rect>
+                                            x="{$horizontal2}" y="{-$time_graph3 div $max_graph3 - 50}" fill="blue"><title>Time</title></rect>
                                         <text x="250" y="15" text-anchor="middle" transform="rotate(-90)"
                                             >Number of occurences</text>
                                     </g>
-                                    <text x="500" y="20" fill="black">Key:</text>
-                                    <text x="500" y="40" fill="red">Change</text>
-                                    <text x="500" y="60" fill="yellow">Time</text>
+                                    <text x="450" y="20" fill="black">Key:</text>
+                                    <text x="450" y="40" fill="red">Change</text>
+                                    <text x="450" y="60" fill="blue">Time</text>
                                 </svg>
                         </div>
                         </section>
@@ -763,80 +865,4 @@
             src="{.}">
         </iframe>
     </xsl:template>
-    <!-- <xsl:result-document href="../Website/analysis_test.xhtml">
-                   
-            
-            
-            
-            
-                <xsl:for-each select="collection('../XML/Lyrics')">
-                    <p>
-                   <xsl:value-of select = "count(//protest)"/>
-                    </p>
-                    <xsl:message select="count(//protest)"/>
-                        
-                </xsl:for-each>
-        </xsl:result-document>-->
-
-    <!--
-    
-    </xsl:template>
-    
-        
-        
-        
-        
-        <!-\- -\->
-        
-        
-        
-        <xsl:template match="/">
-            <html>
-                <head>
-                    <title>Lyrics: <xsl:apply-templates select="//title"/></title>
-                    <!-\-<link href="soviet-rock.css" rel="stylesheet" type="text/css" />-\->
-                </head>
-                <body>
-                    <h1><xsl:apply-templates select="//title"/></h1>
-                    <h2>Song Details</h2>
-                    <ul>
-                        <xsl:apply-templates select="//details"/>
-                    </ul>
-                    <h2>Video</h2>
-                    <xsl:apply-templates select="//video"/>
-                    
-                    <table>
-                        <tr>
-                            <th><h3>What's this song about?</h3></th>
-                            <th><h3>Why was it selected?</h3></th>
-                        </tr>
-                        <tr>
-                            <th><p>Insert simple song description (assumption being-\- user doesn't read Russian).</p></th>
-                            <th><p>Insert explanation of why song was selected.</p></th>
-                        </tr>
-                    </table>
-                    <div class="popup" onclick="myFunction()">Click for Song Lyrics.
-                        <span class="popuptext" id="myPopup"><xsl:apply-templates select="//lyrics"/></span>
-                    </div>
-                    <h2>Song Data</h2>
-                    <ul>
-                        <li><xsl:value-of select="$ratio_apathy"></xsl:value-of></li>
-                    </ul>
-                    <div id = "svg1_wrapper"><svg xmlns="http://www.w3.org/2000/svg" height = "100%" width = "100%">
-                        <line x1="0" x2="100" y1="0" y2="100" stroke = "black" stroke-width="5"/>
-                    </svg></div>
-                </body>
-            </html>
-        </xsl:template>
-        <xsl:template match="details">
-            <li>Artist:<xsl:apply-templates select="artist"/></li>
-            <li>Year: <xsl:apply-templates select="year"/></li>
-            <li>Location of Band: <xsl:apply-templates select="location"/></li>
-        </xsl:template>
-        <xsl:template match="video">
-            <iframe width="420" height="315"
-                src="{.}">
-            </iframe>
-        </xsl:template>
-    </xsl:template>-->
 </xsl:stylesheet>
