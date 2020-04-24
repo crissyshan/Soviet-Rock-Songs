@@ -246,9 +246,9 @@
                         <div id="Welcome">
                             <h1>Analysis of Data</h1>
                         </div>
-                        <div class="Graph">
+                        <div class="GraphA">
                             <h1>Frequency of Tagged Elements (hover for details)</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="310" width="1000">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 1000 310" preserveAspectRatio="none">
                                 <g transform="translate(800, 15)">
                                     <line x1="0" x2="-900" y1="10" y2="10" stroke="black"
                                         stroke-width="1"/>
@@ -411,7 +411,7 @@
                         </div>
                         <div class="Graph">
                             <h1>Frequency of Protest References Over Time</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="500" width="600">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 600 500" preserveAspectRatio="none">
                                 <!-- Line Graph for Protest -->
                                 <g transform="translate(0, 500)">
                                     <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
@@ -477,7 +477,7 @@
                         </div>
                         <div class="Graph">
                             <h1>Frequency of Satirical References Over Time</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="500" width="600">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 600 500" preserveAspectRatio="none">
                                 <!-- Line Graph for Satire -->
                                 <g transform="translate(0, 500)">
                                     <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
@@ -667,7 +667,7 @@
                             </div>
                             <div class="Graph">
                                 <h1>~Figurative Language Content~</h1>
-                                <svg xmlns="http://www.w3.org/2000/svg" height="500" width="675">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 675 500" preserveAspectRatio="none">
                                     <g transform="translate(0,500)">
                                         <line x1="50" y1="-50" x2="450" y2="-50" stroke="black"
                                             stroke-width="3" stroke-linecap="round"/>
@@ -757,7 +757,7 @@
                                 <xsl:variable name="max_graph2" select="max(($maximumh, $maximuma, 1)) div 400"/>
                             <xsl:variable name="apathy-DI_graph2" select="count(//apathy-DI)"/>
                             <xsl:variable name="hope_graph2" select="count(//hope)"/>
-                                <svg xmlns="http://www.w3.org/2000/svg" height="500" width="675">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 675 500" preserveAspectRatio="none">
                                 <g transform="translate(0,500)">
                                     <line x1="50" y1="-50" x2="450" y2="-50" stroke="black"
                                         stroke-width="3" stroke-linecap="round"/>
@@ -803,7 +803,7 @@
                                 <xsl:variable name="max_graph3" select="max(($maximumc, $maximumt, 1)) div 400"/>
                                 <xsl:variable name="change_graph3" select="count(//change)"/>
                                 <xsl:variable name="time_graph3" select="count(//time)"/>
-                                <svg xmlns="http://www.w3.org/2000/svg" height="500" width="675">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 675 500" preserveAspectRatio="none">
                                     <g transform="translate(0,500)">
                                         <line x1="50" y1="-50" x2="450" y2="-50" stroke="black"
                                             stroke-width="3" stroke-linecap="round"/>
