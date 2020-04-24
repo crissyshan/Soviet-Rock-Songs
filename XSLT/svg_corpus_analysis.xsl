@@ -28,7 +28,6 @@
         <xsl:variable name="satire_explicit"
             select="count(collection('../XML/Lyrics')//satire[@type = 'explicit'])"/>
         <xsl:variable name="satire_mid_sum" select="sum($satire_cultural + $satire_political)"/>
-        <xsl:variable name="apathy-DI" select="count(collection('../XML/Lyrics')//apathy-DI)"/>
         <xsl:variable name="nature" select="count(collection('../XML/Lyrics')//nature)"/>
         <xsl:variable name="nature_resource"
             select="count(collection('../XML/Lyrics')//nature[@ref = 'resource'])"/>
@@ -670,7 +669,43 @@
                                     <text x="500" y="140" fill="purple">Explicit</text>
                                     <text x="500" y="160" fill="pink">Pun</text>
                                 </svg>
-                            </div>
+                            <xsl:variable name="maximum_graph2" select="max((count(//apathy-DI), count(//hope), 1))"/>
+                            <xsl:variable name="max_graph2" select="max((count(//apathy-DI), count(//hope), 1)) div 400"/>
+                            <xsl:variable name="apathy-DI_graph2" select="count(//apathy-DI)"/>
+                                <xsl:variable name="hope_graph2" select="count(//hope)"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="500" width="800">
+                                <g transform="translate(0,500)">
+                                    <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
+                                        stroke-width="3"/>
+                                    <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
+                                        stroke-width="3"/>
+                                    <text x="45" y="-50" text-anchor="end"> 0 </text>
+                                    <text x="45" y="-250" text-anchor="end">
+                                        <xsl:value-of select="$maximum_graph2 div 2"/>
+                                    </text>
+                                    <text x="45" y="-450" text-anchor="end">
+                                        <xsl:value-of select="$maximum_graph2"/>
+                                    </text>
+                                    <line x1="46" x2="53" y1="-250" y2="-250" stroke="black"
+                                        stroke-width="3"/>
+                                    <line x1="46" x2="53" y1="-450" y2="-450" stroke="black"
+                                        stroke-width="3"/>
+                                    <text x="{$horizontal + 50}" y="-30" text-anchor="middle"
+                                        >Apathy/Disillusionment</text>
+                                    <text x="{$horizontal2 + 50}" y="-30" text-anchor="middle"
+                                        >Hope</text>
+                                    <rect width="100" height="{$apathy-DI_graph2 div $max_graph2}" x="{$horizontal}"
+                                        y="{-$apathy-DI_graph2 div $max_graph2 - 50}" fill="red"><title>Apathy/Disillusionment</title></rect>
+                                    <rect width="100" height="{$hope_graph2 div $max_graph2}"
+                                        x="{$horizontal2}" y="{-$hope_graph2 div $max_graph2 - 50}" fill="yellow"><title>Hope</title></rect>
+                                    <text x="250" y="15" text-anchor="middle" transform="rotate(-90)"
+                                        >Number of occurences</text>
+                                </g>
+                                <text x="500" y="20" fill="black">Key:</text>
+                                <text x="500" y="40" fill="red">Apathy/Disillusionment</text>
+                                <text x="500" y="60" fill="yellow">Hope</text>
+                            </svg>
+                        </div>
                         </section>
                         </body></html>
             </xsl:result-document>
