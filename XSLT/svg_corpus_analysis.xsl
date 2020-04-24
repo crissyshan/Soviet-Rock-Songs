@@ -418,11 +418,17 @@
                                         stroke-width="3" stroke-linecap="round"/>
                                     <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
                                         stroke-width="3" stroke-linecap="round"/>
-                                    <text x="45" y="-50" text-anchor="end"> 0 </text>
-                                    <text x="45" y="-250" text-anchor="end">
+                                    <text x="50" y="44" text-anchor="middle" transform="rotate(-90)"> 0 </text>
+                                    <text x="150" y="44" text-anchor="middle" transform="rotate(-90)">
+                                        <xsl:value-of select="$maximump div 4"/>
+                                    </text>
+                                    <text x="350" y="44" text-anchor="middle" transform="rotate(-90)">
+                                        <xsl:value-of select="$maximump*0.75"/>
+                                    </text>
+                                    <text x="250" y="44" text-anchor="middle" transform="rotate(-90)">
                                         <xsl:value-of select="$maximump div 2"/>
                                     </text>
-                                    <text x="45" y="-450" text-anchor="end">
+                                    <text x="450" y="44" text-anchor="middle" transform="rotate(-90)">
                                         <xsl:value-of select="$maximump"/>
                                     </text>
                                     <text x="100" y="-30" text-anchor="middle">1980</text>
@@ -455,6 +461,10 @@
                                         stroke-width="3"/>
                                     <line x1="550" y1="-47" x2="550" y2="-54" stroke="black"
                                         stroke-width="3"/>
+                                    <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
+                                        stroke-width="3"/>
+                                    <line x1="46" x2="53" y1="-350" y2="-350" stroke="black"
+                                        stroke-width="3"/>
                                     <line x1="46" x2="53" y1="-250" y2="-250" stroke="black"
                                         stroke-width="3"/>
                                     <line x1="46" x2="53" y1="-450" y2="-450" stroke="black"
@@ -484,11 +494,17 @@
                                         stroke-width="3" stroke-linecap="round"/>
                                     <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
                                         stroke-width="3" stroke-linecap="round"/>
-                                    <text x="45" y="-50" text-anchor="end"> 0 </text>
-                                    <text x="45" y="-250" text-anchor="end">
+                                    <text x="50" y="44" text-anchor="middle" transform="rotate(-90)"> 0 </text>
+                                    <text x="150" y="44" text-anchor="middle" transform="rotate(-90)">
+                                        <xsl:value-of select="$maximums div 4"/>
+                                    </text>
+                                    <text x="350" y="44" text-anchor="middle" transform="rotate(-90)">
+                                        <xsl:value-of select="$maximums*0.75"/>
+                                    </text>
+                                    <text x="250" y="44" text-anchor="middle" transform="rotate(-90)">
                                         <xsl:value-of select="$maximums div 2"/>
                                     </text>
-                                    <text x="45" y="-450" text-anchor="end">
+                                    <text x="450" y="44" text-anchor="middle" transform="rotate(-90)">
                                         <xsl:value-of select="$maximums"/>
                                     </text>
                                     <text x="100" y="-30" text-anchor="middle">1980</text>
@@ -520,6 +536,10 @@
                                     <line x1="500" y1="-47" x2="500" y2="-54" stroke="black"
                                         stroke-width="3"/>
                                     <line x1="550" y1="-47" x2="550" y2="-54" stroke="black"
+                                        stroke-width="3"/>
+                                    <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
+                                        stroke-width="3"/>
+                                    <line x1="46" x2="53" y1="-350" y2="-350" stroke="black"
                                         stroke-width="3"/>
                                     <line x1="46" x2="53" y1="-250" y2="-250" stroke="black"
                                         stroke-width="3"/>
@@ -673,17 +693,17 @@
                                             stroke-width="3" stroke-linecap="round"/>
                                         <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
                                             stroke-width="3" stroke-linecap="round"/>
-                                        <text font-size="12" x="45" y="-50" text-anchor="end"> 0 </text>
-                                        <text font-size="12" x="45" y="-150" text-anchor="end">
+                                        <text x="50" y="44" text-anchor="middle" transform="rotate(-90)"> 0 </text>
+                                        <text x="150" y="44" text-anchor="middle" transform="rotate(-90)">
                                             <xsl:value-of select="$maximum div 4"/>
                                         </text>
-                                        <text font-size="12" x="45" y="-350" text-anchor="end">
+                                        <text x="350" y="44" text-anchor="middle" transform="rotate(-90)">
                                             <xsl:value-of select="$maximum * .75"/>
                                         </text>
-                                        <text font-size="12" x="45" y="-250" text-anchor="end">
+                                        <text x="250" y="44" text-anchor="middle" transform="rotate(-90)">
                                             <xsl:value-of select="$maximum div 2"/>
                                         </text>
-                                        <text font-size="12" x="45" y="-450" text-anchor="end">
+                                        <text x="450" y="44" text-anchor="middle" transform="rotate(-90)">
                                             <xsl:value-of select="$maximum"/>
                                         </text>
                                         <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
@@ -763,17 +783,17 @@
                                         stroke-width="3" stroke-linecap="round"/>
                                     <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
                                         stroke-width="3" stroke-linecap="round"/>
-                                    <text font-size="12" x="45" y="-50" text-anchor="end"> 0 </text>
-                                    <text font-size="12" x="45" y="-150" text-anchor="end">
+                                    <text x="50" y="44" text-anchor="middle" transform="rotate(-90)"> 0 </text>
+                                    <text x="150" y="44" text-anchor="middle" transform="rotate(-90)">
                                         <xsl:value-of select="$maximum_graph2 div 4"/>
                                     </text>
-                                    <text font-size="12" x="45" y="-350" text-anchor="end">
+                                    <text x="350" y="44" text-anchor="middle" transform="rotate(-90)">
                                         <xsl:value-of select="$maximum_graph2 * .75"/>
                                     </text>
-                                    <text font-size="12" x="45" y="-250" text-anchor="end">
+                                    <text x="250" y="44" text-anchor="middle" transform="rotate(-90)">
                                         <xsl:value-of select="$maximum_graph2 div 2"/>
                                     </text>
-                                    <text font-size="12" x="45" y="-450" text-anchor="end">
+                                    <text x="450" y="44" text-anchor="middle" transform="rotate(-90)">
                                         <xsl:value-of select="$maximum_graph2"/>
                                     </text>
                                     <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
@@ -809,17 +829,17 @@
                                             stroke-width="3" stroke-linecap="round"/>
                                         <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
                                             stroke-width="3" stroke-linecap="round"/>
-                                        <text font-size="12" x="45" y="-50" text-anchor="end"> 0 </text>
-                                        <text font-size="12" x="45" y="-150" text-anchor="end">
+                                        <text x="50" y="44" text-anchor="middle" transform="rotate(-90)"> 0 </text>
+                                        <text x="150" y="44" text-anchor="middle" transform="rotate(-90)">
                                             <xsl:value-of select="$maximum_graph3 div 4"/>
                                         </text>
-                                        <text font-size="12" x="45" y="-350" text-anchor="end">
+                                        <text x="350" y="44" text-anchor="middle" transform="rotate(-90)">
                                             <xsl:value-of select="$maximum_graph3 * .75"/>
                                         </text>
-                                        <text font-size="12" x="45" y="-250" text-anchor="end">
+                                        <text x="250" y="44" text-anchor="middle" transform="rotate(-90)">
                                             <xsl:value-of select="$maximum_graph3 div 2"/>
                                         </text>
-                                        <text font-size="12" x="45" y="-450" text-anchor="end">
+                                        <text x="450" y="44" text-anchor="middle" transform="rotate(-90)">
                                             <xsl:value-of select="$maximum_graph3"/>
                                         </text>
                                         <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
