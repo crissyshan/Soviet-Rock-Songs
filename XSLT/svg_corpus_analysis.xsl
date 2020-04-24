@@ -8,6 +8,8 @@
     <!-- ================================================================ -->
 
     <xsl:template name="xsl:initial-template">
+        
+        <!-- Basic Variables -->
         <xsl:variable name="total-songs" select="count(collection('../XML/Lyrics'))"/>
         <xsl:variable name="apathy-DI" select="count(collection('../XML/Lyrics')//apathy-DI)"/>
         <xsl:variable name="change" select="count(collection('../XML/Lyrics')//change)"/>
@@ -90,7 +92,11 @@
         <xsl:variable name="bar_space" select="$bar_width + 6"/>
         <xsl:variable name="multiplier" select="10"/>
         <xsl:variable name="y2_position" select="14 * $bar_space + 15"/>
+        
+        
         <!-- For line graphs -->
+        
+        <!-- Protest -->
         <xsl:variable name="p1980"
             select="count(collection('../XML/Lyrics')[//year = 1980]//protest)"/>
         <xsl:variable name="p1981"
@@ -111,7 +117,6 @@
             select="count(collection('../XML/Lyrics')[//year = 1988]//protest)"/>
         <xsl:variable name="p1989"
             select="count(collection('../XML/Lyrics')[//year = 1989]//protest)"/>
-        
         <xsl:variable name="ep1980"
             select="count(collection('../XML/Lyrics')[//year = 1980]//protest[@type = 'explicit'])"/>
         <xsl:variable name="ep1981"
@@ -134,6 +139,8 @@
             select="count(collection('../XML/Lyrics')[//year = 1989]//protest[@type = 'explicit'])"/>
         <xsl:variable name="maximump"
             select="max(($p1980, $p1981, $p1982, $p1983, $p1984, $p1985, $p1986, $p1987, $p1988, $p1989))"/>
+        
+        <!-- Satire -->
         <xsl:variable name="s1980"
             select="count(collection('../XML/Lyrics')[//year = 1980]//satire)"/>
         <xsl:variable name="s1981"
@@ -154,7 +161,6 @@
             select="count(collection('../XML/Lyrics')[//year = 1988]//satire)"/>
         <xsl:variable name="s1989"
             select="count(collection('../XML/Lyrics')[//year = 1989]//satire)"/>
-        
         <xsl:variable name="es1980"
             select="count(collection('../XML/Lyrics')[//year = 1980]//satire[@type = 'explicit'])"/>
         <xsl:variable name="es1981"
@@ -177,6 +183,8 @@
             select="count(collection('../XML/Lyrics')[//year = 1989]//satire[@type = 'explicit'])"/>
         <xsl:variable name="maximums"
             select="max(($s1980, $s1981, $s1982, $s1983, $s1984, $s1985, $s1986, $s1987, $s1988, $s1989))"/>
+        
+        <!-- Apathy vs Hope -->
         <xsl:variable name="h1980" select="count(collection('../XML/Lyrics')[//year = 1980]//hope)"/>
         <xsl:variable name="h1981" select="count(collection('../XML/Lyrics')[//year = 1981]//hope)"/>
         <xsl:variable name="h1982" select="count(collection('../XML/Lyrics')[//year = 1982]//hope)"/>
@@ -211,6 +219,8 @@
             select="count(collection('../XML/Lyrics')[//year = 1989]//apathy-DI)"/>
         <xsl:variable name="maximuma"
             select="max(($a1980, $a1981, $a1982, $a1983, $a1984, $a1985, $a1986, $a1987, $a1988, $a1989))"/>
+        
+        <!-- Change vs Time -->
         <xsl:variable name="c1980"
             select="count(collection('../XML/Lyrics')[//year = 1980]//change)"/>
         <xsl:variable name="c1981"
@@ -255,6 +265,163 @@
             select="count(collection('../XML/Lyrics')[//year = 1989]//time)"/>
         <xsl:variable name="maximumt"
             select="max(($t1980, $t1981, $t1982, $t1983, $t1984, $t1985, $t1986, $t1987, $t1988, $t1989))"/>
+        
+        <!-- Substance counts-->
+        <xsl:variable name="al1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="al1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="al1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="al1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="al1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="al1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="al1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="al1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="al1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="al1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//subst[@ref='alcohol'])"/>
+        <xsl:variable name="maximumal"
+            select="max(($al1980, $al1981, $al1982, $al1983, $al1984, $al1985, $al1986, $al1987, $al1988, $al1989))"/>
+        <xsl:variable name="cig1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="cig1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="cig1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="cig1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="cig1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="cig1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="cig1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="cig1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="cig1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="cig1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//subst[@ref='tobacco'])"/>
+        <xsl:variable name="maximumcig"
+            select="max(($cig1980, $cig1981, $cig1982, $cig1983, $cig1984, $cig1985, $cig1986, $cig1987, $cig1988, $cig1989))"/>
+        <xsl:variable name="d1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//subst[@ref='drug'])"/>
+        <xsl:variable name="d1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//subst[@ref='drug'])"/>
+        <xsl:variable name="d1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//subst[@ref='drug'])"/>
+        <xsl:variable name="d1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//subst[@ref='drug'])"/>
+        <xsl:variable name="d1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//subst[@ref='drug'])"/>
+        <xsl:variable name="d1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//subst[@ref='drug'])"/>
+        <xsl:variable name="d1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//subst[@ref='drug'])"/>
+        <xsl:variable name="d1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//subst[@ref='drug'])"/>
+        <xsl:variable name="d1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//subst[@ref='drug'])"/>
+        <xsl:variable name="d1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//subst[@ref='drug'])"/>
+        <xsl:variable name="maximumd"
+            select="max(($d1980, $d1981, $d1982, $d1983, $d1984, $d1985, $d1986, $d1987, $d1988, $d1989))"/>
+        
+        <!-- Soviet Symbol counts-->
+        <xsl:variable name="cos1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="cos1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="cos1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="cos1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="cos1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="cos1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="cos1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="cos1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="cos1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="cos1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//nature[@ref='cosmos'])"/>
+        <xsl:variable name="sym1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//soviet-symbol)"/>
+        <xsl:variable name="sym1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//soviet-symbol)"/>
+        <xsl:variable name="sym1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//soviet-symbol)"/>
+        <xsl:variable name="sym1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//soviet-symbol)"/>
+        <xsl:variable name="sym1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//soviet-symbol)"/>
+        <xsl:variable name="sym1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//soviet-symbol)"/>
+        <xsl:variable name="sym1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//soviet-symbol)"/>
+        <xsl:variable name="sym1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//soviet-symbol)"/>
+        <xsl:variable name="sym1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//soviet-symbol)"/>
+        <xsl:variable name="sym1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//soviet-symbol)"/>
+        <xsl:variable name="ind1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//industry)"/>
+        <xsl:variable name="ind1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//industry)"/>
+        <xsl:variable name="ind1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//industry)"/>
+        <xsl:variable name="ind1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//industry)"/>
+        <xsl:variable name="ind1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//industry)"/>
+        <xsl:variable name="ind1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//industry)"/>
+        <xsl:variable name="ind1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//industry)"/>
+        <xsl:variable name="ind1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//industry)"/>
+        <xsl:variable name="ind1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//industry)"/>
+        <xsl:variable name="ind1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//industry)"/>
+        <xsl:variable name="maximumsym"
+            select="max(($sym1980, $sym1981, $sym1982, $sym1983, $sym1984, $sym1985, $sym1986, $sym1987, $sym1988, $sym1989, $ind1980, $ind1981, $ind1982, $ind1983, $ind1984, $ind1985, $ind1986, $ind1987, $ind1988, $ind1989, $cos1980, $cos1981, $cos1982, $cos1983, $cos1984, $cos1985, $cos1986, $cos1987, $cos1988, $cos1989))"/>
+        
+        <!-- Militarism counts-->
+        <xsl:variable name="m1980"
+            select="count(collection('../XML/Lyrics')[//year = 1980]//defense)"/>
+        <xsl:variable name="m1981"
+            select="count(collection('../XML/Lyrics')[//year = 1981]//defense)"/>
+        <xsl:variable name="m1982"
+            select="count(collection('../XML/Lyrics')[//year = 1982]//defense)"/>
+        <xsl:variable name="m1983"
+            select="count(collection('../XML/Lyrics')[//year = 1983]//defense)"/>
+        <xsl:variable name="m1984"
+            select="count(collection('../XML/Lyrics')[//year = 1984]//defense)"/>
+        <xsl:variable name="m1985"
+            select="count(collection('../XML/Lyrics')[//year = 1985]//defense)"/>
+        <xsl:variable name="m1986"
+            select="count(collection('../XML/Lyrics')[//year = 1986]//defense)"/>
+        <xsl:variable name="m1987"
+            select="count(collection('../XML/Lyrics')[//year = 1987]//defense)"/>
+        <xsl:variable name="m1988"
+            select="count(collection('../XML/Lyrics')[//year = 1988]//defense)"/>
+        <xsl:variable name="m1989"
+            select="count(collection('../XML/Lyrics')[//year = 1989]//defense)"/>
+        <xsl:variable name="maximumm"
+            select="max(($m1980, $m1981, $m1982, $m1983, $m1984, $m1985, $m1986, $m1987, $m1988, $m1989))"/>
+        
         <xsl:result-document href="../Website/analysis.xhtml">
             <html>
                 <head>
@@ -834,6 +1001,314 @@
                                     <text x="450" y="60" fill="purple">Satire: Explicit</text>
                                 </svg>
                             </div></div>
+                            
+                            <div class="GraphComp"><div class="Graph">
+                                <h1>Frequency of Soviet Symbols Over Time</h1>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%"
+                                    viewBox="0 0 600 500" preserveAspectRatio="none">
+                                    <!-- Line Graph for Symbols -->
+                                    <g transform="translate(0, 500)">
+                                        <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
+                                            stroke-width="3" stroke-linecap="round"/>
+                                        <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
+                                            stroke-width="3" stroke-linecap="round"/>
+                                        <text x="50" y="44" text-anchor="middle"
+                                            transform="rotate(-90)"> 0 </text>
+                                        <text x="150" y="44" text-anchor="middle"
+                                            transform="rotate(-90)">
+                                            <xsl:value-of select="$maximumsym div 4"/>
+                                        </text>
+                                        <text x="350" y="44" text-anchor="middle"
+                                            transform="rotate(-90)">
+                                            <xsl:value-of select="$maximumsym * 0.75"/>
+                                        </text>
+                                        <text x="250" y="44" text-anchor="middle"
+                                            transform="rotate(-90)">
+                                            <xsl:value-of select="$maximumsym div 2"/>
+                                        </text>
+                                        <text x="450" y="44" text-anchor="middle"
+                                            transform="rotate(-90)">
+                                            <xsl:value-of select="$maximumsym"/>
+                                        </text>
+                                        <text x="100" y="-30" text-anchor="middle">1980</text>
+                                        <text x="150" y="-30" text-anchor="middle">1981</text>
+                                        <text x="200" y="-30" text-anchor="middle">1982</text>
+                                        <text x="250" y="-30" text-anchor="middle">1983</text>
+                                        <text x="300" y="-30" text-anchor="middle">1984</text>
+                                        <text x="350" y="-30" text-anchor="middle">1985</text>
+                                        <text x="400" y="-30" text-anchor="middle">1986</text>
+                                        <text x="450" y="-30" text-anchor="middle">1987</text>
+                                        <text x="500" y="-30" text-anchor="middle">1988</text>
+                                        <text x="550" y="-30" text-anchor="middle">1989</text>
+                                        <line x1="100" y1="-47" x2="100" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="150" y1="-47" x2="150" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="200" y1="-47" x2="200" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="250" y1="-47" x2="250" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="300" y1="-47" x2="300" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="350" y1="-47" x2="350" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="400" y1="-47" x2="400" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="450" y1="-47" x2="450" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="500" y1="-47" x2="500" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="550" y1="-47" x2="550" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-350" y2="-350" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-250" y2="-250" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-450" y2="-450" stroke="black"
+                                            stroke-width="3"/>
+                                        <polyline fill="none" stroke="darkblue" stroke-width="3"
+                                            points="
+                                            100, {-400*($cos1980 div $maximumsym) - 50}
+                                            150, {-400*($cos1981 div $maximumsym) - 50}
+                                            200, {-400*($cos1982 div $maximumsym) - 50}
+                                            250, {-400*($cos1983 div $maximumsym) - 50}
+                                            300, {-400*($cos1984 div $maximumsym) - 50}
+                                            350, {-400*($cos1985 div $maximumsym) - 50}
+                                            400, {-400*($cos1986 div $maximumsym) - 50}
+                                            450, {-400*($cos1987 div $maximumsym) - 50}
+                                            500, {-400*($cos1988 div $maximumsym) - 50}
+                                            550, {-400*($cos1989 div $maximumsym) - 50}"
+                                        />
+                                        <polyline fill="none" stroke="red" stroke-width="3"
+                                            points="
+                                            100, {-400*($sym1980 div $maximumsym) - 50}
+                                            150, {-400*($sym1981 div $maximumsym) - 50}
+                                            200, {-400*($sym1982 div $maximumsym) - 50}
+                                            250, {-400*($sym1983 div $maximumsym) - 50}
+                                            300, {-400*($sym1984 div $maximumsym) - 50}
+                                            350, {-400*($sym1985 div $maximumsym) - 50}
+                                            400, {-400*($sym1986 div $maximumsym) - 50}
+                                            450, {-400*($sym1987 div $maximumsym) - 50}
+                                            500, {-400*($sym1988 div $maximumsym) - 50}
+                                            550, {-400*($sym1989 div $maximumsym) - 50}"
+                                        />
+                                        <polyline fill="none" stroke="brown" stroke-width="3"
+                                            points="
+                                            100, {-400*($ind1980 div $maximumsym) - 50}
+                                            150, {-400*($ind1981 div $maximumsym) - 50}
+                                            200, {-400*($ind1982 div $maximumsym) - 50}
+                                            250, {-400*($ind1983 div $maximumsym) - 50}
+                                            300, {-400*($ind1984 div $maximumsym) - 50}
+                                            350, {-400*($ind1985 div $maximumsym) - 50}
+                                            400, {-400*($ind1986 div $maximumsym) - 50}
+                                            450, {-400*($ind1987 div $maximumsym) - 50}
+                                            500, {-400*($ind1988 div $maximumsym) - 50}
+                                            550, {-400*($ind1989 div $maximumsym) - 50}"
+                                        />
+                                    </g>
+                                    <text x="450" y="20" fill="black">Key:</text>
+                                    <text x="450" y="40" fill="red">Soviet Symbols</text>
+                                    <text x="450" y="60" fill="darkblue">Cosmos</text>
+                                    <text x="450" y="80" fill="brown">Industry</text>
+                                </svg>
+                            </div>
+                                <div class="Graph">
+                                    <h1>Militarism Over Time</h1>
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%"
+                                        viewBox="0 0 600 500" preserveAspectRatio="none">
+                                        <!-- Line Graph for Satire -->
+                                        <g transform="translate(0, 500)">
+                                            <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
+                                                stroke-width="3" stroke-linecap="round"/>
+                                            <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
+                                                stroke-width="3" stroke-linecap="round"/>
+                                            <text x="50" y="44" text-anchor="middle"
+                                                transform="rotate(-90)"> 0 </text>
+                                            <text x="150" y="44" text-anchor="middle"
+                                                transform="rotate(-90)">
+                                                <xsl:value-of select="$maximumm div 4"/>
+                                            </text>
+                                            <text x="350" y="44" text-anchor="middle"
+                                                transform="rotate(-90)">
+                                                <xsl:value-of select="$maximumm * 0.75"/>
+                                            </text>
+                                            <text x="250" y="44" text-anchor="middle"
+                                                transform="rotate(-90)">
+                                                <xsl:value-of select="$maximumm div 2"/>
+                                            </text>
+                                            <text x="450" y="44" text-anchor="middle"
+                                                transform="rotate(-90)">
+                                                <xsl:value-of select="$maximumm"/>
+                                            </text>
+                                            <text x="100" y="-30" text-anchor="middle">1980</text>
+                                            <text x="150" y="-30" text-anchor="middle">1981</text>
+                                            <text x="200" y="-30" text-anchor="middle">1982</text>
+                                            <text x="250" y="-30" text-anchor="middle">1983</text>
+                                            <text x="300" y="-30" text-anchor="middle">1984</text>
+                                            <text x="350" y="-30" text-anchor="middle">1985</text>
+                                            <text x="400" y="-30" text-anchor="middle">1986</text>
+                                            <text x="450" y="-30" text-anchor="middle">1987</text>
+                                            <text x="500" y="-30" text-anchor="middle">1988</text>
+                                            <text x="550" y="-30" text-anchor="middle">1989</text>
+                                            <line x1="100" y1="-47" x2="100" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="150" y1="-47" x2="150" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="200" y1="-47" x2="200" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="250" y1="-47" x2="250" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="300" y1="-47" x2="300" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="350" y1="-47" x2="350" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="400" y1="-47" x2="400" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="450" y1="-47" x2="450" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="500" y1="-47" x2="500" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="550" y1="-47" x2="550" y2="-54" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="46" x2="53" y1="-350" y2="-350" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="46" x2="53" y1="-250" y2="-250" stroke="black"
+                                                stroke-width="3"/>
+                                            <line x1="46" x2="53" y1="-450" y2="-450" stroke="black"
+                                                stroke-width="3"/>
+                                            <polyline fill="none" stroke="green" stroke-width="3"
+                                                points="
+                                                100, {-400*($m1980 div $maximumm) - 50}
+                                                150, {-400*($m1981 div $maximumm) - 50}
+                                                200, {-400*($m1982 div $maximumm) - 50}
+                                                250, {-400*($m1983 div $maximumm) - 50}
+                                                300, {-400*($m1984 div $maximumm) - 50}
+                                                350, {-400*($m1985 div $maximumm) - 50}
+                                                400, {-400*($m1986 div $maximumm) - 50}
+                                                450, {-400*($m1987 div $maximumm) - 50}
+                                                500, {-400*($m1988 div $maximumm) - 50}
+                                                550, {-400*($m1989 div $maximumm) - 50}"
+                                            />
+                                        </g>
+                                    </svg>
+                                </div></div>
+                            <div class="GraphComp"><div class="Graph">
+                                <h1>Substance References Over Time</h1>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%"
+                                    viewBox="0 0 600 500" preserveAspectRatio="none">
+                                    <!-- Line Graph for Protest -->
+                                    <g transform="translate(0, 500)">
+                                        <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
+                                            stroke-width="3" stroke-linecap="round"/>
+                                        <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
+                                            stroke-width="3" stroke-linecap="round"/>
+                                        <text x="50" y="44" text-anchor="middle"
+                                            transform="rotate(-90)"> 0 </text>
+                                        <text x="150" y="44" text-anchor="middle"
+                                            transform="rotate(-90)">
+                                            <xsl:value-of select="$maximumal div 4"/>
+                                        </text>
+                                        <text x="350" y="44" text-anchor="middle"
+                                            transform="rotate(-90)">
+                                            <xsl:value-of select="$maximumal * 0.75"/>
+                                        </text>
+                                        <text x="250" y="44" text-anchor="middle"
+                                            transform="rotate(-90)">
+                                            <xsl:value-of select="$maximumal div 2"/>
+                                        </text>
+                                        <text x="450" y="44" text-anchor="middle"
+                                            transform="rotate(-90)">
+                                            <xsl:value-of select="$maximumal"/>
+                                        </text>
+                                        <text x="100" y="-30" text-anchor="middle">1980</text>
+                                        <text x="150" y="-30" text-anchor="middle">1981</text>
+                                        <text x="200" y="-30" text-anchor="middle">1982</text>
+                                        <text x="250" y="-30" text-anchor="middle">1983</text>
+                                        <text x="300" y="-30" text-anchor="middle">1984</text>
+                                        <text x="350" y="-30" text-anchor="middle">1985</text>
+                                        <text x="400" y="-30" text-anchor="middle">1986</text>
+                                        <text x="450" y="-30" text-anchor="middle">1987</text>
+                                        <text x="500" y="-30" text-anchor="middle">1988</text>
+                                        <text x="550" y="-30" text-anchor="middle">1989</text>
+                                        <line x1="100" y1="-47" x2="100" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="150" y1="-47" x2="150" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="200" y1="-47" x2="200" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="250" y1="-47" x2="250" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="300" y1="-47" x2="300" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="350" y1="-47" x2="350" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="400" y1="-47" x2="400" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="450" y1="-47" x2="450" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="500" y1="-47" x2="500" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="550" y1="-47" x2="550" y2="-54" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-150" y2="-150" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-350" y2="-350" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-250" y2="-250" stroke="black"
+                                            stroke-width="3"/>
+                                        <line x1="46" x2="53" y1="-450" y2="-450" stroke="black"
+                                            stroke-width="3"/>
+                                        <polyline fill="none" stroke="firebrick" stroke-width="3"
+                                            points="
+                                            100, {-400*($al1980 div $maximumal) - 50}
+                                            150, {-400*($al1981 div $maximumal) - 50}
+                                            200, {-400*($al1982 div $maximumal) - 50}
+                                            250, {-400*($al1983 div $maximumal) - 50}
+                                            300, {-400*($al1984 div $maximumal) - 50}
+                                            350, {-400*($al1985 div $maximumal) - 50}
+                                            400, {-400*($al1986 div $maximumal) - 50}
+                                            450, {-400*($al1987 div $maximumal) - 50}
+                                            500, {-400*($al1988 div $maximumal) - 50}
+                                            550, {-400*($al1989 div $maximumal) - 50}"
+                                        />
+                                        <polyline fill="none" stroke="green" stroke-width="3"
+                                            points="
+                                            100, {-400*($cig1980 div $maximumal) - 50}
+                                            150, {-400*($cig1981 div $maximumal) - 50}
+                                            200, {-400*($cig1982 div $maximumal) - 50}
+                                            250, {-400*($cig1983 div $maximumal) - 50}
+                                            300, {-400*($cig1984 div $maximumal) - 50}
+                                            350, {-400*($cig1985 div $maximumal) - 50}
+                                            400, {-400*($cig1986 div $maximumal) - 50}
+                                            450, {-400*($cig1987 div $maximumal) - 50}
+                                            500, {-400*($cig1988 div $maximumal) - 50}
+                                            550, {-400*($cig1989 div $maximumal) - 50}"
+                                        />
+                                        <polyline fill="none" stroke="blue" stroke-width="3"
+                                            points="
+                                            100, {-400*($d1980 div $maximumal) - 50}
+                                            150, {-400*($d1981 div $maximumal) - 50}
+                                            200, {-400*($d1982 div $maximumal) - 50}
+                                            250, {-400*($d1983 div $maximumal) - 50}
+                                            300, {-400*($d1984 div $maximumal) - 50}
+                                            350, {-400*($d1985 div $maximumal) - 50}
+                                            400, {-400*($d1986 div $maximumal) - 50}
+                                            450, {-400*($d1987 div $maximumal) - 50}
+                                            500, {-400*($d1988 div $maximumal) - 50}
+                                            550, {-400*($d1989 div $maximumal) - 50}"
+                                        />
+                                    </g>
+                                    <text x="450" y="20" fill="black">Key:</text>
+                                    <text x="450" y="40" fill="firebrick">Alcohol</text>
+                                    <text x="450" y="60" fill="green">Tobacco</text>
+                                    <text x="450" y="80" fill="blue">Other drugs</text>
+                                </svg>
+                            </div>
+                            </div>
                         
                     </section>
                 </body>
