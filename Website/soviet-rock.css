@@ -122,6 +122,14 @@ header{
     color: black
 }
 
+li {
+    font-weight: normal;
+    font-family: serif;
+    font-size: 16px;
+    font-size: 2vmin;
+    color: black
+}
+
 a > img {
     width: 100px;
     height: auto;
@@ -133,6 +141,7 @@ a > img {
     justify-content: center;
     align-items:center;
     flex-direction:column;
+    text-align:center;
     width: 30%;
     height: auto;
     margin: 1%;
@@ -144,8 +153,18 @@ a > img {
     font-weight: bold;
     font-family: arial, helvetica, sans-serif;
     font-size: 20px;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     color: black
+    
+}
+
+.GraphComp {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row;
+    width:100%;
+    height:auto;
 }
 
 .GraphA {
@@ -154,6 +173,7 @@ a > img {
     justify-content: center;
     align-items:center;
     flex-direction:column;
+    text-align:center;
     width: 60%;
     height: auto;
     margin: 1%;
