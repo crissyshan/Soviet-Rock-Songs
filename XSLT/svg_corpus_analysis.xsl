@@ -1435,6 +1435,7 @@
                             </div>
                             <div class="Graph">
                                 <h1>~Figurative Language Content~</h1>
+                                <h2>Protest vs Satire</h2>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%"
                                     viewBox="0 0 675 500" preserveAspectRatio="none">
                                     <g transform="translate(0,500)">
@@ -1540,6 +1541,7 @@
                                     select="max(($maximumh, $maximuma, 1)) div 400"/>
                                 <xsl:variable name="apathy-DI_graph2" select="count(//apathy-DI)"/>
                                 <xsl:variable name="hope_graph2" select="count(//hope)"/>
+                                <h2>Apathy/Disillusionment vs Hope</h2>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%"
                                     viewBox="0 0 675 500" preserveAspectRatio="none">
                                     <g transform="translate(0,500)">
@@ -1599,6 +1601,7 @@
                                     select="max(($maximumc, $maximumt, 1)) div 400"/>
                                 <xsl:variable name="change_graph3" select="count(//change)"/>
                                 <xsl:variable name="time_graph3" select="count(//time)"/>
+                                <h2>Change and Time</h2>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%"
                                     viewBox="0 0 675 500" preserveAspectRatio="none">
                                     <g transform="translate(0,500)">

@@ -158,6 +158,15 @@ a > img {
     
 }
 
+.Graph > h2 {
+    font-weight: bold;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 15px;
+    font-size: 2vmin;
+    color: black
+    
+}
+
 .GraphComp {
     display: flex;
     justify-content: center;
