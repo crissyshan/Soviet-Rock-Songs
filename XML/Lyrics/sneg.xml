@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/sovietrockschema1.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <details>
+        <title>Снег</title>
+        <artist>Машина Времени</artist>
+        <year>1986</year>
+        <location>Moscow</location>
+        <video>https://www.youtube.com/watch?v=WH2Vlnp0r6o</video>
+    </details>
+    
+    <lyrics>
+        <outlook></outlook>
+        <verse><l>Снег. Город почти ослеп.</l> 
+            <l>Свет. Красок на свете нет. </l>
+            <l>Есть только белый цвет. </l>
+            <l>Город твой, словно корабль, </l>
+            <l>Льдами захвачен в плен. </l></verse>
+        
+        <verse><l>Я знаю один секрет - </l>
+            <l>Снег скоро сойдет на нет,</l> 
+            <l>У снега короткий век. </l>
+            <l>Город твой солнцем согрет </l>
+            <l>Поплывет по весенней воде. </l></verse>
+        
+        <verse><l>Но я не могу понять, </l>
+            <l>Кто дарит нам столько тепла, </l>
+            <l>Чтобы растаял снег? </l>
+            <l>Сто долгих дней </l>
+            <l>Снег был сильней, </l>
+            <l>И исчез без следа </l>
+            <l>Лишь за пять теплых дней.</l></verse>
+    </lyrics>
+</song>
