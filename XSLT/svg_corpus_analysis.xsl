@@ -745,9 +745,9 @@
                                         550, {-400*($op1989 div $maximumo) - 50}"
                                     />
                                 </g>
-                                <text x="450" y="20" fill="black">Key:</text>
-                                <text x="450" y="40" fill="red">Negative</text>
-                                <text x="450" y="60" fill="green">Positive</text>
+                                <text x="500" y="20" fill="black">Key:</text>
+                                <text x="500" y="40" fill="red">Negative</text>
+                                <text x="500" y="60" fill="green">Positive</text>
                             </svg>
                         </div>
                         <div class="GraphComp"><div class="Graph">
@@ -950,10 +950,10 @@
                             </div></div> <div class="GraphComp"><div class="Graph">
                                 <h1>Frequency of Protest References Over Time</h1>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%"
-                                    viewBox="0 0 600 500" preserveAspectRatio="none">
+                                    viewBox="0 0 800 500" preserveAspectRatio="none">
                                     <!-- Line Graph for Protest -->
                                     <g transform="translate(0, 500)">
-                                        <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
+                                        <line x1="50" y1="-50" x2="600" y2="-50" stroke="black"
                                             stroke-width="3" stroke-linecap="round"/>
                                         <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
                                             stroke-width="3" stroke-linecap="round"/>
@@ -1040,18 +1040,18 @@
                                             550, {-400*($ep1989 div $maximump) - 50}"
                                         />
                                     </g>
-                                    <text x="450" y="20" fill="black">Key:</text>
-                                    <text x="450" y="40" fill="red">Protest: All</text>
-                                    <text x="450" y="60" fill="darkred">Protest: Explicit/Political</text>
+                                    <text x="600" y="20" text-anchor="left" fill="black">Key:</text>
+                                    <text x="600" y="40" text-anchor="left" fill="red">Protest: All</text>
+                                    <text x="600" y="60" text-anchor="left" fill="darkred">Protest: Explicit/Political</text>
                                 </svg>
                             </div>
                             <div class="Graph">
                                 <h1>Frequency of Satirical References Over Time</h1>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%"
-                                    viewBox="0 0 600 500" preserveAspectRatio="none">
+                                    viewBox="0 0 800 500" preserveAspectRatio="none">
                                     <!-- Line Graph for Satire -->
                                     <g transform="translate(0, 500)">
-                                        <line x1="50" y1="-50" x2="1600" y2="-50" stroke="black"
+                                        <line x1="50" y1="-50" x2="600" y2="-50" stroke="black"
                                             stroke-width="3" stroke-linecap="round"/>
                                         <line x1="50" y1="-50" x2="50" y2="-580" stroke="black"
                                             stroke-width="3" stroke-linecap="round"/>
@@ -1138,9 +1138,9 @@
                                             550, {-400*($es1989 div $maximums) - 50}"
                                         />
                                     </g>
-                                    <text x="450" y="20" fill="black">Key:</text>
-                                    <text x="450" y="40" fill="royalblue">Satire: All</text>
-                                    <text x="450" y="60" fill="purple">Satire: Explicit/Political</text>
+                                    <text x="600" y="20" text-anchor="left" fill="black">Key:</text>
+                                    <text x="600" y="40" text-anchor="left" fill="royalblue">Satire: All</text>
+                                    <text x="600" y="60" text-anchor="left" fill="purple">Satire: Explicit/Political</text>
                                 </svg>
                             </div></div>
                             
