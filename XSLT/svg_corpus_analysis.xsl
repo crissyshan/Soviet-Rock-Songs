@@ -487,7 +487,7 @@
                     </header>
                     <section id="section1">
                         <div id="Welcome">
-                            <h1>Analysis of Data</h1>
+                            <h1>~Analysis of Data~</h1>
                         </div>
                         <div class="GraphA">
                             <h1>Frequency of Tagged Elements (hover for details)</h1>
@@ -1040,9 +1040,9 @@
                                             550, {-400*($ep1989 div $maximump) - 50}"
                                         />
                                     </g>
-                                    <text x="600" y="20" text-anchor="left" fill="black">Key:</text>
-                                    <text x="600" y="40" text-anchor="left" fill="red">Protest: All</text>
-                                    <text x="600" y="60" text-anchor="left" fill="darkred">Protest: Explicit/Political</text>
+                                    <text x="550" y="20" font-size="20" text-anchor="start" fill="black">Key:</text>
+                                    <text x="550" y="40" font-size="20" text-anchor="start" fill="red">Protest: All</text>
+                                    <text x="550" y="60" font-size="20" text-anchor="start" fill="darkred">Protest: Explicit/Political</text>
                                 </svg>
                             </div>
                             <div class="Graph">
@@ -1138,9 +1138,9 @@
                                             550, {-400*($es1989 div $maximums) - 50}"
                                         />
                                     </g>
-                                    <text x="600" y="20" text-anchor="left" fill="black">Key:</text>
-                                    <text x="600" y="40" text-anchor="left" fill="royalblue">Satire: All</text>
-                                    <text x="600" y="60" text-anchor="left" fill="purple">Satire: Explicit/Political</text>
+                                    <text x="550" y="20" font-size="20" text-anchor="start" fill="black">Key:</text>
+                                    <text x="550" y="40" font-size="20" text-anchor="start" fill="royalblue">Satire: All</text>
+                                    <text x="550" y="60" font-size="20" text-anchor="start" fill="purple">Satire: Explicit/Political</text>
                                 </svg>
                             </div></div>
                             
@@ -1825,14 +1825,11 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="lyrics">
-        <p>
             <xsl:apply-templates select="verse"/>
-        </p>
     </xsl:template>
     <xsl:template match="verse">
-        <p>
-            <xsl:apply-templates select="l"/>
-        </p>
+        <xsl:apply-templates select="l"/>
+        <br></br>
     </xsl:template>
     <xsl:template match="l">
         <xsl:apply-templates/>
