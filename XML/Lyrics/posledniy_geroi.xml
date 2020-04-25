@@ -6,57 +6,54 @@
         <artist>Кино</artist>
         <year>1984</year>
         <location>Leningrad</location>
-        <video>https://www.youtube.com/watch?v=BnDY4jC7JZM</video>
+        <video>https://www.youtube.com/embed/BnDY4jC7JZM</video>
     </details>
     
     <lyrics>
-        <outlook></outlook>
-        <verse><l>Ночь коротка, цель далека</l>
-        <l>Ночью так часто хочется пить</l>
-        <l>Ты выходишь на кухню, но вода здесь горька</l>
-        <l>Ты не можешь здесь спать, ты не хочешь здесь жить</l></verse>
+        <outlook>negative</outlook>
+        <verse><l><time>Ночь коротка</time>, <soviet-symbol>цель</soviet-symbol> далека</l>
+        <l><time>Ночью</time> так часто хочется пить</l>
+        <l><satire type="symbolism">Ты выходишь на кухню, но вода здесь горька</satire></l>
+        <l><protest type="explicit">Ты не можешь здесь спать, ты не хочешь здесь жить</protest></l></verse>
         
-        <verse><l>Доброе утро!</l>
-        <l>Последний герой</l>
-        <l>Доброе утро!</l>
+        <verse><l>Доброе <change>утро</change>!</l>
+        <l>Последний <soviet-symbol>герой</soviet-symbol></l>
+        <l>Доброе <change>утро</change>!</l>
         <l>Тебе и таким как ты</l>
-        <l>Доброе утро!</l>
-        <l>Последний герой</l>
+        <l>Доброе <change>утро</change>!</l>
+        <l>Последний <soviet-symbol>герой</soviet-symbol></l>
         <l>Здравствуй!</l>
-        <l>Последний герой</l></verse>
+        <l>Последний <soviet-symbol>герой</soviet-symbol></l></verse>
         
-        <verse><l>Ты хотел быть один это быстро прошло</l>
+        <verse><l><self>Ты хотел быть один</self> это быстро прошло</l>
         <l>Ты хотел быть один, но не смог быть один</l>
-        <l>Твоя ноша легка, но немеет рука</l>
-        <l>И ты встречаешь рассвет за игрой в "дурака"</l></verse>
+            <l><satire type="cultural reference">Твоя ноша легка, но немеет рука</satire></l>
+        <l>И ты встречаешь <change>рассвет</change> за <satire type="cultural reference"><apathy-DI>игрой в "дурака"</apathy-DI></satire></l></verse>
         
-        <verse><l>Доброе утро!</l>
-        <l>Последний герой</l></verse>
+        <verse><l>Доброе <change>утро</change>!</l>
+        <l>Последний <soviet-symbol>герой</soviet-symbol></l></verse>
         
         
-        <verse><l>Доброе утро!</l>
+        <verse><l>Доброе <change>утро</change>!</l>
         <l>Тебе и таким как ты</l>
-        <l>Доброе утро!</l>
-        <l>Последний герой</l>
+        <l>Доброе <change>утро</change>!</l>
+        <l>Последний <soviet-symbol>герой</soviet-symbol></l>
         <l>Здравствуй!</l>
-        <l>Последний герой</l></verse>
+        <l>Последний <soviet-symbol>герой</soviet-symbol></l></verse>
         
-        <verse><l>Утром ты стремишься скорее уйти</l>
-        <l>Телефонный звонок как команда - Вперед!</l>
+        <verse><l><change>Утром</change> ты <hope>стремишься</hope> скорее <change>уйти</change></l>
+        <l>Телефонный звонок как <defense>команда - Вперед!</defense></l>
         <l>Ты уходишь туда, куда не хочешь идти</l>
-        <l>Ты уходишь туда, но тебя там никто не ждет</l></verse>
+        <l>Ты уходишь туда, <apathy-DI>но тебя там никто не ждет</apathy-DI></l></verse>
         
-        <verse><l>Доброе утро!</l>
-        <l>Последний герой</l>
-        <l>Доброе утро!</l>
+        <verse><l>Доброе <change>утро</change>!</l>
+        <l>Последний <soviet-symbol>герой</soviet-symbol></l>
+        <l>Доброе <change>утро</change>!</l>
         <l>Тебе и таким как ты</l>
-        <l>Доброе утро!</l>
-        <l>Последний герой</l>
+        <l>Доброе <change>утро</change>!</l>
+        <l>Последний <soviet-symbol>герой</soviet-symbol></l>
         <l>Здравствуй!</l>
-        <l>Последний герой</l></verse>
-        
-        <verse><l>Понравился текст песни?</l>
-        <l>Оставьте комментарий ниже</l></verse>
+        <l>Последний <soviet-symbol>герой</soviet-symbol></l></verse>
         
     </lyrics>
 </song>

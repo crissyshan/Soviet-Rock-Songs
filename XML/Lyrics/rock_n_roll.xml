@@ -3,49 +3,48 @@
 <song>
     <details>
         <title>Рок-н-ролл мёртв</title>
-        <artist></artist>
+        <artist>Аквариум</artist>
         <year>1983</year>
         <location>Leningrad</location>
-        <video>https://www.youtube.com/watch?v=OITg9q7Jb3w</video>
+        <video>https://www.youtube.com/embed/OITg9q7Jb3w</video>
     </details>
     
     <lyrics>
-        <outlook></outlook>
-        <verse><l>Какие нервные лица - быть беде;</l>
-        <l>Я помню, было небо, я не помню где;</l>
+        <outlook>negative</outlook>
+        <verse><l><protest type="cultural reference">Какие нервные лица - быть беде;</protest></l>
+        <l>Я помню, было <nature>небо</nature>, я не помню где;</l>
         <l>Мы встретимся снова, мы скажем: "Привет", -</l>
         <l>В этом есть что-то не то;</l></verse>
         
-        <verse><l>Рок-н-ролл мертв, а я еще нет,</l>
-        <l>Рок-н-ролл мертв, а я;</l>
-        <l>Те, что нас любят, смотрят нам вслед.</l>
-        <l>Рок-н-ролл мертв, а я еще нет.</l></verse>
+        <verse><l>Рок-н-ролл <change>мертв</change>, а <self ref="life">я еще нет</self>,</l>
+        <l>Рок-н-ролл <change>мертв</change>, а я;</l>
+        <l>Те, что нас <self ref="love">любят</self>, смотрят нам вслед.</l>
+            <l>Рок-н-ролл <change>мертв</change>, а <self ref="life">я еще нет</self>.</l></verse>
         
         <verse><l>Отныне время будет течь по прямой;</l>
-        <l>Шаг вверх, шаг вбок - их мир за спиной.</l>
-        <l>Я сжег их жизнь, как ворох газет -</l>
-        <l>Остался только грязный асфальт;</l></verse>
+        <l><protest type="political reference">Шаг вверх, шаг вбок</protest> - их мир за спиной.</l>
+        <l><protest type="symbolism">Я сжег их жизнь, как ворох газет</protest> -</l>
+        <l>Остался только грязный <industry>асфальт</industry>;</l></verse>
         
-        <verse><l>Но рок-н-ролл мертв, а я еще нет,</l>
-        <l>Рок-н-ролл мертв, а я;</l>
+        <verse><l>Рок-н-ролл <change>мертв</change>, а <self ref="life">я еще нет</self>,</l>
+            <l>Рок-н-ролл <change>мертв</change>, а я;</l>
+            <l>Те, что нас <self ref="love">любят</self>, смотрят нам вслед.</l>
+            <l>Рок-н-ролл <change>мертв</change>, а <self ref="life">я еще нет</self>.</l></verse>
+        
+        <verse><l><protest type="cultural reference">Локоть к локтю, кирпич в стене;</protest></l>
+        <l><protest type="analogy">Мы стояли слишком гордо - мы платим втройне:</protest></l>
+        <l>За тех, кто шел с нами, за тех, кто нас <time>ждал</time>,</l>
+        <l>За тех, кто <time>никогда</time> не простит нам то, что;</l></verse>
+        
+        <verse><l>Рок-н-ролл <change>мертв</change> - а <hope>мы еще нет</hope>,</l>
+        <l>Рок-н-ролл <change>мертв</change>, а мы;</l>
         <l>Те, что нас любят, смотрят нам вслед.</l>
-        <l>Рок-н-ролл мертв, а я...</l>
-        <l>Еще нет.</l></verse>
+        <l>Рок-н-ролл <change>мертв</change>, а мы;</l></verse>
         
-        <verse><l>Локоть к локтю, кирпич в стене;</l>
-        <l>Мы стояли слишком гордо - мы платим втройне:</l>
-        <l>За тех, кто шел с нами, за тех, кто нас ждал,</l>
-        <l>За тех, кто никогда не простит нам то, что;</l></verse>
-        
-        <verse><l>Рок-н-ролл мертв - а мы еще нет,</l>
-        <l>Рок-н-ролл мертв, а мы;</l>
-        <l>Те, что нас любят, смотрят нам вслед.</l>
-        <l>Рок-н-ролл мертв, а мы;</l></verse>
-        
-        <verse><l>Рок-н-ролл мертв, а я еще нет,</l>
-        <l>Рок-н-ролл мертв, а я;</l>
-        <l>Те, что нас любят, смотрят нам вслед,</l>
-        <l>Рок-н-ролл мертв, а я...</l></verse>
+        <verse><l>Рок-н-ролл <change>мертв</change>, а <self ref="life">я еще нет</self>,</l>
+            <l>Рок-н-ролл <change>мертв</change>, а я;</l>
+            <l>Те, что нас <self ref="love">любят</self>, смотрят нам вслед.</l>
+        <l>Рок-н-ролл <change>мертв</change>, <apathy-DI>а я...</apathy-DI></l></verse>
         
     </lyrics>
 </song>

@@ -6,45 +6,45 @@
         <artist>Воскресение</artist>
         <year>1980</year>
         <location>Moscow</location>
-        <video>https://www.youtube.com/watch?v=2GR0LcLwFt8</video>
+        <video>https://www.youtube.com/embed/2GR0LcLwFt8</video>
     </details>
 
     <lyrics>
-        <outlook/>
+        <outlook>negative</outlook>
         <verse>
-            <l>Снилось мне,</l>
-            <l>Неожиданно выпал снег,</l>
-            <l>В мире наступили тишина и свет,</l>
-            <l>Свет и тишина, покой и белый снег.</l>
-            <l>Жаль, что это только снилось мне.</l>
+            <l><hope>Снилось мне,</hope></l>
+            <l><change>Неожиданно выпал</change> <nature>снег</nature>,</l>
+            <l>В мире <change>наступили</change> тишина и свет,</l>
+            <l>Свет и тишина, покой и белый <nature>снег</nature>.</l>
+            <l><protest type="symbolism"><apathy-DI>Жаль, что это только снилось мне.</apathy-DI></protest></l>
         </verse>
         <verse>
-            <l>Снилось мне,</l>
-            <l>По притихшему городу,</l>
-            <l>Проплывает медленное облако,</l>
-            <l>Облако покоя в светлом городе.</l>
-            <l>Жаль, что это только снилось мне.</l>
+            <l><hope>Снилось мне,</hope></l>
+            <l>По притихшему <industry>городу</industry>,</l>
+            <l>Проплывает медленное <nature>облако</nature>,</l>
+            <l><nature>Облако</nature> покоя в светлом <industry>городе</industry>.</l>
+            <l><protest type="symbolism"><apathy-DI>Жаль, что это только снилось мне</apathy-DI></protest>.</l>
         </verse>
         <verse>
-            <l>И теперь, наяву, я живу и не живу,</l>
+            <l>И <time>теперь</time>, наяву, я живу и не живу,</l>
             <l>Сохранить пытаясь тишину.</l>
-            <l>Но приходит за мной</l>
-            <l>Сумасшедший день земной</l>
-            <l>И меня уводит за собой.</l>
+            <l>Но <change>приходит</change> за мной</l>
+            <l>Сумасшедший <time>день</time> земной</l>
+            <l><protest type="symbolism">И меня уводит за собой.</protest></l>
         </verse>
         <verse>
-            <l>Снилось мне,</l>
+            <l><hope>Снилось мне,</hope></l>
             <l>Что печали кончаются,</l>
-            <l>Люди одинокие встречаются.</l>
+            <l><community>Люди одинокие встречаются.</community></l>
             <l>Встретятся, молчат и улыбаются</l>
-            <l>Жаль, что это только снилось мне.</l>
+            <l><protest type="political reference"><apathy-DI>Жаль, что это только снилось мне.</apathy-DI></protest></l>
         </verse>
         <verse>
-            <l>Снилось мне,</l>
-            <l>Что впервые за много лет,</l>
-            <l>Счастье, почему-то, улыбнулось мне,</l>
-            <l>Призрачное счастье в суматохе лет</l>
-            <l>Жаль, что это только снилось мне.</l>
+            <l><change>Снилось мне,</change></l>
+            <l>Что <change>впервые</change> за <time>много лет</time>,</l>
+            <l><self ref="joy">Счастье</self>, почему-то, улыбнулось мне,</l>
+            <l>Призрачное <self ref="joy">счастье</self> в суматохе <time>лет</time></l>
+            <l><apathy-DI>Жаль, что это только снилось мне.</apathy-DI></l>
             <l>Жаль...</l>
         </verse>
     </lyrics>

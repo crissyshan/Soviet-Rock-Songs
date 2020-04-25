@@ -6,50 +6,50 @@
         <artist>Воскресение</artist>
         <year>1981</year>
         <location>Moscow</location>
-        <video>https://www.youtube.com/watch?v=MnsrvlgydPE</video>
+        <video>https://www.youtube.com/embed/MnsrvlgydPE</video>
     </details>
     
     <lyrics>
-        <outlook></outlook>
-        <verse><l>По дороге разочарований</l>
-        <l>Снова очарованный пойду.</l>
-        <l>Разум полон светлых ожиданий,</l>
-        <l>Сердце чует новую беду.</l></verse>
+        <outlook>negative</outlook>
+        <verse><l>По дороге <apathy-DI>разочарований</apathy-DI></l>
+        <l>Снова <hope>очарованный</hope> пойду.</l>
+        <l><hope>Разум полон светлых ожиданий,</hope></l>
+        <l><apathy-DI>Сердце чует новую беду.</apathy-DI></l></verse>
         
-        <verse><l>Отчего же так меня тревожит</l>
+        <verse><l>Отчего же так меня <change>тревожит</change></l>
         <l>Голос, что зовёт из темноты.</l>
-        <l>Путь ещё не пройден, век не прожит,</l>
+        <l>Путь ещё не пройден, <time>век</time> не прожит,</l>
         <l>Тою ли дорогой ходишь ты?</l></verse>
         
-        <verse><l>То ли темнота глаза таращит,</l>
+        <verse><l>То ли <absurdism>темнота глаза таращит</absurdism>,</l>
         <l>То ли тишина скрывает крик.</l>
         <l>Где теперь искать тебя, пропащий?</l>
-        <l>Оглянёшься - ты уже старик.</l></verse>
+            <l><change>Оглянёшься - ты уже</change> <time>старик</time>.</l></verse>
         
-        <verse><l>По дороге смутных побуждений,</l>
-        <l>Из страны взбесившихся невежд</l>
+        <verse><l>По дороге <satire type="political reference">смутных побуждений</satire>,</l>
+        <l>Из <satire type="explicit">страны взбесившихся невежд</satire></l>
         <l>Долог путь моих перерождений</l>
-        <l>В тайный край несбывшихся надежд.</l></verse>
+            <l>В тайный край <apathy-DI>несбывшихся</apathy-DI> <hope>надежд</hope>.</l></verse>
         
-        <verse><l>Сбросил гору с плеч, расправил плечи,</l>
-        <l>Гордо приказал себе: "Лети".</l>
+        <verse><l><hope>Сбросил гору с плеч, расправил плечи</hope>,</l>
+        <l><hope>Гордо приказал себе: "Лети"</hope>.</l>
         <l>Если я попался вам навстречу,</l>
         <l>Значит, вам со мной не по пути.</l></verse>
         
-        <verse><l>Слышу голоса, что вечно правы</l>
-        <l>И пугаюсь этой правоты.</l>
-        <l>Для того роса, чтоб лечь на траву,</l>
-        <l>По утру с росой растаешь ты.</l></verse>
+        <verse><l><satire type="political reference">Слышу голоса, что вечно правы</satire></l>
+        <l><satire type="political reference">И пугаюсь этой правоты.</satire></l>
+        <l>Для того <nature>роса</nature>, чтоб лечь на <nature>траву</nature>,</l>
+        <l>По <change>утру</change> с <nature>росой</nature> растаешь ты.</l></verse>
         
-        <verse><l>По утру дорогой откровений,</l>
-        <l>Мимо родника девичьих слёз,</l>
-        <l>Выйду возле кладбища сомнений</l>
-        <l>На крутой отчаянья утёс.</l></verse>
+        <verse><l>По <change>утру</change> дорогой откровений,</l>
+        <l>Мимо <nature>родника</nature> девичьих слёз,</l>
+        <l>Выйду возле <absurdism>кладбища</absurdism> <apathy-DI>сомнений</apathy-DI></l>
+        <l>На крутой <apathy-DI>отчаянья</apathy-DI> утёс.</l></verse>
         
-        <verse><l>На ветру, с судьбою не в ладу,</l>
-        <l>В тайный час назначенных свиданий</l>
-        <l>Снова очарованный пойду</l>
-        <l>По дороге разочарований.</l></verse>
+        <verse><l>На <nature>ветру</nature>, <apathy-DI>с судьбою не в ладу</apathy-DI>,</l>
+        <l>В тайный <time>час</time> назначенных свиданий</l>
+        <l><time>Снова</time> <hope>очарованный</hope> пойду</l>
+        <l>По дороге <apathy-DI>разочарований</apathy-DI>.</l></verse>
         
     </lyrics>
 </song>

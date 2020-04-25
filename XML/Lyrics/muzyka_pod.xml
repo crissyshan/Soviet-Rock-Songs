@@ -4,42 +4,42 @@
     <details>
         <title>Музыка под Снегом</title>
         <artist>Машина Времени</artist>
-        <year>1986</year>
+        <year>1987</year>
         <location>Moscow</location>
-        <video>https://www.youtube.com/watch?v=WBgm4ubOC3I</video>
+        <video>https://www.youtube.com/embed/WBgm4ubOC3I</video>
     </details>
     
     <lyrics>
-        <outlook></outlook>
-        <verse><l>В летнем парке зима,</l>
-        <l>В летнем парке концерт</l>
-        <l>Все начнется вот-вот,</l>
-        <l>Жаль, что зрителя нет</l>
-        <l>И оркестр укрыт снегом,</l>
-        <l>Словно вата, глухим снегом</l>
+        <outlook>negative</outlook>
+        <verse><l>В <time>летнем</time> парке <time>зима</time>,</l>
+        <l>В <time>летнем</time> парке <satire type="analogy">концерт</satire></l>
+        <l>Все <change>начнется</change> вот-вот,</l>
+        <l><apathy-DI>Жаль</apathy-DI>, что зрителя нет</l>
+        <l>И оркестр укрыт <nature>снегом</nature>,</l>
+        <l>Словно вата, глухим <nature>снегом</nature></l>
         <l>И соната слышна едва-едва.</l></verse>
         
         <verse><l>Голос скрипки звенит,</l>
         <l>Как стекло о стекло</l>
         <l>И трубу не отнять</l>
         <l>От заснеженных губ,</l>
-        <l>А в каждой ноте поет лето,</l>
-        <l>И с собою зовет лето</l>
+        <l>А в каждой ноте поет <time>лето</time>,</l>
+        <l>И с собою зовет <time>лето</time></l>
         <l>И соната слышна</l>
         <l>Едва-едва.</l></verse>
         
         <verse><l>То взлетает,</l>
-        <l>Как стая оттаявших птиц</l>
+        <l>Как стая оттаявших <nature>птиц</nature></l>
         <l>То ложится под ноги,</l>
-        <l>Послушно как снег.</l>
+        <l>Послушно как <nature>снег</nature>.</l>
         <l>Ни для кого...</l></verse>
         
         <verse><l>И восторг в их глазах</l>
-        <l>Нам уже не понять</l>
-        <l>Им уже не помочь,</l>
-        <l>И приходится лгать</l>
-        <l>И я опять прохожу мимо,</l>
-        <l>Прохожу, и гляжу мимо</l>
+        <l><apathy-DI>Нам уже не понять</apathy-DI></l>
+        <l><apathy-DI>Им уже не помочь,</apathy-DI></l>
+        <l><apathy-DI>И приходится лгать</apathy-DI></l>
+        <l>И я <time>опять</time> <apathy-DI>прохожу мимо</apathy-DI>,</l>
+        <l><apathy-DI>Прохожу, и гляжу мимо</apathy-DI></l>
         <l>И соната слышна</l>
         <l>Едва-едва.</l></verse>
         

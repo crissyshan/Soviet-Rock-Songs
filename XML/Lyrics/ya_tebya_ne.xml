@@ -6,46 +6,46 @@
         <artist>Меридиан</artist>
         <year>1984</year>
         <location>Ivanovo</location>
-        <video>https://www.youtube.com/watch?v=uoeAaJbZ570</video>
+        <video>https://www.youtube.com/embed/uoeAaJbZ570</video>
     </details>
     
     <lyrics>
-        <outlook></outlook>
-        <verse><l>Ты меня на рассвете разбудишь,</l>
-        <l>проводить необутая выйдешь.</l>
-        <l>Ты меня никогда не забудешь.</l>
-        <l>Ты меня никогда не увидишь.</l></verse>
+        <outlook>negative</outlook>
+        <verse><l>Ты меня на <change>рассвете</change> разбудишь,</l>
+        <l>проводить необутая <change>выйдешь</change>.</l>
+        <l>Ты меня <time>никогда</time> не <self ref="memory">забудешь</self>.</l>
+        <l>Ты меня <time>никогда</time> не увидишь.</l></verse>
         
         <verse><l>Заслонивши тебя от простуды,</l>
         <l>я подумаю: "Боже всевышний!</l>
-        <l>Я тебя никогда не забуду.</l>
-        <l>Я тебя никогда не увижу".</l></verse>
+        <l>Я тебя <time>никогда</time> не <self ref="memory">забуду</self>.</l>
+        <l>Я тебя <time>никогда</time> не увижу".</l></verse>
         
-        <verse><l>Эту воду в мурашках запруды,</l>
-        <l>это Адмиралтейство и Биржу</l>
-        <l>я уже никогда не забуду</l>
-       <l> и уже никогда не увижу.</l></verse>
+        <verse><l>Эту <nature>воду</nature> в мурашках <nature>запруды</nature>,</l>
+        <l>это <defense>Адмиралтейство</defense> и Биржу</l>
+        <l>я уже <time>никогда</time> не <self ref="memory">забуду</self></l>
+       <l> и уже <time>никогда</time> не увижу.</l></verse>
         
-        <verse><l>Не мигают, слезятся от ветра</l>
-        <l>безнадежные карие вишни.</l>
+        <verse><l>Не мигают, слезятся от <nature>ветра</nature></l>
+        <l><apathy-DI>безнадежные</apathy-DI> карие <nature>вишни</nature>.</l>
         <l>Возвращаться — плохая примета.</l>
-        <l>Я тебя никогда не увижу.</l></verse>
+        <l>Я тебя <time>никогда</time> не увижу.</l></verse>
         
-        <verse><l>Даже если на землю вернемся</l>
-        <l>мы вторично, согласно Гафизу,</l>
-        <l>мы, конечно, с тобой разминемся.</l>
-        <l>Я тебя никогда не увижу.</l></verse>
+        <verse><l>Даже если на <nature ref="cosmos">землю</nature> вернемся</l>
+        <l>мы вторично, согласно <eastern>Гафизу</eastern>,</l>
+        <l><protest type="cultural reference">мы, конечно, с тобой разминемся</protest>.</l>
+        <l>Я тебя <time>никогда</time> не увижу.</l></verse>
         
         <verse><l>И окажется так минимальным</l>
         <l>наше непониманье с тобою</l>
         <l>перед будущим непониманьем</l>
-        <l>двух живых с пустотой неживою.</l></verse>
+        <l>двух живых с <apathy-DI>пустотой неживою</apathy-DI>.</l></verse>
         
-        <verse><l>И качнется бессмысленной высью</l>
+        <verse><l>И качнется <apathy-DI>бессмысленной</apathy-DI> высью</l>
         <l>пара фраз, залетевших отсюда:</l></verse>
         
-        <verse><l>"Я тебя никогда не забуду.</l>
-        <l>Я тебя никогда не увижу"</l></verse>
+        <verse><l>"Я тебя <time>никогда</time> не <self ref="memory">забуду</self>.</l>
+        <l>Я тебя <time>никогда</time> не увижу"</l></verse>
         
     </lyrics>
 </song>

@@ -6,28 +6,28 @@
         <artist>Кино</artist>
         <year>1989</year>
         <location>Leningrad</location>
-        <video>https://www.youtube.com/watch?v=jQV5VXfKDYc</video>
+        <video>https://www.youtube.com/embed/jQV5VXfKDYc</video>
     </details>
     
     <lyrics>
-        <outlook></outlook>
-        <verse><l>Белый снег, серый лед, на растрескавшейся земле.</l>
-        <l>Одеялом лоскутным на ней - город в дорожной петле.</l>
-        <l>А над городом плывут облака, закрывая небесный свет.</l>
-        <l>А над городом - желтый дым, городу две тысячи лет,</l>
-        <l>Прожитых под светом Звезды по имени Солнце...</l></verse>
+        <outlook>negative</outlook>
+        <verse><l>Белый <nature>снег</nature>, серый <nature>лед</nature>, на растрескавшейся <nature ref="cosmos">земле</nature>.</l>
+            <l>Одеялом лоскутным на ней - <industry>город в дорожной петле.</industry></l>
+        <l>А над <industry>городом</industry> плывут <nature>облака</nature>, закрывая небесный свет.</l>
+            <l>А <industry>над городом - желтый дым, городу</industry> <time>две тысячи лет</time>,</l>
+        <l>Прожитых под светом <soviet-symbol><nature ref="cosmos">Звезды</nature></soviet-symbol> по имени <nature>Солнце</nature>...</l></verse>
         
-        <verse><l>И две тысячи лет - война, война без особых причин.</l>
-        <l>Война - дело молодых, лекарство против морщин.</l>
-        <l>Красная, красная кровь - через час уже просто земля,</l>
-        <l>Через два на ней цветы и трава, через три она снова жива</l>
-        <l>И согрета лучами Звезды по имени Солнце...</l></verse>
+        <verse><l>И <time>две тысячи лет</time> - <defense>война, война</defense> <apathy-DI>без особых причин</apathy-DI>.</l>
+        <l><defense>Война</defense> - <protest type="cultural reference">дело молодых, лекарство против морщин.</protest></l>
+        <l><protest type="symbolism">Красная, красная кровь - через <time>час</time> уже просто земля,</protest></l>
+        <l>Через <time>два</time> на ней <nature>цветы и трава</nature>, через три она снова <self ref="life">жива</self></l>
+        <l>И согрета лучами <soviet-symbol><nature ref="cosmos">Звезды</nature></soviet-symbol> по имени <nature>Солнце</nature>...</l></verse>
         
-        <verse><l>И мы знаем, что так было всегда, что Судьбою больше любим,</l>
-        <l>Кто живет по законам другим и кому умирать молодым.</l>
-        <l>Он не помнит слово "да" и слово "нет", он не помнит ни чинов, ни имен.</l>
-        <l>И способен дотянуться до звезд, не считая, что это сон,</l>
-        <l>И упасть, опаленным Звездой по имени Солнце...</l></verse>
+        <verse><l><apathy-DI>И мы знаем, что так было всегда, что Судьбою больше любим,</apathy-DI></l>
+        <l><protest type="analogy"><apathy-DI>Кто живет по законам другим и кому умирать молодым.</apathy-DI></protest></l>
+        <l><protest type="analogy">Он не помнит слово "да" и слово "нет", он не помнит ни чинов, ни имен.</protest></l>
+        <l>И способен <hope>дотянуться</hope> до <soviet-symbol><nature ref="cosmos">звезд</nature></soviet-symbol>, не считая, что это сон,</l>
+        <l><apathy-DI><self ref="life">И упасть</self>,</apathy-DI> опаленным <soviet-symbol><nature ref="cosmos">Звездой</nature></soviet-symbol> по имени <nature>Солнце</nature>...</l></verse>
         
     </lyrics>
 </song>

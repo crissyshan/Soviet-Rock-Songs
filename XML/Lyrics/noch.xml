@@ -6,31 +6,31 @@
         <artist>Пикник</artist>
         <year>1982</year>
         <location>Leningrad</location>
-        <video>https://www.youtube.com/watch?v=7DQn7wUvahI</video>
+        <video>https://www.youtube.com/embed/7DQn7wUvahI</video>
     </details>
     
     <lyrics>
-        <outlook></outlook>
-        <verse><l>Ночь шуршит над головой как вампира черный плащ,</l>
-        <l>Мы проходим стороной - эти игры не для нас.</l>
-        <l>Пусть в объятьях темноты бьется кто-нибудь другой,</l>
-        <l>Мы свободны и чисты, мы проходим стороной.</l></verse>
+        <outlook>neutral</outlook>
+        <verse><l><time>Ночь</time> шуршит над головой как <absurdism>вампира черный плащ</absurdism>,</l>
+            <l>Мы <apathy-DI>проходим стороной - эти игры не для нас.</apathy-DI></l>
+        <l><apathy-DI>Пусть в объятьях темноты бьется кто-нибудь другой</apathy-DI>,</l>
+        <l><hope>Мы свободны и чисты,</hope> мы <apathy-DI>проходим стороной</apathy-DI>.</l></verse>
         
         <verse><l>Вот и я до боли в ушах посмеяться не прочь.</l>
-        <l>Лишь пока светло в небесах, лишь пока не наступит ночь</l></verse>
+        <l><hope>Лишь пока светло</hope> в <nature ref="cosmos">небесах</nature>, <hope>лишь пока не <change>наступит</change></hope> <time>ночь</time></l></verse>
         
-        <verse><l>Вновь пиковый выпал туз из колоды старых карт,</l>
+        <verse><l><absurdism>Вновь пиковый выпал туз</absurdism> из колоды <time>старых</time> карт,</l>
         <l>И опять идет подсчет, кто остался в дураках.</l>
-        <l>Знает сломанный корабль: жизнь - река, и надо плыть,</l>
-        <l>Буйный ветер рассекать, тихий берег позабыть.</l></verse>
+        <l>Знает сломанный <industry>корабль</industry>: <self ref="life">жизнь</self> - <nature>река</nature>, и надо плыть,</l>
+        <l>Буйный <nature>ветер</nature> рассекать, тихий <nature>берег</nature> позабыть.</l></verse>
         
-        <verse><l>Ночь шуршит над головой как вампира черный плащ,</l>
-        <l>Мы проходим стороной, эти игры не для нас.</l>
-        <l>А пока у нас в груди тонкая не рвется нить,</l>
-        <l>Можно солнцу гимны петь и о ночи позабыть.</l></verse>
+        <verse><l>Ночь шуршит над головой как <absurdism>вампира черный плащ</absurdism>,</l>
+        <l><apathy-DI>Мы проходим стороной, эти игры не для нас.</apathy-DI></l>
+        <l><absurdism>А пока у нас в груди тонкая не рвется нить</absurdism>,</l>
+        <l>Можно <nature ref="cosmos">солнцу</nature> гимны петь и о <time>ночи</time> позабыть.</l></verse>
         
-        <verse><l>Вот и я до боли в ушах посмеяться не прочь.</l>
-        <l>Лишь пока светло в небесах, лишь пока не наступит ночь</l></verse>
+        <verse><l><hope>Вот и я до боли в ушах посмеяться не прочь.</hope></l>
+        <l>Лишь пока светло в <nature ref="cosmos">небесах</nature>, <hope>лишь пока не <change>наступит</change></hope> <time>ночь</time></l></verse>
         
     </lyrics>
 </song>

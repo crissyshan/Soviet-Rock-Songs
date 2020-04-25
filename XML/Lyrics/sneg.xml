@@ -6,29 +6,29 @@
         <artist>Машина Времени</artist>
         <year>1986</year>
         <location>Moscow</location>
-        <video>https://www.youtube.com/watch?v=WH2Vlnp0r6o</video>
+        <video>https://www.youtube.com/embed/WH2Vlnp0r6o</video>
     </details>
     
     <lyrics>
-        <outlook></outlook>
-        <verse><l>Снег. Город почти ослеп.</l> 
-            <l>Свет. Красок на свете нет. </l>
-            <l>Есть только белый цвет. </l>
-            <l>Город твой, словно корабль, </l>
-            <l>Льдами захвачен в плен. </l></verse>
+        <outlook>positive</outlook>
+        <verse><l><nature>Снег</nature>. <industry>Город</industry> почти ослеп.</l> 
+            <l>Свет. <apathy-DI>Красок на свете нет.</apathy-DI> </l>
+            <l><apathy-DI>Есть только белый цвет.</apathy-DI> </l>
+            <l><industry>Город</industry> твой, словно <industry>корабль</industry>, </l>
+            <l><protest type="metaphor">Льдами захвачен в плен. </protest></l></verse>
         
-        <verse><l>Я знаю один секрет - </l>
-            <l>Снег скоро сойдет на нет,</l> 
-            <l>У снега короткий век. </l>
-            <l>Город твой солнцем согрет </l>
-            <l>Поплывет по весенней воде. </l></verse>
+        <verse><l><hope>Я знаю один секрет - </hope></l>
+            <l><nature>Снег</nature> <change>скоро сойдет на нет,</change></l> 
+            <l>У <nature>снега</nature> короткий <time>век</time>. </l>
+            <l><industry>Город</industry> твой <nature>солнцем</nature> согрет </l>
+            <l><satire type="metaphor">Поплывет по весенней воде. </satire></l></verse>
         
-        <verse><l>Но я не могу понять, </l>
-            <l>Кто дарит нам столько тепла, </l>
-            <l>Чтобы растаял снег? </l>
-            <l>Сто долгих дней </l>
-            <l>Снег был сильней, </l>
-            <l>И исчез без следа </l>
-            <l>Лишь за пять теплых дней.</l></verse>
+        <verse><l><apathy-DI>Но я не могу понять, </apathy-DI></l>
+            <l><hope>Кто дарит нам столько тепла, </hope></l>
+            <l>Чтобы <change>растаял</change> <nature>снег</nature>? </l>
+            <l><time>Сто долгих дней </time></l>
+            <l><nature>Снег</nature> был сильней, </l>
+            <l>И <change>исчез</change> без следа </l>
+            <l>Лишь за <time>пять теплых дней.</time></l></verse>
     </lyrics>
 </song>
